@@ -1,0 +1,36 @@
+---
+title: "EcoViz-Lab"
+image: allison-headshot.png
+toc: false 
+about: 
+  template: trestles
+  image-shape: round
+  image-width: 20em
+  links: 
+    - href: mailto:jkb@ucsc.edu
+      icon: envelope
+    - href: https://jessiekb.com/
+      icon: github
+    - href: https://github.com/jmkendallbar
+      icon: github
+---
+
+[Hi there!]{.custom-subtitle}
+
+I'm a PhD candidate in the [Beltran Lab](https://beltranlab.ucsc.edu/) at UC Santa Cruz.
+
+My current projects use long-term demographic datasets, passive acoustics, and bio-logging to study the ecology of marine predators. Read more about my [research](https://allisonpayne.github.io/research.html), or explore my individual [projects](https://allisonpayne.github.io/projects.html).
+
+------------------------------------------------------------------------
+
+[Education]{.custom-subtitle}
+
+University of California, Santa Cruz
+
+[PhD in Ecology and Evolutionary Biology \| present]{.custom-subtitle-2}
+
+San Francisco State University
+
+[MS in Interdisciplinary Marine and Estuarine Science \| 2022]{.custom-subtitle-2}
+
+University of California, Berkeley
