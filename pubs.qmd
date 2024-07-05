@@ -1,0 +1,75 @@
+---
+title: "Publications"
+sidebar: false 
+fontfamily: "Georgia"
+---
+
+```{r}
+#| message: false
+#| echo: false
+
+library(tidyverse)
+```
+
+```{r}
+#| output: asis
+#| code-fold: true
+#| message: false
+
+# Format a publication's author list
+format_authors <- function(authors) {
+  # Split authors' names (First MI Last or First Last)
+  authors_split <- stringr::str_split(authors, " ")
+  # Format as Last, FI. or Last, FI.MI.
+  authors_formatted <- purrr::map_chr(
+    authors_split,
+    function(parts) {
+      if (length(parts) == 3) {
+        sprintf("%s %s.%s.", 
+                parts[1], 
+                substr(parts[2], 1, 1), 
+                substr(parts[3], 1, 1))
+      } else {
+        sprintf("%s %s.", 
+                parts[1], 
+                substr(parts[2], 1, 1))
+      }
+    }
+  )
+  # Shorten long author lists
+  if (length(authors_formatted) > 7) {
+    authors_short <- c(authors_formatted[1:5], 
+                       "...", 
+                       authors_formatted[length(authors_formatted)])
+  } else {
+    authors_short <- authors_formatted
+  }
+  # Make my name bold
+  authors_short[authors_short == "Payne, A.R."] <- "<strong>Payne, A.R.</strong>"
+  # Concatenate
+  paste(authors_short, collapse = ", ")
+}
+
+# Read bib file
+pubs <- suppressWarnings(bib2df::bib2df("works.bib")) |>
+  # Retain relevant fields and format author list
+  dplyr::transmute(
+    authors = purrr::map_chr(AUTHOR, format_authors),
+    title = TITLE,
+    journal = JOURNAL,
+    year = YEAR
+  ) |>
+  # Format in HTML. Markdown doesn't support reverse ordered lists??
+  dplyr::mutate(
+    pub_html = glue::glue("<li>{authors}. ({year}). {title}. <em>{journal}</em>.")
+  ) |>
+  dplyr::pull(pub_html)
+# Reverse ordered list
+c(
+  "<ol reversed>",
+  pubs,
+  "</ol>"
+) |>
+  cat()
+
+```

@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "EcoViz-Lab"
+  navbar:
+    right:
+      - pubs.qmd
+      #- projects.qmd
+      #- pubs.qmd
+      #- research.qmd
+
+format:
+  html:
+    theme:
+      - custom.scss
+    mainfont: Nunito
+    css: styles.css
+    toc: true
+    page-layout: full
+
+editor: visual

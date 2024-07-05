@@ -1,0 +1,43 @@
+/*-- scss:defaults --*/
+$cream:     #fff9ed;
+$lilac:     #dbd2ea;
+$rose:      #f29da6;
+$purple:    #dbbdde;
+$blue:      #a7c0e5;
+$green:     #a0c695;
+$yellow:    #fbe095;
+$orange:    #fab084;
+$sage:      #c9e6c9;
+$turquoise: #9bd1c9;
+$orchid:    #c678dd;
+$lightgray: #b7b7b7;
+
+//Base document colors
+$body-bg: $cream;
+$navbar-bg: $sage;
+$navbar-h1: $yellow; //highlight color when hovering over navbar links - haven't got this to work yet
+$link-color: $orchid;
+
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/*-- scss:rules --*/
+
+.custom-subtitle {
+  font-size: 35px;
+  font-family: Lora;
+  color: $blue;
+}
+
+.custom-subtitle-2 {
+  color: $lightgray;
+  font-style: italic;
+}
+
+.bottombr {
+  margin-bottom: 3em;
+}
+
+b,strong {font-weight: 850} //does not seem to be working
