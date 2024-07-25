@@ -1,36 +1,45 @@
 ---
 title: "EcoViz-Lab"
-image: allison-headshot.png
+format:
+  html:
+    #theme: cosmo
+    css: styles.css
+image: ecoviz-lab.JPG
 toc: false 
 about: 
-  template: trestles
-  image-shape: round
-  image-width: 20em
+  template: solana
+  image-shape: rectangle
+  image-width: 40em
   links: 
     - href: mailto:jkb@ucsc.edu
       icon: envelope
+      text: Email Jessie
     - href: https://jessiekb.com/
-      icon: github
+      icon: link
+      text: Jessie's Website
     - href: https://github.com/jmkendallbar
       icon: github
+      text: Jessie's Github
 ---
 
-[Hi there!]{.custom-subtitle}
+[Welcome]{.custom-subtitle}
 
-I'm a PhD candidate in the [Beltran Lab](https://beltranlab.ucsc.edu/) at UC Santa Cruz.
+Dr. Jessica Kendall-Bar is a Schmidt AI in Science Postdoctoral Fellow at Scripps Institution of Oceanography, UC San Diego. Her research combines engineering, data science, ecology, and visualization to measure behavior and physiology of marine animals amidst a changing climate. For her dissertation, she developed a non-invasive system to record and visualize the first recordings of marine mammal sleep at sea [published in Science](https://www.science.org/doi/10.1126/science.adf0566). She is an award-winning scientist, artist, and science communicator who designs data visualization courses, large-scale exhibits, immersive analytical tools, and decision support tools. Her data visualizations, published in [local news outlets](https://www.staradvertiser.com/2021/04/19/hawaii-news/hawaiis-million-dollar-reefs-need-more-funding-to-protect-us-study-finds/), [The New York Times](https://www.nytimes.com/2023/04/20/science/elephant-seals-sleep-dive.html) and [The Atlantic](https://www.theatlantic.com/science/archive/2023/04/elephant-seal-animals-varied-sleep-habits-survival/673797/), have informed international policy in domains ranging from marine mammal conservation to coral reef restoration.
 
-My current projects use long-term demographic datasets, passive acoustics, and bio-logging to study the ecology of marine predators. Read more about my [research](https://allisonpayne.github.io/research.html), or explore my individual [projects](https://allisonpayne.github.io/projects.html).
+See Jessica's [Google Scholar profile.](https://scholar.google.com/citations?hl=en&user=SxLtotYAAAAJ&authuser=1)
 
 ------------------------------------------------------------------------
 
 [Education]{.custom-subtitle}
 
+University of California, San Diego
+
+[Schmidt AI in Science Postdoctoral Fellow \| present]{.custom-subtitle-2}
+
 University of California, Santa Cruz
 
-[PhD in Ecology and Evolutionary Biology \| present]{.custom-subtitle-2}
-
-San Francisco State University
-
-[MS in Interdisciplinary Marine and Estuarine Science \| 2022]{.custom-subtitle-2}
+[PhD in Ecology and Evolutionary Biology \| 2022]{.custom-subtitle-2}
 
 University of California, Berkeley
+
+[BA Integrative Biology & BA Marine Science \| 2016]{.custom-subtitle-2}
