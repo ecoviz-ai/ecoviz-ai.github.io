@@ -9,6 +9,7 @@ website:
       - about.qmd
       - resources.qmd
       - people.qmd
+      - modelzoo.qmd
       #- pubs.qmd
       #- research.qmd
 

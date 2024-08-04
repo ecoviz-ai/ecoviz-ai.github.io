@@ -13,7 +13,6 @@ library(reticulate)
 
 # Import necessary libraries
 import pandas as pd
-from IPython.core.display import display, HTML
 
 # Load the data into a pandas DataFrame
 data = pd.read_csv("modelzoo/ModelZoo.csv", dtype=str)  # Ensure all columns are read as strings
