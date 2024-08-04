@@ -10,14 +10,23 @@ toc: false
 about: 
   template: trestles
   image-shape: rectangle
-  image-width: 30em
-  links: 
+  image-width: 25em
+  links: # go here to search for available icons: https://icons.getbootstrap.com/
     - href: mailto:jkb@ucsc.edu
       icon: envelope
       text: Email Organizers
-    - href: https://github.com/jmkendallbar
-      icon: github
-      text: Jessie's Github
+    - href: people.html
+      icon: people
+      text: Meet the Team
+    - href: resources.html
+      icon: info-circle-fill
+      text: Explore Resources
+    - href: https://join.slack.com/t/ecovizainetwork/shared_invite/zt-2evjz39p1-Bhigc2M1mH7NNrNRrbK3mg
+      icon: slack
+      text: Join our Slack
+    - href: https://www.figma.com/board/PDycptnz72jgn8DlgIjcqa/EcoViz%2BAI-Field-Guide?node-id=0-1&t=ZI5yixl1BuK5IMhh-0
+      icon: people-fill
+      text: Explore Collaborative FigJam
 ---
 
 # EcoViz+AI Community of Practice
@@ -30,23 +39,10 @@ Organized by [Jessica Kendall-Bar](https://jessiekb.com)
 
 ### Website Resources
 
-[Meet the Team](people.html)
-
-[Resources](resources.html) 
-
-💬 [Join our Slack Channel](https://join.slack.com/t/ecovizainetwork/shared_invite/zt-2evjz39p1-Bhigc2M1mH7NNrNRrbK3mg)
-
-👥 [Collaborative FigJam Board](https://www.figma.com/board/PDycptnz72jgn8DlgIjcqa/EcoViz%2BAI-Field-Guide?node-id=0-1&t=ZI5yixl1BuK5IMhh-0)
-
 - **What:** an in-person workshop to develop 5 use-cases for AI in Science within Ecology.
 - **Who:** invited experts in visualization, AI, and Ecology
     - Read more about your [Roles & Expectations](https://www.notion.so/Roles-Expectations-a0cf47ee900844a48ed00dbc237145f1?pvs=21)
 - **Why:**
-    - Democratize access to AI, visualization, and computation in Ecology - empowering scientists to leverage new tools
-    - To create clear, explainable, [FAIR](https://www.go-fair.org/fair-principles/) examples of AI-integration in Ecology.
+    - Democratize access to AI, visualization, and computation in Ecology, empowering scientists to leverage new tools & create clear, explainable, [FAIR](https://www.go-fair.org/fair-principles/) examples of AI-integration in Ecology.
 - **Where:**
     - UC San Diego: Scripps Institution of Oceanography and San Diego Supercomputer Center (SDSC)
-
-[Workshop Calendar](EcoViz%20+%20AI%20Visualization%20and%20AI%20for%20Ecology%2076c12c58b2874cb5b2927854c45e0613/Workshop%20Calendar%205d30e1146d5149dc9ff00a42ef9547f6.csv)
-
-![](media/EcoVizAI.jpeg)

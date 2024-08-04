@@ -3,18 +3,19 @@ $cream:     #fff9ed;
 $lilac:     #dbd2ea;
 $rose:      #f29da6;
 $purple:    #dbbdde;
-$blue:      #a7c0e5;
+$blue:      #1f546f;
 $green:     #a0c695;
 $yellow:    #fbe095;
 $orange:    #fab084;
 $sage:      #c9e6c9;
 $turquoise: #9bd1c9;
-$orchid:    #c678dd;
+$orchid:    #c260b7;
 $lightgray: #b7b7b7;
+$lightblue: #eef5f7;
 
 //Base document colors
-$body-bg: $cream;
-$navbar-bg: $sage;
+$body-bg: $lightblue;
+$navbar-bg: $blue;
 $navbar-h1: $yellow; //highlight color when hovering over navbar links - haven't got this to work yet
 $link-color: $orchid;
 
