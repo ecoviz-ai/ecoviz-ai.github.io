@@ -12,7 +12,7 @@ website:
       - modelzoo.qmd
       #- pubs.qmd
       #- research.qmd
-  favicon: media/EcoVizAI_Logo3.png
+  favicon: media/EcoVizAI_Logo3_small.png
 
 format:
   html:
