@@ -4,31 +4,9 @@ format: html
 editor: visual
 ---
 
-```{r setup, include=FALSE}
-# Load necessary libraries
-library(tidyverse)
-library(DT)
-library(htmltools)
-library(reticulate)
-
-# Load the data with all columns as characters
-data <- read_csv("models.csv", col_types = cols(.default = "c"))
-
-# Ensure all columns are character vectors and handle NA values
-data <- data %>%
-  mutate(across(everything(), ~replace_na(as.character(.), "")))
-
-# View the first few rows of the data for debugging
-head(data)
-
-# Convert the R dataframe to a pandas dataframe in Python
-data_py <- r_to_py(data)
-```
-
 ```{r}
 library(reticulate)
-py_install("pandas")
-py_install(ipython)
+
 ```
 
 ```{python}
@@ -38,7 +16,7 @@ import pandas as pd
 from IPython.core.display import display, HTML
 
 # Load the data into a pandas DataFrame
-data = pd.read_csv("models.csv", dtype=str)  # Ensure all columns are read as strings
+data = pd.read_csv("modelzoo/ModelZoo.csv", dtype=str)  # Ensure all columns are read as strings
 
 # Function to create an HTML card for each model
 def create_model_card(model):
@@ -62,6 +40,7 @@ def create_model_card(model):
 
 # Render each model as a card
 html_output = ''.join([create_model_card(model) for index, model in data.iterrows()])
-display(HTML(html_output))
+#display(HTML(html_output))
+print(html_output)
 
 ```
