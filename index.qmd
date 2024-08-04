@@ -10,7 +10,7 @@ toc: false
 about: 
   template: trestles
   image-shape: rectangle
-  image-width: 27em
+  image-width: 25em
   links: # go here to search for available icons: https://icons.getbootstrap.com/
     - href: mailto:jkb@ucsc.edu
       icon: envelope
