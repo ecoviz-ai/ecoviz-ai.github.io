@@ -26,47 +26,21 @@ Inaugurated March 25-29, 2024 at UC San Diego.
 
 Organized by [Jessica Kendall-Bar](https://jessiekb.com)
 
-![](media/EcoVizAI.jpeg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0EGgKSQDEz8?si=PdSIO4GWA15KFus5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Website Resources
 
-[People](people.html)
+[Meet the Team](people.html)
 
 [Resources](resources.html) 
 
-[Meet the Team: EcoViz+AI Field Guide](https://www.notion.so/Meet-the-Team-EcoViz-AI-Field-Guide-f1ddf525504445bda9ab93b2122c3f85?pvs=21)
+💬 [Join our Slack Channel](https://join.slack.com/t/ecovizainetwork/shared_invite/zt-2evjz39p1-Bhigc2M1mH7NNrNRrbK3mg)
 
-- 💬[Slack Channel](https://join.slack.com/t/ecovizainetwork/shared_invite/zt-2evjz39p1-Bhigc2M1mH7NNrNRrbK3mg)
-
-[Workshop Agenda](https://www.notion.so/Workshop-Agenda-c8d9ee29d3a54d049ee6c8e1f4f6e77f?pvs=21)
-
-- 👥Collaborative FigJam Board (link to come)
-
-[Roles & Expectations](https://www.notion.so/Roles-Expectations-a0cf47ee900844a48ed00dbc237145f1?pvs=21)
+👥 [Collaborative FigJam Board](https://www.figma.com/board/PDycptnz72jgn8DlgIjcqa/EcoViz%2BAI-Field-Guide?node-id=0-1&t=ZI5yixl1BuK5IMhh-0)
 
 - **What:** an in-person workshop to develop 5 use-cases for AI in Science within Ecology.
-    - Primary deliverables:
-        - 2 Publications:
-            - A highly citable ***research paper on 5 use cases in Ecology*** with participants as co-authors ([Methods in Ecology & Evolution](https://besjournals.onlinelibrary.wiley.com/hub/journal/2041210x/features/practical_tools))
-            - A ***perspective paper on the availability and need for tools for Visualization and AI in Ecology*** with participants as co-authors ([Methods in Ecology & Evolution](https://besjournals.onlinelibrary.wiley.com/hub/journal/2041210x/features/practical_tools))
-        - ***Website*** to host all 5 tutorials
-            - Video introductions to each case study
-            - Markdown tutorials for each dataset and AI model
-        - ***Community of practice***
-            - Listserv & Slack ([Slack Channel](https://join.slack.com/t/ecovizainetwork/shared_invite/zt-2evjz39p1-Bhigc2M1mH7NNrNRrbK3mg)) to connect scientists from the workshop for ongoing collaboration
 - **Who:** invited experts in visualization, AI, and Ecology
     - Read more about your [Roles & Expectations](https://www.notion.so/Roles-Expectations-a0cf47ee900844a48ed00dbc237145f1?pvs=21)
-- **When:** UC Spring Break, March 25-29th, 2024 (dinner on Monday + workshop Tuesday-Friday)
-    - **Monday:** Travel day and Opening Dinner (required)
-        - Objective: *Get to know each other and their fields of interest, build rapport and trust from which to begin the work.*
-    - **Tuesday:** Day 1- Introductions and planning.
-        - Objective: *Understand the data and the AI models being used; set a technical foundation for collaboration and synthesis.*
-    - **Wednesday:** Day 2- Model development (data wrangling and code refinement).
-        - Objective: *Modify AI models to another use case to demonstrate generalizability; document changes, opportunities, challenges, and limitations.*
-    - **Thursday:** Day 3- Immersive visualization for model refinement.
-        - Objective: *Create, identify, and annotate visualizations that assist analysis and communication. Build science communication materials to explain use of AI models.*
-    - **Friday:** Day 4- Writing, synthesis, and reflections.
-        - Objective: *Unify and synthesize work performed during the workshop, reflect on process, opportunities, challenges, and next steps.*
 - **Why:**
     - Democratize access to AI, visualization, and computation in Ecology - empowering scientists to leverage new tools
     - To create clear, explainable, [FAIR](https://www.go-fair.org/fair-principles/) examples of AI-integration in Ecology.
@@ -75,6 +49,4 @@ Organized by [Jessica Kendall-Bar](https://jessiekb.com)
 
 [Workshop Calendar](EcoViz%20+%20AI%20Visualization%20and%20AI%20for%20Ecology%2076c12c58b2874cb5b2927854c45e0613/Workshop%20Calendar%205d30e1146d5149dc9ff00a42ef9547f6.csv)
 
-### 
-
-[Resources](https://www.notion.so/Resources-fa8c6baa17834a9c8a41bffb197c5a0d?pvs=21)
+![](media/EcoVizAI.jpeg)
