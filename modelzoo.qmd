@@ -4,12 +4,12 @@ format: html
 editor: visual
 ---
 
-```{r}
+```{r, include=FALSE}
 library(reticulate)
 
 ```
 
-```{python}
+```{python, include=FALSE}
 
 # Import necessary libraries
 import pandas as pd
