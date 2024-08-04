@@ -3,11 +3,12 @@ project:
   output-dir: docs
 
 website:
-  title: "EcoViz-Lab"
+  title: "EcoViz+AI"
   navbar:
     right:
-      - pubs.qmd
-      #- projects.qmd
+      - about.qmd
+      - resources.qmd
+      - people.qmd
       #- pubs.qmd
       #- research.qmd
 

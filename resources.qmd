@@ -1,0 +1,11 @@
+---
+title: "Resources"
+sidebar: false 
+fontfamily: "Georgia"
+---
+
+<button onclick="window.location.href='https://ecoviz.notion.site/Use-Case-Gallery-8a62a812efe2434d81e0d84e3494d9b7'">Use Case Gallery</button>
+
+<button onclick="window.location.href='https://ecoviz.notion.site/Model-Zoo-f2860555d0664dd5aa2c630c73ce0848'">Model Zoo</button>
+
+<button onclick="window.location.href='https://ecoviz.notion.site/Communities-of-Practice-bbebf43d8c11491fa91ea3b3a08092f8'">Communities of Practice</button>

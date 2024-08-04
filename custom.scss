@@ -25,6 +25,19 @@ $link-color: $orchid;
 
 /*-- scss:rules --*/
 
+.person {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.person img {
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
 .custom-subtitle {
   font-size: 35px;
   font-family: Lora;

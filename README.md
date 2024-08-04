@@ -1,2 +1,2 @@
 # lab-website
-Website for EcoViz-Lab
+Website for EcoViz+AI Collaborative Initiative.
