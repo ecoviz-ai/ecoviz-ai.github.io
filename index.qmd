@@ -10,7 +10,7 @@ toc: false
 about: 
   template: trestles
   image-shape: rectangle
-  image-width: 25em
+  image-width: 30em
   links: # go here to search for available icons: https://icons.getbootstrap.com/
     - href: mailto:jkb@ucsc.edu
       icon: envelope
@@ -35,7 +35,7 @@ Inaugurated March 25-29, 2024 at UC San Diego.
 
 Organized by [Jessica Kendall-Bar](https://jessiekb.com)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0EGgKSQDEz8?si=PdSIO4GWA15KFus5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="500" height="300" src="https://www.youtube.com/embed/0EGgKSQDEz8?si=PdSIO4GWA15KFus5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Website Resources
 
