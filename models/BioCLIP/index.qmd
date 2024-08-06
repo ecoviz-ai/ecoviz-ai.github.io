@@ -1,31 +1,28 @@
+
 ---
 title: "BioCLIP"
-description: "BioCLIP is a computer vision model, fine tuned for species identification."
-categories: [CNN, GAN, LKSFJK]
+description: "BioCLIP is a computer vision model, fine tuned for species identification. "
 image: BioCLIP.png
 ---
 
-# BioCLIP
-
-|                           |                                    |
-|---------------------------|------------------------------------|
-| {{< fa list >}} Tool Type | [Package or Library]{.tool_pkglib} |
-|                           |                                    |
-|                           |                                    |
-|                           |                                    |
-|                           |                                    |
-|                           |                                    |
-|                           |                                    |
-|                           |                                    |
-|                           |                                    |
-|                           |                                    |
-|                           |                                    |
-|                           |                                    |
-|                           |                                    |
-|                           |                                    |
-|                           |                                    |
-|                           |                                    |
-|                           |                                    |
-|                           |                                    |
-|                           |                                    |
-|                           |                                    |
+| Model metadata             | Value                               |
+|----------------------------|------------------------------------|
+| {{< fa cube >}} Tool Type | [Package or Library]{.tool_type .tool_type_pkglib} |
+| {{< fa tasks >}} Broad Task | Image classification |
+| {{< fa filter >}} Specific Task | Species Identification |
+| {{< fa book >}} Description | BioCLIP is a computer vision model, fine tuned for species identification.  |
+| {{< fa check-circle >}} Task Specific | Yes |
+| {{< fa globe >}} Ecology Specific | Yes |
+| {{< fa code >}} Language(s) | Python |
+| {{< fa clock >}} Last Edited Time | June 21, 2024 10:12 AM |
+| {{< fa book-open >}} Related Publication(s) | [https://arxiv.org/abs/2311.18803](https://arxiv.org/abs/2311.18803) |
+| {{< fa puzzle-piece >}} Dependencies | open_clip |
+| {{< fa github >}} Tool URL (Github etc.) | [https://github.com/Imageomics/bioclip](https://github.com/Imageomics/bioclip) |
+| {{< fa sync-alt >}} Last Update (time ago) | Last updated within the month |
+| {{< fa balance-scale >}} License | Custom License |
+| {{< fa user >}} Contact Name | Samuel Stevens |
+| {{< fa envelope >}} Contact Email | [mailto:stevens.994@buckeyemail.osu.edu](mailto:stevens.994@buckeyemail.osu.edu) |
+| {{< fa phone >}} Contact Responsiveness | nan |
+| {{< fa hugging >}} HuggingFace URL | [https://huggingface.co/imageomics/bioclip](https://huggingface.co/imageomics/bioclip) |
+| {{< fa cog >}} Reproducibility Method | makefile |
+| {{< fa image >}} Image | ![BioCLIP](BioCLIP.png) |

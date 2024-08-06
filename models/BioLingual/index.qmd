@@ -1,0 +1,28 @@
+
+---
+title: "BioLingual"
+description: "Text prompt to search through audio by species, call type, or verbal description. Also receives audio input."
+image: BioLingual.png
+---
+
+| Model metadata             | Value                               |
+|----------------------------|------------------------------------|
+| {{< fa cube >}} Tool Type | [Model API]{.tool_type .tool_type_pkglib} |
+| {{< fa tasks >}} Broad Task | Acoustics processing |
+| {{< fa filter >}} Specific Task | Call Identification |
+| {{< fa book >}} Description | Text prompt to search through audio by species, call type, or verbal description. Also receives audio input. |
+| {{< fa check-circle >}} Task Specific | Yes |
+| {{< fa globe >}} Ecology Specific | Yes |
+| {{< fa code >}} Language(s) | Python |
+| {{< fa clock >}} Last Edited Time | June 21, 2024 10:15 AM |
+| {{< fa book-open >}} Related Publication(s) | [ https://doi.org/10.48550/arXiv.2308.04978]( https://doi.org/10.48550/arXiv.2308.04978) |
+| {{< fa puzzle-piece >}} Dependencies | + others, pytorch, torchvision, transformers |
+| {{< fa github >}} Tool URL (Github etc.) | [https://github.com/david-rx/BioLingual](https://github.com/david-rx/BioLingual) |
+| {{< fa sync-alt >}} Last Update (time ago) | Last updated within a year |
+| {{< fa balance-scale >}} License | Apache-2.0 |
+| {{< fa user >}} Contact Name | David Robinson |
+| {{< fa envelope >}} Contact Email | [nan](nan) |
+| {{< fa phone >}} Contact Responsiveness | nan |
+| {{< fa hugging >}} HuggingFace URL | [https://huggingface.co/davidrrobinson/BioLingual](https://huggingface.co/davidrrobinson/BioLingual) |
+| {{< fa cog >}} Reproducibility Method | nan |
+| {{< fa image >}} Image | ![BioLingual](BioLingual.png) |

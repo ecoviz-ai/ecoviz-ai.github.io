@@ -1,0 +1,28 @@
+
+---
+title: "opensoundscape"
+description: "Python package for analyzing bioacoustic data"
+image: opensoundscape.png
+---
+
+| Model metadata             | Value                               |
+|----------------------------|------------------------------------|
+| {{< fa cube >}} Tool Type | [Package or Library]{.tool_type .tool_type_pkglib} |
+| {{< fa tasks >}} Broad Task | Acoustic classification, Acoustics processing |
+| {{< fa filter >}} Specific Task | Call Identification, Signal Processing |
+| {{< fa book >}} Description | Python package for analyzing bioacoustic data |
+| {{< fa check-circle >}} Task Specific | Yes |
+| {{< fa globe >}} Ecology Specific | Yes |
+| {{< fa code >}} Language(s) | Python |
+| {{< fa clock >}} Last Edited Time | June 21, 2024 10:48 AM |
+| {{< fa book-open >}} Related Publication(s) | [https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14196](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14196) |
+| {{< fa puzzle-piece >}} Dependencies | docopt, ipykernel, librosa, pandas, pytorch, torchvision |
+| {{< fa github >}} Tool URL (Github etc.) | [https://github.com/kitzeslab/opensoundscape](https://github.com/kitzeslab/opensoundscape) |
+| {{< fa sync-alt >}} Last Update (time ago) | Last updated within the month |
+| {{< fa balance-scale >}} License | MIT |
+| {{< fa user >}} Contact Name | Sam Lapp |
+| {{< fa envelope >}} Contact Email | [mailto:sam.lapp@pitt.edu ](mailto:sam.lapp@pitt.edu ) |
+| {{< fa phone >}} Contact Responsiveness | Very responsive |
+| {{< fa hugging >}} HuggingFace URL | [nan](nan) |
+| {{< fa cog >}} Reproducibility Method | nan |
+| {{< fa image >}} Image | ![opensoundscape](opensoundscape.png) |

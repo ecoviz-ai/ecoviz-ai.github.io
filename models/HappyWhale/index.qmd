@@ -1,0 +1,34 @@
+
+---
+title: "HappyWhale"
+description: "AI-assisted individual ID of humpback whale flukes and multi-species dorsal fin ID. >30 since 2020; 3 most pertainent: 
+Humpback whale automated image recognition: https://rdcu.be/cCOtw, 
+North Pacific humpback whale photo-ID dataset: https://www.nature.com/articles/s41598-023-36928-1, 
+Bellwethers of Change: North Pacific humpback whale climate response: https://doi.org/10.1098/rsos.231462"
+image: HappyWhale.png
+---
+
+| Model metadata             | Value                               |
+|----------------------------|------------------------------------|
+| {{< fa cube >}} Tool Type | [Web GUI]{.tool_type .tool_type_pkglib} |
+| {{< fa tasks >}} Broad Task | Image classification |
+| {{< fa filter >}} Specific Task | Marine mammal photo identification |
+| {{< fa book >}} Description | AI-assisted individual ID of humpback whale flukes and multi-species dorsal fin ID. >30 since 2020; 3 most pertainent: 
+Humpback whale automated image recognition: https://rdcu.be/cCOtw, 
+North Pacific humpback whale photo-ID dataset: https://www.nature.com/articles/s41598-023-36928-1, 
+Bellwethers of Change: North Pacific humpback whale climate response: https://doi.org/10.1098/rsos.231462 |
+| {{< fa check-circle >}} Task Specific | Yes |
+| {{< fa globe >}} Ecology Specific | Yes |
+| {{< fa code >}} Language(s) | Java, Python, Typescript |
+| {{< fa clock >}} Last Edited Time | June 21, 2024 11:01 AM |
+| {{< fa book-open >}} Related Publication(s) | [https://rdcu.be/cCOtw](https://rdcu.be/cCOtw) |
+| {{< fa puzzle-piece >}} Dependencies | nan |
+| {{< fa github >}} Tool URL (Github etc.) | [https://happywhale.com/home](https://happywhale.com/home) |
+| {{< fa sync-alt >}} Last Update (time ago) | Last updated within the month |
+| {{< fa balance-scale >}} License | nan |
+| {{< fa user >}} Contact Name | Ted Cheeseman |
+| {{< fa envelope >}} Contact Email | [mailto:ted@happywhale.com](mailto:ted@happywhale.com) |
+| {{< fa phone >}} Contact Responsiveness | Very responsive |
+| {{< fa hugging >}} HuggingFace URL | [nan](nan) |
+| {{< fa cog >}} Reproducibility Method | nan |
+| {{< fa image >}} Image | ![HappyWhale](HappyWhale.png) |

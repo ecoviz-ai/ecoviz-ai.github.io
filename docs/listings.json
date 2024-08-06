@@ -2,7 +2,21 @@
   {
     "listing": "/modelzoo.html",
     "items": [
-      "/models/BioCLIP/index.html"
+      "/models/BioCLIP/index.html",
+      "/models/BioLingual/index.html",
+      "/models/Ecological_Niche_Modelling_With_R/index.html",
+      "/models/FrogID_App/index.html",
+      "/models/HappyWhale/index.html",
+      "/models/Merlin_Sound_ID_Bird_App/index.html",
+      "/models/SatBird/index.html",
+      "/models/V2V/index.html",
+      "/models/Voxaboxen/index.html",
+      "/models/https:/github.com/SCSLabISU/xPLNet/index.html",
+      "/models/noisereduce/index.html",
+      "/models/opensoundscape/index.html",
+      "/models/silbido_profundo/index.html",
+      "/models/somnotate/index.html",
+      "/models/yasa/index.html"
     ]
   }
 ]

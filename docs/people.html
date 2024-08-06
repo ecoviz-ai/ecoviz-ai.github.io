@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>EcoViz+AI - People</title>
+<title>People – EcoViz+AI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -46,7 +80,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -55,6 +95,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -69,39 +110,39 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">EcoViz+AI</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html" rel="" target="">
- <span class="menu-text">Resources</span></a>
+    <a class="nav-link" href="./resources.html"> 
+<span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./people.html" rel="" target="" aria-current="page">
- <span class="menu-text">People</span></a>
+    <a class="nav-link active" href="./people.html" aria-current="page"> 
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./modelzoo.html" rel="" target="">
- <span class="menu-text">Model Zoo</span></a>
+    <a class="nav-link" href="./modelzoo.html"> 
+<span class="menu-text">Model Zoo</span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -122,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -130,511 +171,26 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
 
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="media/people/JoeWalker.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Joe Walker</figcaption>
-</figure>
-</div>
-<section id="joe-walker" class="level3">
-<h3 class="anchored" data-anchor-id="joe-walker">Joe Walker</h3>
-<p>Postdoc</p>
-<p>UC San Diego</p>
-<p>Acoustics</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Michaela Alksne</figcaption>
-</figure>
-</div>
-<section id="michaela-alksne" class="level3">
-<h3 class="anchored" data-anchor-id="michaela-alksne">Michaela Alksne</h3>
-<p>Grad student</p>
-<p>UC San Diego</p>
-<p>Acoustics</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Nicolas LeComte</figcaption>
-</figure>
-</div>
-<section id="nicolas-lecomte" class="level3">
-<h3 class="anchored" data-anchor-id="nicolas-lecomte">Nicolas LeComte</h3>
-<p>MEE Editor</p>
-<p>University of Moncton</p>
-<p>Acoustics</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of William Oestreich</figcaption>
-</figure>
-</div>
-<section id="william-oestreich" class="level3">
-<h3 class="anchored" data-anchor-id="william-oestreich">William Oestreich</h3>
-<p>Postdoc</p>
-<p>MBARI</p>
-<p>Acoustics</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Eliot Miller</figcaption>
-</figure>
-</div>
-<section id="eliot-miller" class="level3">
-<h3 class="anchored" data-anchor-id="eliot-miller">Eliot Miller</h3>
-<p>Postdoc</p>
-<p>Cornell</p>
-<p>Acoustics</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Jessica Leivesley</figcaption>
-</figure>
-</div>
-<section id="jessica-leivesley" class="level3">
-<h3 class="anchored" data-anchor-id="jessica-leivesley">Jessica Leivesley</h3>
-<p>Postdoc</p>
-<p>U of Toronto</p>
-<p>Behavior</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Rachel Parkinson</figcaption>
-</figure>
-</div>
-<section id="rachel-parkinson" class="level3">
-<h3 class="anchored" data-anchor-id="rachel-parkinson">Rachel Parkinson</h3>
-<p>Postdoc</p>
-<p>Oxford</p>
-<p>Behavior</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Ian Costello</figcaption>
-</figure>
-</div>
-<section id="ian-costello" class="level3">
-<h3 class="anchored" data-anchor-id="ian-costello">Ian Costello</h3>
-<p>Viz Specialist</p>
-<p>UC Santa Cruz</p>
-<p>Behavior</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Lauren Severance</figcaption>
-</figure>
-</div>
-<section id="lauren-severance" class="level3">
-<h3 class="anchored" data-anchor-id="lauren-severance">Lauren Severance</h3>
-<p>Postdoc</p>
-<p>UC San Diego</p>
-<p>Behavior</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Avik Biswas</figcaption>
-</figure>
-</div>
-<section id="avik-biswas" class="level3">
-<h3 class="anchored" data-anchor-id="avik-biswas">Avik Biswas</h3>
-<p>Postdoc</p>
-<p>UC San Diego</p>
-<p>Behavior</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Sergey Gurvich</figcaption>
-</figure>
-</div>
-<section id="sergey-gurvich" class="level3">
-<h3 class="anchored" data-anchor-id="sergey-gurvich">Sergey Gurvich</h3>
-<p>AI Specialist</p>
-<p>UC San Diego</p>
-<p>Behavior</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Jessica Kendall-Bar</figcaption>
-</figure>
-</div>
-<section id="jessica-kendall-bar" class="level3">
-<h3 class="anchored" data-anchor-id="jessica-kendall-bar">Jessica Kendall-Bar</h3>
-<p>Postdoc</p>
-<p>UC San Diego</p>
-<p>Ecophysiology</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Gerard O’Leary</figcaption>
-</figure>
-</div>
-<section id="gerard-oleary" class="level3">
-<h3 class="anchored" data-anchor-id="gerard-oleary">Gerard O’Leary</h3>
-<p>Postdoc</p>
-<p>U of Toronto</p>
-<p>Ecophysiology</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Tim Sainburg</figcaption>
-</figure>
-</div>
-<section id="tim-sainburg" class="level3">
-<h3 class="anchored" data-anchor-id="tim-sainburg">Tim Sainburg</h3>
-<p>Postdoc</p>
-<p>Harvard</p>
-<p>Ecophysiology</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Ritika Mukherji</figcaption>
-</figure>
-</div>
-<section id="ritika-mukherji" class="level3">
-<h3 class="anchored" data-anchor-id="ritika-mukherji">Ritika Mukherji</h3>
-<p>PhD</p>
-<p>Oxford</p>
-<p>Ecophysiology</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Kevin Nguyen</figcaption>
-</figure>
-</div>
-<section id="kevin-nguyen" class="level3">
-<h3 class="anchored" data-anchor-id="kevin-nguyen">Kevin Nguyen</h3>
-<p>Viz Specialist</p>
-<p>UC San Diego</p>
-<p>Ecophysiology</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Ilkay Altintas</figcaption>
-</figure>
-</div>
-<section id="ilkay-altintas" class="level3">
-<h3 class="anchored" data-anchor-id="ilkay-altintas">Ilkay Altintas</h3>
-<p>PI</p>
-<p>UC San Diego</p>
-<p>Ecophysiology</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Michael Sorenson</figcaption>
-</figure>
-</div>
-<section id="michael-sorenson" class="level3">
-<h3 class="anchored" data-anchor-id="michael-sorenson">Michael Sorenson</h3>
-<p>AI Specialist</p>
-<p>UC San Diego</p>
-<p>Ecophysiology</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Giulia Hoffman</figcaption>
-</figure>
-</div>
-<section id="giulia-hoffman" class="level3">
-<h3 class="anchored" data-anchor-id="giulia-hoffman">Giulia Hoffman</h3>
-<p>Program manager</p>
-<p>UCSD Schmidt</p>
-<p>Facilitator</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Carrie Daly</figcaption>
-</figure>
-</div>
-<section id="carrie-daly" class="level3">
-<h3 class="anchored" data-anchor-id="carrie-daly">Carrie Daly</h3>
-<p>Program manager</p>
-<p>UCSD Schmidt</p>
-<p>Facilitator</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Max Czapanskiy</figcaption>
-</figure>
-</div>
-<section id="max-czapanskiy" class="level3">
-<h3 class="anchored" data-anchor-id="max-czapanskiy">Max Czapanskiy</h3>
-<p>Technical Facilitator</p>
-<p>UC Santa Cruz</p>
-<p>Facilitator</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Allison Payne</figcaption>
-</figure>
-</div>
-<section id="allison-payne" class="level3">
-<h3 class="anchored" data-anchor-id="allison-payne">Allison Payne</h3>
-<p>Project Facilitator</p>
-<p>UC Santa Cruz</p>
-<p>Facilitator</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Allison Kellum</figcaption>
-</figure>
-</div>
-<section id="allison-kellum" class="level3">
-<h3 class="anchored" data-anchor-id="allison-kellum">Allison Kellum</h3>
-<p>Coordinator</p>
-<p>UC San Diego</p>
-<p>Facilitator</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Brittany Aguilar</figcaption>
-</figure>
-</div>
-<section id="brittany-aguilar" class="level3">
-<h3 class="anchored" data-anchor-id="brittany-aguilar">Brittany Aguilar</h3>
-<p>Facilitator</p>
-<p>Schmidt Sciences</p>
-<p>Facilitator</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Jenna Metcalf</figcaption>
-</figure>
-</div>
-<section id="jenna-metcalf" class="level3">
-<h3 class="anchored" data-anchor-id="jenna-metcalf">Jenna Metcalf</h3>
-<p>Facilitator</p>
-<p>Schmidt Sciences</p>
-<p>Facilitator</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Beverly French</figcaption>
-</figure>
-</div>
-<section id="beverly-french" class="level3">
-<h3 class="anchored" data-anchor-id="beverly-french">Beverly French</h3>
-<p>Postdoc</p>
-<p>UC San Diego</p>
-<p>Resilience</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Alice Malivert</figcaption>
-</figure>
-</div>
-<section id="alice-malivert" class="level3">
-<h3 class="anchored" data-anchor-id="alice-malivert">Alice Malivert</h3>
-<p>Postdoc</p>
-<p>Imperial</p>
-<p>Resilience</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Dominique Rissolo</figcaption>
-</figure>
-</div>
-<section id="dominique-rissolo" class="level3">
-<h3 class="anchored" data-anchor-id="dominique-rissolo">Dominique Rissolo</h3>
-<p>PI/Viz Specialist</p>
-<p>UC San Diego</p>
-<p>Resilience</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Stuart Sandin</figcaption>
-</figure>
-</div>
-<section id="stuart-sandin" class="level3">
-<h3 class="anchored" data-anchor-id="stuart-sandin">Stuart Sandin</h3>
-<p>PI</p>
-<p>UC San Diego</p>
-<p>Resilience</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Carla Calvo Tusell</figcaption>
-</figure>
-</div>
-<section id="carla-calvo-tusell" class="level3">
-<h3 class="anchored" data-anchor-id="carla-calvo-tusell">Carla Calvo Tusell</h3>
-<p>Postdoc</p>
-<p>UC San Diego</p>
-<p>Resilience</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Ismael Perez</figcaption>
-</figure>
-</div>
-<section id="ismael-perez" class="level3">
-<h3 class="anchored" data-anchor-id="ismael-perez">Ismael Perez</h3>
-<p>AI Specialist</p>
-<p>UC San Diego</p>
-<p>Resilience</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Nathan Fox</figcaption>
-</figure>
-</div>
-<section id="nathan-fox" class="level3">
-<h3 class="anchored" data-anchor-id="nathan-fox">Nathan Fox</h3>
-<p>Postdoc</p>
-<p>University of Michigan</p>
-<p>Spatial</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Tanya Berger-Wolf</figcaption>
-</figure>
-</div>
-<section id="tanya-berger-wolf" class="level3">
-<h3 class="anchored" data-anchor-id="tanya-berger-wolf">Tanya Berger-Wolf</h3>
-<p>PI/Speaker</p>
-<p>Ohio State University</p>
-<p>Spatial</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Chris Lowrie</figcaption>
-</figure>
-</div>
-<section id="chris-lowrie" class="level3">
-<h3 class="anchored" data-anchor-id="chris-lowrie">Chris Lowrie</h3>
-<p>Viz Specialist</p>
-<p>UC Santa Cruz</p>
-<p>Spatial</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Isaac Nealey</figcaption>
-</figure>
-</div>
-<section id="isaac-nealey" class="level3">
-<h3 class="anchored" data-anchor-id="isaac-nealey">Isaac Nealey</h3>
-<p>AI+Viz Specialist</p>
-<p>UC San Diego</p>
-<p>Spatial</p>
-</section>
-</div>
-<div class="person">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="NA.png" class="img-fluid figure-img" width="250"></p>
-<figcaption class="figure-caption">Headshot of Felipe Montealegre</figcaption>
-</figure>
-</div>
-<section id="felipe-montealegre" class="level3">
-<h3 class="anchored" data-anchor-id="felipe-montealegre">Felipe Montealegre</h3>
-<p>Postdoc</p>
-<p>UC Berkeley</p>
-<p>Spatial</p>
-</section>
+
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>people <span class="sc">%&gt;%</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">ImageTag =</span> <span class="fu">paste0</span>(<span class="st">'&lt;img src="'</span>, ImgPath, <span class="st">'" alt="Headshot of '</span>, Name, <span class="st">'" style="width:100px;"&gt;'</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pmap</span>(<span class="cf">function</span>(Name, Role, University, Group, ImgPath, ImageTag) {</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    html_output <span class="ot">&lt;-</span> glue<span class="sc">::</span><span class="fu">glue</span>(<span class="st">'</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;div class="person"&gt;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="st">        {ImageTag}</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;h3&gt;{Name}&lt;/h3&gt;</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;p&gt;{Role}&lt;/p&gt;</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;p&gt;{University}&lt;/p&gt;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="st">        &lt;p&gt;{Group}&lt;/p&gt;</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="st">      &lt;/div&gt;</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="st">    '</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    knitr<span class="sc">::</span><span class="fu">asis_output</span>(html_output)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  }) <span class="sc">%&gt;%</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">walk</span>(identity)  <span class="co"># Ensures output is handled correctly</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 
@@ -675,18 +231,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -718,11 +263,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -732,8 +316,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -745,7 +338,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -789,6 +505,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -814,6 +531,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -874,6 +617,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

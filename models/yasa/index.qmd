@@ -1,0 +1,28 @@
+
+---
+title: "yasa"
+description: "YASA (Yet Another Spindle Algorithm) is a command-line sleep analysis toolbox in Python with automatic sleep staging and signal processing functions."
+image: yasa.png
+---
+
+| Model metadata             | Value                               |
+|----------------------------|------------------------------------|
+| {{< fa cube >}} Tool Type | [Package or Library]{.tool_type .tool_type_pkglib} |
+| {{< fa tasks >}} Broad Task | Timeseries segmentation |
+| {{< fa filter >}} Specific Task | Sleep Scoring |
+| {{< fa book >}} Description | YASA (Yet Another Spindle Algorithm) is a command-line sleep analysis toolbox in Python with automatic sleep staging and signal processing functions. |
+| {{< fa check-circle >}} Task Specific | Yes |
+| {{< fa globe >}} Ecology Specific | No |
+| {{< fa code >}} Language(s) | Python |
+| {{< fa clock >}} Last Edited Time | June 21, 2024 10:11 AM |
+| {{< fa book-open >}} Related Publication(s) | [https://doi.org/10.7554/eLife.70092](https://doi.org/10.7554/eLife.70092) |
+| {{< fa puzzle-piece >}} Dependencies | antropy, ipywidgets, joblib, lightgbm, lspopt, matplotlib, mne, numba, pandas, pyRiemann, scikit-learn, scipy, seaborn, sleepecg, tensorpac |
+| {{< fa github >}} Tool URL (Github etc.) | [https://github.com/raphaelvallat/yasa](https://github.com/raphaelvallat/yasa) |
+| {{< fa sync-alt >}} Last Update (time ago) | Last updated within the month |
+| {{< fa balance-scale >}} License | BSD-3-Clause |
+| {{< fa user >}} Contact Name | Raphael Vallat |
+| {{< fa envelope >}} Contact Email | [mailto:raphaelvallat9@gmail.com](mailto:raphaelvallat9@gmail.com) |
+| {{< fa phone >}} Contact Responsiveness | Very responsive |
+| {{< fa hugging >}} HuggingFace URL | [nan](nan) |
+| {{< fa cog >}} Reproducibility Method | nan |
+| {{< fa image >}} Image | ![yasa](yasa.png) |

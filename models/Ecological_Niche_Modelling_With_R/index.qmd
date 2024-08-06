@@ -1,0 +1,28 @@
+
+---
+title: "Ecological Niche Modelling With R"
+description: "A workflow to simplify the process of estimating spatial probability distributions (species presence/absence) given a set of environmental parameters."
+image: Ecological_Niche_Modelling_With_R.png
+---
+
+| Model metadata             | Value                               |
+|----------------------------|------------------------------------|
+| {{< fa cube >}} Tool Type | [Research Compendium]{.tool_type .tool_type_pkglib} |
+| {{< fa tasks >}} Broad Task | Species distribution model |
+| {{< fa filter >}} Specific Task | Ecological Niche Modeling |
+| {{< fa book >}} Description | A workflow to simplify the process of estimating spatial probability distributions (species presence/absence) given a set of environmental parameters. |
+| {{< fa check-circle >}} Task Specific | Yes |
+| {{< fa globe >}} Ecology Specific | Yes |
+| {{< fa code >}} Language(s) | R |
+| {{< fa clock >}} Last Edited Time | June 21, 2024 11:12 AM |
+| {{< fa book-open >}} Related Publication(s) | [https://doi.org/10.1007/s41060-024-00517-w](https://doi.org/10.1007/s41060-024-00517-w) |
+| {{< fa puzzle-piece >}} Dependencies | nan |
+| {{< fa github >}} Tool URL (Github etc.) | [https://github.com/cybprojects65/EcologicalNicheModellingWithR](https://github.com/cybprojects65/EcologicalNicheModellingWithR) |
+| {{< fa sync-alt >}} Last Update (time ago) | Last updated within 6 months |
+| {{< fa balance-scale >}} License | nan |
+| {{< fa user >}} Contact Name | Gianpaolo Coro |
+| {{< fa envelope >}} Contact Email | [mailto:gianpaolo.coro@isti.cnr.it ](mailto:gianpaolo.coro@isti.cnr.it ) |
+| {{< fa phone >}} Contact Responsiveness | nan |
+| {{< fa hugging >}} HuggingFace URL | [nan](nan) |
+| {{< fa cog >}} Reproducibility Method | nan |
+| {{< fa image >}} Image | ![Ecological Niche Modelling With R](Ecological_Niche_Modelling_With_R.png) |

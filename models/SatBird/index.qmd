@@ -1,0 +1,28 @@
+
+---
+title: "SatBird"
+description: "SatBird is a dataset and benchmark models for the task of predicting bird species encounter rates jointly at a specific location using remote sensing data. "
+image: SatBird.png
+---
+
+| Model metadata             | Value                               |
+|----------------------------|------------------------------------|
+| {{< fa cube >}} Tool Type | [Benchmarked Dataset]{.tool_type .tool_type_pkglib} |
+| {{< fa tasks >}} Broad Task | Species distribution model |
+| {{< fa filter >}} Specific Task | Habitat suitability |
+| {{< fa book >}} Description | SatBird is a dataset and benchmark models for the task of predicting bird species encounter rates jointly at a specific location using remote sensing data.  |
+| {{< fa check-circle >}} Task Specific | Yes |
+| {{< fa globe >}} Ecology Specific | Yes |
+| {{< fa code >}} Language(s) | Python |
+| {{< fa clock >}} Last Edited Time | May 23, 2024 7:16 AM |
+| {{< fa book-open >}} Related Publication(s) | [ https://doi.org/10.48550/arXiv.2311.00936]( https://doi.org/10.48550/arXiv.2311.00936) |
+| {{< fa puzzle-piece >}} Dependencies | + others, pytorch, torchaudio, torchvision |
+| {{< fa github >}} Tool URL (Github etc.) | [https://github.com/RolnickLab/SatBird/](https://github.com/RolnickLab/SatBird/) |
+| {{< fa sync-alt >}} Last Update (time ago) | Last updated within 6 months |
+| {{< fa balance-scale >}} License | GPL-3.0 |
+| {{< fa user >}} Contact Name | Melisande Teng |
+| {{< fa envelope >}} Contact Email | [mailto:tengmeli@mila.quebec](mailto:tengmeli@mila.quebec) |
+| {{< fa phone >}} Contact Responsiveness | Very responsive |
+| {{< fa hugging >}} HuggingFace URL | [nan](nan) |
+| {{< fa cog >}} Reproducibility Method | nan |
+| {{< fa image >}} Image | ![SatBird](SatBird.png) |

@@ -1,0 +1,28 @@
+
+---
+title: "noisereduce"
+description: "noisereduce is a domain-general noise reduction tool for bioacoustics and other time domain signals. "
+image: noisereduce.png
+---
+
+| Model metadata             | Value                               |
+|----------------------------|------------------------------------|
+| {{< fa cube >}} Tool Type | [Package or Library]{.tool_type .tool_type_pkglib} |
+| {{< fa tasks >}} Broad Task | Acoustics processing |
+| {{< fa filter >}} Specific Task | Signal Processing |
+| {{< fa book >}} Description | noisereduce is a domain-general noise reduction tool for bioacoustics and other time domain signals.  |
+| {{< fa check-circle >}} Task Specific | Yes |
+| {{< fa globe >}} Ecology Specific | No |
+| {{< fa code >}} Language(s) | Python |
+| {{< fa clock >}} Last Edited Time | June 21, 2024 10:20 AM |
+| {{< fa book-open >}} Related Publication(s) | [https://doi.org/10.1371/journal.pcbi.1008228](https://doi.org/10.1371/journal.pcbi.1008228) |
+| {{< fa puzzle-piece >}} Dependencies | numpy, pytorch, scipy |
+| {{< fa github >}} Tool URL (Github etc.) | [https://github.com/timsainb/noisereduce](https://github.com/timsainb/noisereduce) |
+| {{< fa sync-alt >}} Last Update (time ago) | Last updated within 6 months |
+| {{< fa balance-scale >}} License | MIT |
+| {{< fa user >}} Contact Name | Tim Sainburg |
+| {{< fa envelope >}} Contact Email | [timsainb@gmail.com](timsainb@gmail.com) |
+| {{< fa phone >}} Contact Responsiveness | Very responsive |
+| {{< fa hugging >}} HuggingFace URL | [nan](nan) |
+| {{< fa cog >}} Reproducibility Method | nan |
+| {{< fa image >}} Image | ![noisereduce](noisereduce.png) |

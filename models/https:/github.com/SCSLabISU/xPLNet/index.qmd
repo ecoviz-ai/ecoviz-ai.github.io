@@ -1,0 +1,28 @@
+
+---
+title: "https://github.com/SCSLabISU/xPLNet"
+description: "AI classification of leaf pictures into different environmental stresses/diseases. Explainable model. Developped with soybean leaves, works with other species. "
+image: https://github.com/SCSLabISU/xPLNet.png
+---
+
+| Model metadata             | Value                               |
+|----------------------------|------------------------------------|
+| {{< fa cube >}} Tool Type | [Research Compendium]{.tool_type .tool_type_pkglib} |
+| {{< fa tasks >}} Broad Task | Image classification |
+| {{< fa filter >}} Specific Task | Plant stress phenotyping |
+| {{< fa book >}} Description | AI classification of leaf pictures into different environmental stresses/diseases. Explainable model. Developped with soybean leaves, works with other species.  |
+| {{< fa check-circle >}} Task Specific | Yes |
+| {{< fa globe >}} Ecology Specific | Yes |
+| {{< fa code >}} Language(s) | Python |
+| {{< fa clock >}} Last Edited Time | June 23, 2024 3:05 PM |
+| {{< fa book-open >}} Related Publication(s) | [https://www.pnas.org/doi/10.1073/pnas.1716999115](https://www.pnas.org/doi/10.1073/pnas.1716999115) |
+| {{< fa puzzle-piece >}} Dependencies | keras, numpy, theano |
+| {{< fa github >}} Tool URL (Github etc.) | [https://github.com/SCSLabISU/xPLNet](https://github.com/SCSLabISU/xPLNet) |
+| {{< fa sync-alt >}} Last Update (time ago) | Last updated more than a year ago |
+| {{< fa balance-scale >}} License | BSD-3-Clause |
+| {{< fa user >}} Contact Name | Soumik Sarkar; Arti Singh |
+| {{< fa envelope >}} Contact Email | [mailto:soumiks@iastate.edu; mailto:arti@iastate.edu](mailto:soumiks@iastate.edu; mailto:arti@iastate.edu) |
+| {{< fa phone >}} Contact Responsiveness | nan |
+| {{< fa hugging >}} HuggingFace URL | [nan](nan) |
+| {{< fa cog >}} Reproducibility Method | nan |
+| {{< fa image >}} Image | ![https://github.com/SCSLabISU/xPLNet](https://github.com/SCSLabISU/xPLNet.png) |

@@ -6,3 +6,4 @@ listing:
   sort: "title asc"
   categories: true
 ---
+

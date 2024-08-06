@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A community of practice to discuss and democratize AI and Visualization for use cases in Ecology.">
+<meta name="description" content="SatBird is a dataset and benchmark models for the task of predicting bird species encounter rates jointly at a specific location using remote sensing data.">
 
-<title>EcoViz+AI: Visualization and AI for Ecology – EcoViz+AI</title>
+<title>SatBird – EcoViz+AI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,22 +24,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./media/EcoVizAI_Logo3_small.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../media/EcoVizAI_Logo3_small.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,7 +72,8 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -79,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">EcoViz+AI</span>
     </a>
   </div>
@@ -90,19 +94,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
+    <a class="nav-link" href="../../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
+    <a class="nav-link" href="../../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./modelzoo.html"> 
+    <a class="nav-link" href="../../modelzoo.html"> 
 <span class="menu-text">Model Zoo</span></a>
   </li>  
 </ul>
@@ -116,77 +120,130 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="media/EcoVizAI_Logo3.png" class="about-image
-  rectangle " style="width: 25em;">
+<main class="content column-page" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">EcoViz+AI: Visualization and AI for Ecology</h1>
+<h1 class="title">SatBird</h1>
 </div>
+
 <div>
   <div class="description">
-    A community of practice to discuss and democratize AI and Visualization for use cases in Ecology.
+    SatBird is a dataset and benchmark models for the task of predicting bird species encounter rates jointly at a specific location using remote sensing data.
   </div>
 </div>
+
+
 <div class="quarto-title-meta column-page">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="mailto:jkb@ucsc.edu" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email Organizers</span>
-  </a>
-  <a href="/people.html" class="about-link" rel="" target="">
-    <i class="bi bi-people"></i>
-     <span class="about-link-text">Meet the Team</span>
-  </a>
-  <a href="/resources.html" class="about-link" rel="" target="">
-    <i class="bi bi-info-circle-fill"></i>
-     <span class="about-link-text">Explore Resources</span>
-  </a>
-  <a href="https://join.slack.com/t/ecovizainetwork/shared_invite/zt-2evjz39p1-Bhigc2M1mH7NNrNRrbK3mg" class="about-link" rel="" target="">
-    <i class="bi bi-slack"></i>
-     <span class="about-link-text">Join our Slack</span>
-  </a>
-  <a href="https://www.figma.com/board/PDycptnz72jgn8DlgIjcqa/EcoViz%2BAI-Field-Guide?node-id=0-1&amp;t=ZI5yixl1BuK5IMhh-0" class="about-link" rel="" target="">
-    <i class="bi bi-people-fill"></i>
-     <span class="about-link-text">Explore Collaborative FigJam</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content column-page" id="quarto-document-content">
-<section id="ecovizai-community-of-practice" class="level1">
-<h1>EcoViz+AI Community of Practice</h1>
-<p>Inaugurated March 25-29, 2024 at UC San Diego.</p>
-<p>Organized by <a href="https://jessiekb.com">Jessica Kendall-Bar</a></p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/0EGgKSQDEz8" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<section id="website-resources" class="level3">
-<h3 data-anchor-id="website-resources">Website Resources</h3>
-<ul>
-<li><strong>What:</strong> an in-person workshop to develop 5 use-cases for AI in Science within Ecology.</li>
-<li><strong>Who:</strong> invited experts in visualization, AI, and Ecology
-<ul>
-<li>Read more about your <a href="https://www.notion.so/Roles-Expectations-a0cf47ee900844a48ed00dbc237145f1?pvs=21">Roles &amp; Expectations</a></li>
-</ul></li>
-<li><strong>Why:</strong>
-<ul>
-<li>Democratize access to AI, visualization, and computation in Ecology, empowering scientists to leverage new tools &amp; create clear, explainable,&nbsp;<a href="https://www.go-fair.org/fair-principles/">FAIR</a>&nbsp;examples of AI-integration in Ecology.</li>
-</ul></li>
-<li><strong>Where:</strong>
-<ul>
-<li>UC San Diego: Scripps Institution of Oceanography and San Diego Supercomputer Center (SDSC)</li>
-</ul></li>
-</ul>
 
 
-</section>
-</section>
-</main></div>
-</div>
- <!-- /main -->
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 70%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Model metadata</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><i class="fa-solid fa-cube" aria-label="cube"></i> Tool Type</td>
+<td><span class="tool_type tool_type_pkglib">Benchmarked Dataset</span></td>
+</tr>
+<tr class="even">
+<td><i class="fa-solid fa-tasks" aria-label="tasks"></i> Broad Task</td>
+<td>Species distribution model</td>
+</tr>
+<tr class="odd">
+<td><i class="fa-solid fa-filter" aria-label="filter"></i> Specific Task</td>
+<td>Habitat suitability</td>
+</tr>
+<tr class="even">
+<td><i class="fa-solid fa-book" aria-label="book"></i> Description</td>
+<td>SatBird is a dataset and benchmark models for the task of predicting bird species encounter rates jointly at a specific location using remote sensing data.</td>
+</tr>
+<tr class="odd">
+<td><i class="fa-solid fa-check-circle" aria-label="check-circle"></i> Task Specific</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td><i class="fa-solid fa-globe" aria-label="globe"></i> Ecology Specific</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td><i class="fa-solid fa-code" aria-label="code"></i> Language(s)</td>
+<td>Python</td>
+</tr>
+<tr class="even">
+<td><i class="fa-solid fa-clock" aria-label="clock"></i> Last Edited Time</td>
+<td>May 23, 2024 7:16 AM</td>
+</tr>
+<tr class="odd">
+<td><i class="fa-solid fa-book-open" aria-label="book-open"></i> Related Publication(s)</td>
+<td><a href="https://doi.org/10.48550/arXiv.2311.00936">https://doi.org/10.48550/arXiv.2311.00936</a></td>
+</tr>
+<tr class="even">
+<td><i class="fa-solid fa-puzzle-piece" aria-label="puzzle-piece"></i> Dependencies</td>
+<td>+ others, pytorch, torchaudio, torchvision</td>
+</tr>
+<tr class="odd">
+<td><i class="fa-solid fa-github" aria-label="github"></i> Tool URL (Github etc.)</td>
+<td><a href="https://github.com/RolnickLab/SatBird/">https://github.com/RolnickLab/SatBird/</a></td>
+</tr>
+<tr class="even">
+<td><i class="fa-solid fa-sync-alt" aria-label="sync-alt"></i> Last Update (time ago)</td>
+<td>Last updated within 6 months</td>
+</tr>
+<tr class="odd">
+<td><i class="fa-solid fa-balance-scale" aria-label="balance-scale"></i> License</td>
+<td>GPL-3.0</td>
+</tr>
+<tr class="even">
+<td><i class="fa-solid fa-user" aria-label="user"></i> Contact Name</td>
+<td>Melisande Teng</td>
+</tr>
+<tr class="odd">
+<td><i class="fa-solid fa-envelope" aria-label="envelope"></i> Contact Email</td>
+<td><a href="mailto:tengmeli@mila.quebec">mailto:tengmeli@mila.quebec</a></td>
+</tr>
+<tr class="even">
+<td><i class="fa-solid fa-phone" aria-label="phone"></i> Contact Responsiveness</td>
+<td>Very responsive</td>
+</tr>
+<tr class="odd">
+<td><i class="fa-solid fa-hugging" aria-label="hugging"></i> HuggingFace URL</td>
+<td><a href="nan">nan</a></td>
+</tr>
+<tr class="even">
+<td><i class="fa-solid fa-cog" aria-label="cog"></i> Reproducibility Method</td>
+<td>nan</td>
+</tr>
+<tr class="odd">
+<td><i class="fa-solid fa-image" aria-label="image"></i> Image</td>
+<td><img src="SatBird.png" class="img-fluid" alt="SatBird"></td>
+</tr>
+</tbody>
+</table>
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -207,6 +264,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
