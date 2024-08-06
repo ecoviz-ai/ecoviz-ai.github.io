@@ -1,0 +1,27 @@
+freeze: auto
+format:
+  html:
+    css: styles.css
+tbl-colwidths: [30,70]
+
+# Model Name
+# Description
+# Broad task
+# Specific task
+# Language(s)
+# Tool URL (Github or Link)
+# Last edited time
+# Files & media
+# Ecology specific
+# Related publication (with DOI)
+# AI model type(s)
+# Contact email
+# Contact name
+# Contact responsiveness
+# "Dependencies,
+# HuggingFace URL
+# Last Update (time since)
+# License
+# Reproducibility methods
+# Task specific
+# Tool Type

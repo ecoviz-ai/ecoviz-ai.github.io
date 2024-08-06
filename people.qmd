@@ -11,20 +11,43 @@ people <- read_csv("media/People.csv")
 ```
 
 ```{r}
-people %>%
-  mutate(ImageTag = paste0('<img src="', ImgPath, '" alt="Headshot of ', Name, '" style="width:100px;">')) %>%
-  pmap(function(Name, Role, University, Group, ImgPath, ImageTag) {
-    html_output <- glue::glue('
-      <div class="person">
-        {ImageTag}
-        <h3>{Name}</h3>
-        <p>{Role}</p>
-        <p>{University}</p>
-        <p>{Group}</p>
-      </div>
-    ')
-    knitr::asis_output(html_output)
-  }) %>%
-  walk(identity)  # Ensures output is handled correctly
+#| output: asis
+#| echo: false
 
+cbo <- "{"
+cbc <- "}"
+for (i in seq(nrow(people))) {
+  cat(with(people[i, ], {
+    str_glue(
+":::{'person'}
+![Headshot of {Name}]({ImgPath}){cbo}width=250{cbc}
+
+### {Name}
+
+{Role}
+
+{University}
+
+{Group}
+:::
+
+
+")
+  }))
+}
+
+# people %>%
+#  mutate(ImageTag = paste0('<img src="', ImgPath, '" alt="Headshot of ', Name, '" style="width:100px;" />')) %>%
+#  pmap(function(Name, Role, University, Group, ImgPath, ImageTag) {
+#    html_output <- glue::glue('
+#      <div class="person">
+#        {ImageTag}
+#        <h3>{Name}</h3>
+#        <p>{Role}</p>
+#        <p>{University}</p>
+#        <p>{Group}</p>
+#      </div> \n
+#    ')
+#    cat(html_output)
+#  })
 ```

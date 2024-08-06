@@ -1,0 +1,31 @@
+---
+title: "BioCLIP"
+description: "BioCLIP is a computer vision model, fine tuned for species identification."
+categories: [CNN, GAN, LKSFJK]
+image: BioCLIP.png
+---
+
+# BioCLIP
+
+|                           |                                    |
+|---------------------------|------------------------------------|
+| {{< fa list >}} Tool Type | [Package or Library]{.tool_pkglib} |
+|                           |                                    |
+|                           |                                    |
+|                           |                                    |
+|                           |                                    |
+|                           |                                    |
+|                           |                                    |
+|                           |                                    |
+|                           |                                    |
+|                           |                                    |
+|                           |                                    |
+|                           |                                    |
+|                           |                                    |
+|                           |                                    |
+|                           |                                    |
+|                           |                                    |
+|                           |                                    |
+|                           |                                    |
+|                           |                                    |
+|                           |                                    |

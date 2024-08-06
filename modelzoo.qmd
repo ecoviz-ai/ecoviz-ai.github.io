@@ -1,45 +1,8 @@
 ---
 title: "Model Zoo"
-format: html
-editor: visual
+listing: 
+  contents: models
+  type: grid
+  sort: "title asc"
+  categories: true
 ---
-
-```{r, include=FALSE}
-library(reticulate)
-
-```
-
-```{python, include=FALSE}
-
-# Import necessary libraries
-import pandas as pd
-
-# Load the data into a pandas DataFrame
-data = pd.read_csv("modelzoo/ModelZoo.csv", dtype=str)  # Ensure all columns are read as strings
-
-# Function to create an HTML card for each model
-def create_model_card(model):
-    card_html = f"""
-    <div style="border:1px solid #e1e1e1; border-radius:5px; padding:10px; margin-bottom:20px; width:100%; max-width:300px; display:inline-block; vertical-align:top; margin-right:20px;">
-        <h3 style="margin:0;">{model['Model Name']}</h3>
-        {'<img src="'+model['Files & media']+'" style="width:100%; max-width:200px;" alt="'+model['Model Name']+'">' if pd.notna(model['Files & media']) else ''}
-        <p><strong>Description: </strong>{model['Description']}</p>
-        <p><strong>Broad Task: </strong>{model['Broad task']}</p>
-        <p><strong>Specific Task: </strong>{model['Specific task']}</p>
-        <p><strong>Language(s): </strong>{model['Language(s)']}</p>
-        <p><strong>Tool URL: </strong><a href="{model['Tool URL (Github or Link)']}">{model['Tool URL (Github or Link)']}</a></p>
-        <p><strong>Last Edited: </strong>{model['Last edited time']}</p>
-        <p><strong>Ecology Specific: </strong>{'Yes' if model['Ecology specific'] == 'Yes' else 'No'}</p>
-        <p><strong>AI Model Type(s): </strong>{model['AI model type(s)']}</p>
-        <p><strong>License: </strong>{model['License']}</p>
-        <p><strong>Contact: </strong>{model['Contact name']} ({model['Contact email']})</p>
-    </div>
-    """
-    return card_html
-
-# Render each model as a card
-html_output = ''.join([create_model_card(model) for index, model in data.iterrows()])
-#display(HTML(html_output))
-print(html_output)
-
-```

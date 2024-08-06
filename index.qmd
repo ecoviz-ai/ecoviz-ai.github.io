@@ -31,18 +31,18 @@ about:
 
 # EcoViz+AI Community of Practice
 
-Inaugurated March 25-29, 2024 at UC San Diego. 
+Inaugurated March 25-29, 2024 at UC San Diego.
 
 Organized by [Jessica Kendall-Bar](https://jessiekb.com)
 
-<iframe width="500" height="300" src="https://www.youtube.com/embed/0EGgKSQDEz8?si=PdSIO4GWA15KFus5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{{< video https://www.youtube.com/embed/0EGgKSQDEz8 >}}
 
 ### Website Resources
 
-- **What:** an in-person workshop to develop 5 use-cases for AI in Science within Ecology.
-- **Who:** invited experts in visualization, AI, and Ecology
-    - Read more about your [Roles & Expectations](https://www.notion.so/Roles-Expectations-a0cf47ee900844a48ed00dbc237145f1?pvs=21)
-- **Why:**
-    - Democratize access to AI, visualization, and computation in Ecology, empowering scientists to leverage new tools & create clear, explainable, [FAIR](https://www.go-fair.org/fair-principles/) examples of AI-integration in Ecology.
-- **Where:**
-    - UC San Diego: Scripps Institution of Oceanography and San Diego Supercomputer Center (SDSC)
+-   **What:** an in-person workshop to develop 5 use-cases for AI in Science within Ecology.
+-   **Who:** invited experts in visualization, AI, and Ecology
+    -   Read more about your [Roles & Expectations](https://www.notion.so/Roles-Expectations-a0cf47ee900844a48ed00dbc237145f1?pvs=21)
+-   **Why:**
+    -   Democratize access to AI, visualization, and computation in Ecology, empowering scientists to leverage new tools & create clear, explainable, [FAIR](https://www.go-fair.org/fair-principles/) examples of AI-integration in Ecology.
+-   **Where:**
+    -   UC San Diego: Scripps Institution of Oceanography and San Diego Supercomputer Center (SDSC)
