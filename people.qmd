@@ -14,21 +14,18 @@ people <- read_csv("media/People.csv")
 #| output: asis
 #| echo: false
 
+people$ImgPath <- paste0("media/people/", gsub(" ", "", people$Name), ".png")
+
 cbo <- "{"
 cbc <- "}"
 for (i in seq(nrow(people))) {
   cat(with(people[i, ], {
     str_glue(
 ":::{'person'}
-![Headshot of {Name}]({ImgPath}){cbo}width=250{cbc}
+![]({ImgPath}){cbo}width=150{cbc}
 
 ### {Name}
-
-{Role}
-
-{University}
-
-{Group}
+{Role} | {University} | {Group}
 :::
 
 
