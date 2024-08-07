@@ -2,7 +2,7 @@
 ---
 title: "Merlin Sound ID Bird App"
 description: "An app for identifying birds to species level worldwide"
-image: Merlin_Sound_ID_Bird_App.png
+image: ../../media/models/Merlin_Sound_ID_Bird_App.png
 ---
 
 | Model metadata             | Value                               |
@@ -14,7 +14,7 @@ image: Merlin_Sound_ID_Bird_App.png
 | {{< fa check-circle >}} Task Specific | Yes |
 | {{< fa globe >}} Ecology Specific | Yes |
 | {{< fa code >}} Language(s) | Python |
-| {{< fa clock >}} Last Edited Time | May 22, 2024 10:55 AM |
+| {{< fa clock >}} Last Edited Time | 5/22/24 10:55 |
 | {{< fa book-open >}} Related Publication(s) | [https://doi.org/10.1371/journal.pbio.1001220](https://doi.org/10.1371/journal.pbio.1001220) |
 | {{< fa puzzle-piece >}} Dependencies | nan |
 | {{< fa github >}} Tool URL (Github etc.) | [https://merlin.allaboutbirds.org/](https://merlin.allaboutbirds.org/) |
@@ -25,4 +25,4 @@ image: Merlin_Sound_ID_Bird_App.png
 | {{< fa phone >}} Contact Responsiveness | nan |
 | {{< fa hugging >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | nan |
-| {{< fa image >}} Image | ![Merlin Sound ID Bird App](Merlin_Sound_ID_Bird_App.png) |
+| {{< fa image >}} Image | ![Merlin Sound ID Bird App](../../media/models/Merlin_Sound_ID_Bird_App.png) |

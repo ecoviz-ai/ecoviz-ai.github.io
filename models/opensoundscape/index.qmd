@@ -2,7 +2,7 @@
 ---
 title: "opensoundscape"
 description: "Python package for analyzing bioacoustic data"
-image: opensoundscape.png
+image: ../../media/models/opensoundscape.png
 ---
 
 | Model metadata             | Value                               |
@@ -14,7 +14,7 @@ image: opensoundscape.png
 | {{< fa check-circle >}} Task Specific | Yes |
 | {{< fa globe >}} Ecology Specific | Yes |
 | {{< fa code >}} Language(s) | Python |
-| {{< fa clock >}} Last Edited Time | June 21, 2024 10:48 AM |
+| {{< fa clock >}} Last Edited Time | 6/21/24 10:48 |
 | {{< fa book-open >}} Related Publication(s) | [https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14196](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14196) |
 | {{< fa puzzle-piece >}} Dependencies | docopt, ipykernel, librosa, pandas, pytorch, torchvision |
 | {{< fa github >}} Tool URL (Github etc.) | [https://github.com/kitzeslab/opensoundscape](https://github.com/kitzeslab/opensoundscape) |
@@ -25,4 +25,4 @@ image: opensoundscape.png
 | {{< fa phone >}} Contact Responsiveness | Very responsive |
 | {{< fa hugging >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | nan |
-| {{< fa image >}} Image | ![opensoundscape](opensoundscape.png) |
+| {{< fa image >}} Image | ![opensoundscape](../../media/models/opensoundscape.png) |

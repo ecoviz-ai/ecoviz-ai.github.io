@@ -2,7 +2,7 @@
 ---
 title: "FrogID App"
 description: "An app for identifying frogs to species level worldwide"
-image: FrogID_App.png
+image: ../../media/models/FrogID_App.png
 ---
 
 | Model metadata             | Value                               |
@@ -14,7 +14,7 @@ image: FrogID_App.png
 | {{< fa check-circle >}} Task Specific | Yes |
 | {{< fa globe >}} Ecology Specific | Yes |
 | {{< fa code >}} Language(s) | nan |
-| {{< fa clock >}} Last Edited Time | June 27, 2024 2:26 AM |
+| {{< fa clock >}} Last Edited Time | 6/27/24 2:26 |
 | {{< fa book-open >}} Related Publication(s) | [https://doi.org/10.1093/biosci/biad012](https://doi.org/10.1093/biosci/biad012) |
 | {{< fa puzzle-piece >}} Dependencies | nan |
 | {{< fa github >}} Tool URL (Github etc.) | [https://www.frogid.net.au/](https://www.frogid.net.au/) |
@@ -25,4 +25,4 @@ image: FrogID_App.png
 | {{< fa phone >}} Contact Responsiveness | Very responsive |
 | {{< fa hugging >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | nan |
-| {{< fa image >}} Image | ![FrogID App](FrogID_App.png) |
+| {{< fa image >}} Image | ![FrogID App](../../media/models/FrogID_App.png) |

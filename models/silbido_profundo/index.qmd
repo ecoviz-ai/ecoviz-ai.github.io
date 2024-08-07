@@ -2,7 +2,7 @@
 ---
 title: "silbido profundo"
 description: "An open source package for the use of deep learning to detect odontocete whistles"
-image: silbido_profundo.png
+image: ../../media/models/silbido_profundo.png
 ---
 
 | Model metadata             | Value                               |
@@ -14,7 +14,7 @@ image: silbido_profundo.png
 | {{< fa check-circle >}} Task Specific | Yes |
 | {{< fa globe >}} Ecology Specific | Yes |
 | {{< fa code >}} Language(s) | C, C++, Java, MATLAB |
-| {{< fa clock >}} Last Edited Time | May 23, 2024 7:19 AM |
+| {{< fa clock >}} Last Edited Time | 5/23/24 7:19 |
 | {{< fa book-open >}} Related Publication(s) | [https://doi.org/10.1121/10.0016631](https://doi.org/10.1121/10.0016631) |
 | {{< fa puzzle-piece >}} Dependencies | nan |
 | {{< fa github >}} Tool URL (Github etc.) | [https://github.com/MarineBioAcousticsRC/silbido](https://github.com/MarineBioAcousticsRC/silbido) |
@@ -25,4 +25,4 @@ image: silbido_profundo.png
 | {{< fa phone >}} Contact Responsiveness | nan |
 | {{< fa hugging >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | makefile |
-| {{< fa image >}} Image | ![silbido profundo](silbido_profundo.png) |
+| {{< fa image >}} Image | ![silbido profundo](../../media/models/silbido_profundo.png) |

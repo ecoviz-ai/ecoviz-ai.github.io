@@ -1,8 +1,8 @@
 
 ---
-title: "https://github.com/SCSLabISU/xPLNet"
+title: "xPLNet"
 description: "AI classification of leaf pictures into different environmental stresses/diseases. Explainable model. Developped with soybean leaves, works with other species. "
-image: https://github.com/SCSLabISU/xPLNet.png
+image: ../../media/models/xPLNet.png
 ---
 
 | Model metadata             | Value                               |
@@ -14,7 +14,7 @@ image: https://github.com/SCSLabISU/xPLNet.png
 | {{< fa check-circle >}} Task Specific | Yes |
 | {{< fa globe >}} Ecology Specific | Yes |
 | {{< fa code >}} Language(s) | Python |
-| {{< fa clock >}} Last Edited Time | June 23, 2024 3:05 PM |
+| {{< fa clock >}} Last Edited Time | 6/23/24 15:05 |
 | {{< fa book-open >}} Related Publication(s) | [https://www.pnas.org/doi/10.1073/pnas.1716999115](https://www.pnas.org/doi/10.1073/pnas.1716999115) |
 | {{< fa puzzle-piece >}} Dependencies | keras, numpy, theano |
 | {{< fa github >}} Tool URL (Github etc.) | [https://github.com/SCSLabISU/xPLNet](https://github.com/SCSLabISU/xPLNet) |
@@ -25,4 +25,4 @@ image: https://github.com/SCSLabISU/xPLNet.png
 | {{< fa phone >}} Contact Responsiveness | nan |
 | {{< fa hugging >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | nan |
-| {{< fa image >}} Image | ![https://github.com/SCSLabISU/xPLNet](https://github.com/SCSLabISU/xPLNet.png) |
+| {{< fa image >}} Image | ![xPLNet](../../media/models/xPLNet.png) |

@@ -2,7 +2,7 @@
 ---
 title: "somnotate"
 description: "Probabilistic sleep scoring software to combine linear discriminant analysis (LDA) and hidden Markov models (HMM)."
-image: somnotate.png
+image: ../../media/models/somnotate.png
 ---
 
 | Model metadata             | Value                               |
@@ -14,7 +14,7 @@ image: somnotate.png
 | {{< fa check-circle >}} Task Specific | Yes |
 | {{< fa globe >}} Ecology Specific | No |
 | {{< fa code >}} Language(s) | Python |
-| {{< fa clock >}} Last Edited Time | June 21, 2024 10:10 AM |
+| {{< fa clock >}} Last Edited Time | 6/21/24 10:10 |
 | {{< fa book-open >}} Related Publication(s) | [https://doi.org/10.1371/journal.pcbi.1011793](https://doi.org/10.1371/journal.pcbi.1011793) |
 | {{< fa puzzle-piece >}} Dependencies | matplotlib, numpy, pomegranate, scikit-learn |
 | {{< fa github >}} Tool URL (Github etc.) | [https://github.com/paulbrodersen/somnotate/tree/master](https://github.com/paulbrodersen/somnotate/tree/master) |
@@ -25,4 +25,4 @@ image: somnotate.png
 | {{< fa phone >}} Contact Responsiveness | Very responsive |
 | {{< fa hugging >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | nan |
-| {{< fa image >}} Image | ![somnotate](somnotate.png) |
+| {{< fa image >}} Image | ![somnotate](../../media/models/somnotate.png) |

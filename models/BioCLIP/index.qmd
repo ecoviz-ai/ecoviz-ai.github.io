@@ -2,7 +2,7 @@
 ---
 title: "BioCLIP"
 description: "BioCLIP is a computer vision model, fine tuned for species identification. "
-image: BioCLIP.png
+image: ../../media/models/BioCLIP.png
 ---
 
 | Model metadata             | Value                               |
@@ -14,7 +14,7 @@ image: BioCLIP.png
 | {{< fa check-circle >}} Task Specific | Yes |
 | {{< fa globe >}} Ecology Specific | Yes |
 | {{< fa code >}} Language(s) | Python |
-| {{< fa clock >}} Last Edited Time | June 21, 2024 10:12 AM |
+| {{< fa clock >}} Last Edited Time | 6/21/24 10:12 |
 | {{< fa book-open >}} Related Publication(s) | [https://arxiv.org/abs/2311.18803](https://arxiv.org/abs/2311.18803) |
 | {{< fa puzzle-piece >}} Dependencies | open_clip |
 | {{< fa github >}} Tool URL (Github etc.) | [https://github.com/Imageomics/bioclip](https://github.com/Imageomics/bioclip) |
@@ -25,4 +25,4 @@ image: BioCLIP.png
 | {{< fa phone >}} Contact Responsiveness | nan |
 | {{< fa hugging >}} HuggingFace URL | [https://huggingface.co/imageomics/bioclip](https://huggingface.co/imageomics/bioclip) |
 | {{< fa cog >}} Reproducibility Method | makefile |
-| {{< fa image >}} Image | ![BioCLIP](BioCLIP.png) |
+| {{< fa image >}} Image | ![BioCLIP](../../media/models/BioCLIP.png) |

@@ -2,7 +2,7 @@
 ---
 title: "Voxaboxen"
 description: "Voxaboxen is a deep learning framework designed to find the start and stop times of (possibly overlapping) sound events in a recording. "
-image: Voxaboxen.png
+image: ../../media/models/Voxaboxen.png
 ---
 
 | Model metadata             | Value                               |
@@ -14,7 +14,7 @@ image: Voxaboxen.png
 | {{< fa check-circle >}} Task Specific | Yes |
 | {{< fa globe >}} Ecology Specific | Yes |
 | {{< fa code >}} Language(s) | Python |
-| {{< fa clock >}} Last Edited Time | June 21, 2024 10:24 AM |
+| {{< fa clock >}} Last Edited Time | 6/21/24 10:24 |
 | {{< fa book-open >}} Related Publication(s) | [https://doi.org/10.5281/zenodo.8381019](https://doi.org/10.5281/zenodo.8381019) |
 | {{< fa puzzle-piece >}} Dependencies | PyYAML, einops, intervaltree, librosa, matplotlib, mir_eval, numpy, pandas, plumbum, pytorch, scipy, seaborn, soundfile, torchaudio, tqdm |
 | {{< fa github >}} Tool URL (Github etc.) | [https://github.com/earthspecies/voxaboxen](https://github.com/earthspecies/voxaboxen) |
@@ -25,4 +25,4 @@ image: Voxaboxen.png
 | {{< fa phone >}} Contact Responsiveness | Very responsive |
 | {{< fa hugging >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | nan |
-| {{< fa image >}} Image | ![Voxaboxen](Voxaboxen.png) |
+| {{< fa image >}} Image | ![Voxaboxen](../../media/models/Voxaboxen.png) |

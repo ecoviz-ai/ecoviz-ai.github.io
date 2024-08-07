@@ -2,7 +2,7 @@
 ---
 title: "noisereduce"
 description: "noisereduce is a domain-general noise reduction tool for bioacoustics and other time domain signals. "
-image: noisereduce.png
+image: ../../media/models/noisereduce.png
 ---
 
 | Model metadata             | Value                               |
@@ -14,7 +14,7 @@ image: noisereduce.png
 | {{< fa check-circle >}} Task Specific | Yes |
 | {{< fa globe >}} Ecology Specific | No |
 | {{< fa code >}} Language(s) | Python |
-| {{< fa clock >}} Last Edited Time | June 21, 2024 10:20 AM |
+| {{< fa clock >}} Last Edited Time | 6/21/24 10:20 |
 | {{< fa book-open >}} Related Publication(s) | [https://doi.org/10.1371/journal.pcbi.1008228](https://doi.org/10.1371/journal.pcbi.1008228) |
 | {{< fa puzzle-piece >}} Dependencies | numpy, pytorch, scipy |
 | {{< fa github >}} Tool URL (Github etc.) | [https://github.com/timsainb/noisereduce](https://github.com/timsainb/noisereduce) |
@@ -25,4 +25,4 @@ image: noisereduce.png
 | {{< fa phone >}} Contact Responsiveness | Very responsive |
 | {{< fa hugging >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | nan |
-| {{< fa image >}} Image | ![noisereduce](noisereduce.png) |
+| {{< fa image >}} Image | ![noisereduce](../../media/models/noisereduce.png) |

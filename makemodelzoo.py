@@ -3,7 +3,7 @@ import os
 # import shutil
 
 # Path to the CSV file
-csv_path = 'modelzoo/ModelZoo.csv'
+csv_path = 'models/ModelZoo.csv'
 
 # Read the CSV into a DataFrame
 df = pd.read_csv(csv_path)
@@ -15,12 +15,13 @@ base_dir = './models'
 # Iterate over each row in the DataFrame to create directories and files
 for index, row in df.iterrows():
     model_dir = os.path.join(base_dir, row['Model Name'].replace(' ', '_'))
+    media_dir = os.path.join(base_dir, "models")
     os.makedirs(model_dir, exist_ok=True)
     
     # Path to Quarto document and image
     qmd_filename = os.path.join(model_dir, 'index.qmd')
     original_image_path = row['Files & media']
-    image_filename = os.path.join(model_dir, f"{row['Model Name'].replace(' ', '_')}.png")
+    image_filename = os.path.join(media_dir, f"{row['Model Name'].replace(' ', '_')}.png")
     
     # Copy the image file to the new location
     # shutil.copy(original_image_path, image_filename) # Uncomment and use the actual path if you handle image files
@@ -30,7 +31,7 @@ for index, row in df.iterrows():
 ---
 title: "{row['Model Name']}"
 description: "{row['Description']}"
-image: {row['Model Name'].replace(' ', '_')}.png
+image: ../../media/models/{row['Model Name'].replace(' ', '_')}.png
 ---
 
 | Model metadata             | Value                               |
@@ -53,7 +54,7 @@ image: {row['Model Name'].replace(' ', '_')}.png
 | {{{{< fa phone >}}}} Contact Responsiveness | {row['Contact responsiveness']} |
 | {{{{< fa hugging >}}}} HuggingFace URL | [{row['HuggingFace URL']}]({row['HuggingFace URL']}) |
 | {{{{< fa cog >}}}} Reproducibility Method | {row['Reproducibility methods']} |
-| {{{{< fa image >}}}} Image | ![{row['Model Name']}]({row['Model Name'].replace(' ', '_')}.png) |
+| {{{{< fa image >}}}} Image | ![{row['Model Name']}](../../media/models/{row['Model Name'].replace(' ', '_')}.png) |
 """
 
     # Write the Quarto document
