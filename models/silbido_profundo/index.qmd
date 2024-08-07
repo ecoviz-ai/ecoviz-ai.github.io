@@ -2,9 +2,17 @@
 ---
 title: "silbido profundo"
 description: "An open source package for the use of deep learning to detect odontocete whistles"
-title-block-banner: ../../media/models/silbido_profundo.png
 categories: ["Acoustics processing", "Tonal Call Detection", "Package or Library"]
 image: ../../media/models/silbido_profundo.png
+title-block-banner: ../../media/models/silbido_profundo.png
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: bottom-right;
+        height: 500px;
+      }
+      </style>
 ---
 
 | Model metadata             | Value                               |
@@ -28,4 +36,3 @@ image: ../../media/models/silbido_profundo.png
 | {{< fa phone >}} Contact Responsiveness | nan |
 | {{< fa hug >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | makefile |
-| {{< fa image >}} Image | ![silbido profundo](../../media/models/silbido_profundo.png) |

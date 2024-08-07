@@ -31,9 +31,17 @@ for index, row in df.iterrows():
 ---
 title: "{row['Model Name']}"
 description: "{row['Description']}"
-title-block-banner: ../../media/models/{row['Model Name'].replace(' ', '_')}.png
 categories: ["{row['Broad task']}", "{row['Specific task']}", "{row['Tool Type']}"]
 image: ../../media/models/{row['Model Name'].replace(' ', '_')}.png
+title-block-banner: ../../media/models/{row['Model Name'].replace(' ', '_')}.png
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {{
+        background-position-y: bottom-right;
+        height: 500px;
+      }}
+      </style>
 ---
 
 | Model metadata             | Value                               |
@@ -57,7 +65,6 @@ image: ../../media/models/{row['Model Name'].replace(' ', '_')}.png
 | {{{{< fa phone >}}}} Contact Responsiveness | {row['Contact responsiveness']} |
 | {{{{< fa hug >}}}} HuggingFace URL | [{row['HuggingFace URL']}]({row['HuggingFace URL']}) |
 | {{{{< fa cog >}}}} Reproducibility Method | {row['Reproducibility methods']} |
-| {{{{< fa image >}}}} Image | ![{row['Model Name']}](../../media/models/{row['Model Name'].replace(' ', '_')}.png) |
 """
 
     # Write the Quarto document

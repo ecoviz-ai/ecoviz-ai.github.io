@@ -2,9 +2,17 @@
 ---
 title: "opensoundscape"
 description: "Python package for analyzing bioacoustic data"
-title-block-banner: ../../media/models/opensoundscape.png
 categories: ["Acoustic classification, Acoustics processing", "Call Identification, Signal Processing", "Package or Library"]
 image: ../../media/models/opensoundscape.png
+title-block-banner: ../../media/models/opensoundscape.png
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: bottom-right;
+        height: 500px;
+      }
+      </style>
 ---
 
 | Model metadata             | Value                               |
@@ -28,4 +36,3 @@ image: ../../media/models/opensoundscape.png
 | {{< fa phone >}} Contact Responsiveness | Very responsive |
 | {{< fa hug >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | nan |
-| {{< fa image >}} Image | ![opensoundscape](../../media/models/opensoundscape.png) |

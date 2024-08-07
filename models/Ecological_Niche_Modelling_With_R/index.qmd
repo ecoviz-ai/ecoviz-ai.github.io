@@ -2,9 +2,17 @@
 ---
 title: "Ecological Niche Modelling With R"
 description: "A workflow to simplify the process of estimating spatial probability distributions (species presence/absence) given a set of environmental parameters."
-title-block-banner: ../../media/models/Ecological_Niche_Modelling_With_R.png
 categories: ["Species distribution model", "Ecological Niche Modeling", "Research Compendium"]
 image: ../../media/models/Ecological_Niche_Modelling_With_R.png
+title-block-banner: ../../media/models/Ecological_Niche_Modelling_With_R.png
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: bottom-right;
+        height: 500px;
+      }
+      </style>
 ---
 
 | Model metadata             | Value                               |
@@ -28,4 +36,3 @@ image: ../../media/models/Ecological_Niche_Modelling_With_R.png
 | {{< fa phone >}} Contact Responsiveness | nan |
 | {{< fa hug >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | nan |
-| {{< fa image >}} Image | ![Ecological Niche Modelling With R](../../media/models/Ecological_Niche_Modelling_With_R.png) |

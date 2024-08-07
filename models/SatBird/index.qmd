@@ -2,9 +2,17 @@
 ---
 title: "SatBird"
 description: "SatBird is a dataset and benchmark models for the task of predicting bird species encounter rates jointly at a specific location using remote sensing data. "
-title-block-banner: ../../media/models/SatBird.png
 categories: ["Species distribution model", "Habitat suitability", "Benchmarked Dataset"]
 image: ../../media/models/SatBird.png
+title-block-banner: ../../media/models/SatBird.png
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: bottom-right;
+        height: 500px;
+      }
+      </style>
 ---
 
 | Model metadata             | Value                               |
@@ -28,4 +36,3 @@ image: ../../media/models/SatBird.png
 | {{< fa phone >}} Contact Responsiveness | Very responsive |
 | {{< fa hug >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | nan |
-| {{< fa image >}} Image | ![SatBird](../../media/models/SatBird.png) |
