@@ -2,6 +2,8 @@
 ---
 title: "HappyWhale"
 description: "AI-assisted individual ID of humpback whale flukes and multi-species dorsal fin ID"
+title-block-banner: ../../media/models/HappyWhale.png
+categories: ["Image classification", "Marine mammal photo identification", "Web GUI"]
 image: ../../media/models/HappyWhale.png
 ---
 
@@ -10,6 +12,7 @@ image: ../../media/models/HappyWhale.png
 | {{< fa cube >}} Tool Type | [Web GUI]{.tool_type .tool_type_pkglib} |
 | {{< fa tasks >}} Broad Task | Image classification |
 | {{< fa filter >}} Specific Task | Marine mammal photo identification |
+| {{< fa brain >}} Model type | Computer vision |
 | {{< fa book >}} Description | AI-assisted individual ID of humpback whale flukes and multi-species dorsal fin ID |
 | {{< fa check-circle >}} Task Specific | Yes |
 | {{< fa globe >}} Ecology Specific | Yes |
@@ -23,6 +26,6 @@ image: ../../media/models/HappyWhale.png
 | {{< fa user >}} Contact Name | Ted Cheeseman |
 | {{< fa envelope >}} Contact Email | [mailto:ted@happywhale.com](mailto:ted@happywhale.com) |
 | {{< fa phone >}} Contact Responsiveness | Very responsive |
-| {{< fa hugging >}} HuggingFace URL | [nan](nan) |
+| {{< fa hug >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | nan |
 | {{< fa image >}} Image | ![HappyWhale](../../media/models/HappyWhale.png) |

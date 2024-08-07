@@ -2,6 +2,8 @@
 ---
 title: "xPLNet"
 description: "AI classification of leaf pictures into different environmental stresses/diseases. Explainable model. Developped with soybean leaves, works with other species. "
+title-block-banner: ../../media/models/xPLNet.png
+categories: ["Image classification", "Plant stress phenotyping", "Research Compendium"]
 image: ../../media/models/xPLNet.png
 ---
 
@@ -10,6 +12,7 @@ image: ../../media/models/xPLNet.png
 | {{< fa cube >}} Tool Type | [Research Compendium]{.tool_type .tool_type_pkglib} |
 | {{< fa tasks >}} Broad Task | Image classification |
 | {{< fa filter >}} Specific Task | Plant stress phenotyping |
+| {{< fa brain >}} Model type | Convolutional Neural Network |
 | {{< fa book >}} Description | AI classification of leaf pictures into different environmental stresses/diseases. Explainable model. Developped with soybean leaves, works with other species.  |
 | {{< fa check-circle >}} Task Specific | Yes |
 | {{< fa globe >}} Ecology Specific | Yes |
@@ -23,6 +26,6 @@ image: ../../media/models/xPLNet.png
 | {{< fa user >}} Contact Name | Soumik Sarkar; Arti Singh |
 | {{< fa envelope >}} Contact Email | [mailto:soumiks@iastate.edu; mailto:arti@iastate.edu](mailto:soumiks@iastate.edu; mailto:arti@iastate.edu) |
 | {{< fa phone >}} Contact Responsiveness | nan |
-| {{< fa hugging >}} HuggingFace URL | [nan](nan) |
+| {{< fa hug >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | nan |
 | {{< fa image >}} Image | ![xPLNet](../../media/models/xPLNet.png) |

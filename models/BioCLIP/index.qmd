@@ -2,6 +2,8 @@
 ---
 title: "BioCLIP"
 description: "BioCLIP is a computer vision model, fine tuned for species identification. "
+title-block-banner: ../../media/models/BioCLIP.png
+categories: ["Image classification", "Species Identification", "Package or Library"]
 image: ../../media/models/BioCLIP.png
 ---
 
@@ -10,6 +12,7 @@ image: ../../media/models/BioCLIP.png
 | {{< fa cube >}} Tool Type | [Package or Library]{.tool_type .tool_type_pkglib} |
 | {{< fa tasks >}} Broad Task | Image classification |
 | {{< fa filter >}} Specific Task | Species Identification |
+| {{< fa brain >}} Model type | Convolutional Neural Network, Transformer |
 | {{< fa book >}} Description | BioCLIP is a computer vision model, fine tuned for species identification.  |
 | {{< fa check-circle >}} Task Specific | Yes |
 | {{< fa globe >}} Ecology Specific | Yes |
@@ -23,6 +26,6 @@ image: ../../media/models/BioCLIP.png
 | {{< fa user >}} Contact Name | Samuel Stevens |
 | {{< fa envelope >}} Contact Email | [mailto:stevens.994@buckeyemail.osu.edu](mailto:stevens.994@buckeyemail.osu.edu) |
 | {{< fa phone >}} Contact Responsiveness | nan |
-| {{< fa hugging >}} HuggingFace URL | [https://huggingface.co/imageomics/bioclip](https://huggingface.co/imageomics/bioclip) |
+| {{< fa hug >}} HuggingFace URL | [https://huggingface.co/imageomics/bioclip](https://huggingface.co/imageomics/bioclip) |
 | {{< fa cog >}} Reproducibility Method | makefile |
 | {{< fa image >}} Image | ![BioCLIP](../../media/models/BioCLIP.png) |

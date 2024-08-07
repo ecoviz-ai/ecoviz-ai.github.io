@@ -2,6 +2,8 @@
 ---
 title: "Voxaboxen"
 description: "Voxaboxen is a deep learning framework designed to find the start and stop times of (possibly overlapping) sound events in a recording. "
+title-block-banner: ../../media/models/Voxaboxen.png
+categories: ["Acoustic classification", "Call Identification", "Package or Library"]
 image: ../../media/models/Voxaboxen.png
 ---
 
@@ -10,6 +12,7 @@ image: ../../media/models/Voxaboxen.png
 | {{< fa cube >}} Tool Type | [Package or Library]{.tool_type .tool_type_pkglib} |
 | {{< fa tasks >}} Broad Task | Acoustic classification |
 | {{< fa filter >}} Specific Task | Call Identification |
+| {{< fa brain >}} Model type | AVES, Transformer |
 | {{< fa book >}} Description | Voxaboxen is a deep learning framework designed to find the start and stop times of (possibly overlapping) sound events in a recording.  |
 | {{< fa check-circle >}} Task Specific | Yes |
 | {{< fa globe >}} Ecology Specific | Yes |
@@ -23,6 +26,6 @@ image: ../../media/models/Voxaboxen.png
 | {{< fa user >}} Contact Name | Benjamin Hoffman |
 | {{< fa envelope >}} Contact Email | [mailto:benjamin@earthspecies.org](mailto:benjamin@earthspecies.org) |
 | {{< fa phone >}} Contact Responsiveness | Very responsive |
-| {{< fa hugging >}} HuggingFace URL | [nan](nan) |
+| {{< fa hug >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | nan |
 | {{< fa image >}} Image | ![Voxaboxen](../../media/models/Voxaboxen.png) |

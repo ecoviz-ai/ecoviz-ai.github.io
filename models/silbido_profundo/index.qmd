@@ -2,6 +2,8 @@
 ---
 title: "silbido profundo"
 description: "An open source package for the use of deep learning to detect odontocete whistles"
+title-block-banner: ../../media/models/silbido_profundo.png
+categories: ["Acoustics processing", "Tonal Call Detection", "Package or Library"]
 image: ../../media/models/silbido_profundo.png
 ---
 
@@ -10,6 +12,7 @@ image: ../../media/models/silbido_profundo.png
 | {{< fa cube >}} Tool Type | [Package or Library]{.tool_type .tool_type_pkglib} |
 | {{< fa tasks >}} Broad Task | Acoustics processing |
 | {{< fa filter >}} Specific Task | Tonal Call Detection |
+| {{< fa brain >}} Model type | Convolutional Neural Network, Graph Search Algorithms |
 | {{< fa book >}} Description | An open source package for the use of deep learning to detect odontocete whistles |
 | {{< fa check-circle >}} Task Specific | Yes |
 | {{< fa globe >}} Ecology Specific | Yes |
@@ -23,6 +26,6 @@ image: ../../media/models/silbido_profundo.png
 | {{< fa user >}} Contact Name | Marie Roch |
 | {{< fa envelope >}} Contact Email | [marie.roch@sdsu.edu](marie.roch@sdsu.edu) |
 | {{< fa phone >}} Contact Responsiveness | nan |
-| {{< fa hugging >}} HuggingFace URL | [nan](nan) |
+| {{< fa hug >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | makefile |
 | {{< fa image >}} Image | ![silbido profundo](../../media/models/silbido_profundo.png) |

@@ -2,6 +2,8 @@
 ---
 title: "SatBird"
 description: "SatBird is a dataset and benchmark models for the task of predicting bird species encounter rates jointly at a specific location using remote sensing data. "
+title-block-banner: ../../media/models/SatBird.png
+categories: ["Species distribution model", "Habitat suitability", "Benchmarked Dataset"]
 image: ../../media/models/SatBird.png
 ---
 
@@ -10,6 +12,7 @@ image: ../../media/models/SatBird.png
 | {{< fa cube >}} Tool Type | [Benchmarked Dataset]{.tool_type .tool_type_pkglib} |
 | {{< fa tasks >}} Broad Task | Species distribution model |
 | {{< fa filter >}} Specific Task | Habitat suitability |
+| {{< fa brain >}} Model type | Convolutional Neural Network, ResNet, SATLAS, SatMAE |
 | {{< fa book >}} Description | SatBird is a dataset and benchmark models for the task of predicting bird species encounter rates jointly at a specific location using remote sensing data.  |
 | {{< fa check-circle >}} Task Specific | Yes |
 | {{< fa globe >}} Ecology Specific | Yes |
@@ -23,6 +26,6 @@ image: ../../media/models/SatBird.png
 | {{< fa user >}} Contact Name | Melisande Teng |
 | {{< fa envelope >}} Contact Email | [mailto:tengmeli@mila.quebec](mailto:tengmeli@mila.quebec) |
 | {{< fa phone >}} Contact Responsiveness | Very responsive |
-| {{< fa hugging >}} HuggingFace URL | [nan](nan) |
+| {{< fa hug >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | nan |
 | {{< fa image >}} Image | ![SatBird](../../media/models/SatBird.png) |

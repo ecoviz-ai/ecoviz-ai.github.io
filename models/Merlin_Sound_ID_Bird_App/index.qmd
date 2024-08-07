@@ -2,6 +2,8 @@
 ---
 title: "Merlin Sound ID Bird App"
 description: "An app for identifying birds to species level worldwide"
+title-block-banner: ../../media/models/Merlin_Sound_ID_Bird_App.png
+categories: ["Acoustic classification", "Species Identification", "Mobile App"]
 image: ../../media/models/Merlin_Sound_ID_Bird_App.png
 ---
 
@@ -10,6 +12,7 @@ image: ../../media/models/Merlin_Sound_ID_Bird_App.png
 | {{< fa cube >}} Tool Type | [Mobile App]{.tool_type .tool_type_pkglib} |
 | {{< fa tasks >}} Broad Task | Acoustic classification |
 | {{< fa filter >}} Specific Task | Species Identification |
+| {{< fa brain >}} Model type | Convolutional Neural Network, MobileNet |
 | {{< fa book >}} Description | An app for identifying birds to species level worldwide |
 | {{< fa check-circle >}} Task Specific | Yes |
 | {{< fa globe >}} Ecology Specific | Yes |
@@ -23,6 +26,6 @@ image: ../../media/models/Merlin_Sound_ID_Bird_App.png
 | {{< fa user >}} Contact Name | nan |
 | {{< fa envelope >}} Contact Email | [nan](nan) |
 | {{< fa phone >}} Contact Responsiveness | nan |
-| {{< fa hugging >}} HuggingFace URL | [nan](nan) |
+| {{< fa hug >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | nan |
 | {{< fa image >}} Image | ![Merlin Sound ID Bird App](../../media/models/Merlin_Sound_ID_Bird_App.png) |

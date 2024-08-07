@@ -31,6 +31,8 @@ for index, row in df.iterrows():
 ---
 title: "{row['Model Name']}"
 description: "{row['Description']}"
+title-block-banner: ../../media/models/{row['Model Name'].replace(' ', '_')}.png
+categories: ["{row['Broad task']}", "{row['Specific task']}", "{row['Tool Type']}"]
 image: ../../media/models/{row['Model Name'].replace(' ', '_')}.png
 ---
 
@@ -39,6 +41,7 @@ image: ../../media/models/{row['Model Name'].replace(' ', '_')}.png
 | {{{{< fa cube >}}}} Tool Type | [{row['Tool Type']}]{{.tool_type .tool_type_pkglib}} |
 | {{{{< fa tasks >}}}} Broad Task | {row['Broad task']} |
 | {{{{< fa filter >}}}} Specific Task | {row['Specific task']} |
+| {{{{< fa brain >}}}} Model type | {row['Model type']} |
 | {{{{< fa book >}}}} Description | {row['Description']} |
 | {{{{< fa check-circle >}}}} Task Specific | {row['Task specific']} |
 | {{{{< fa globe >}}}} Ecology Specific | {row['Ecology specific']} |
@@ -52,7 +55,7 @@ image: ../../media/models/{row['Model Name'].replace(' ', '_')}.png
 | {{{{< fa user >}}}} Contact Name | {row['Contact name']} |
 | {{{{< fa envelope >}}}} Contact Email | [{row['Contact email']}]({row['Contact email']}) |
 | {{{{< fa phone >}}}} Contact Responsiveness | {row['Contact responsiveness']} |
-| {{{{< fa hugging >}}}} HuggingFace URL | [{row['HuggingFace URL']}]({row['HuggingFace URL']}) |
+| {{{{< fa hug >}}}} HuggingFace URL | [{row['HuggingFace URL']}]({row['HuggingFace URL']}) |
 | {{{{< fa cog >}}}} Reproducibility Method | {row['Reproducibility methods']} |
 | {{{{< fa image >}}}} Image | ![{row['Model Name']}](../../media/models/{row['Model Name'].replace(' ', '_')}.png) |
 """

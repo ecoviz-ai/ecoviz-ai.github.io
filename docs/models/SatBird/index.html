@@ -70,6 +70,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background-image: url(../../media/models/SatBird.png);
+background-size: cover;
+      }
+</style>
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -79,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -117,37 +124,43 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">SatBird</h1>
+                  <div>
+        <div class="description">
+          SatBird is a dataset and benchmark models for the task of predicting bird species encounter rates jointly at a specific location using remote sensing data.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Species distribution model</div>
+                <div class="quarto-category">Habitat suitability</div>
+                <div class="quarto-category">Benchmarked Dataset</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">SatBird</h1>
-</div>
-
-<div>
-  <div class="description">
-    SatBird is a dataset and benchmark models for the task of predicting bird species encounter rates jointly at a specific location using remote sensing data.
-  </div>
-</div>
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
-<div class="quarto-title-meta column-page">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 <table class="caption-top table">
@@ -175,66 +188,70 @@ ul.task-list li input[type="checkbox"] {
 <td>Habitat suitability</td>
 </tr>
 <tr class="even">
+<td><i class="fa-solid fa-brain" aria-label="brain"></i> Model type</td>
+<td>Convolutional Neural Network, ResNet, SATLAS, SatMAE</td>
+</tr>
+<tr class="odd">
 <td><i class="fa-solid fa-book" aria-label="book"></i> Description</td>
 <td>SatBird is a dataset and benchmark models for the task of predicting bird species encounter rates jointly at a specific location using remote sensing data.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><i class="fa-solid fa-check-circle" aria-label="check-circle"></i> Task Specific</td>
 <td>Yes</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><i class="fa-solid fa-globe" aria-label="globe"></i> Ecology Specific</td>
 <td>Yes</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><i class="fa-solid fa-code" aria-label="code"></i> Language(s)</td>
 <td>Python</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><i class="fa-solid fa-clock" aria-label="clock"></i> Last Edited Time</td>
 <td>5/23/24 7:16</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><i class="fa-solid fa-book-open" aria-label="book-open"></i> Related Publication(s)</td>
 <td><a href="https://doi.org/10.48550/arXiv.2311.00936">https://doi.org/10.48550/arXiv.2311.00936</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><i class="fa-solid fa-puzzle-piece" aria-label="puzzle-piece"></i> Dependencies</td>
 <td>pytorch, torchaudio, torchvision, etc.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><i class="fa-solid fa-github" aria-label="github"></i> Tool URL (Github etc.)</td>
 <td><a href="https://github.com/RolnickLab/SatBird/">https://github.com/RolnickLab/SatBird/</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><i class="fa-solid fa-sync-alt" aria-label="sync-alt"></i> Last Update (time ago)</td>
 <td>Last updated within 6 months</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><i class="fa-solid fa-balance-scale" aria-label="balance-scale"></i> License</td>
 <td>GPL-3.0</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><i class="fa-solid fa-user" aria-label="user"></i> Contact Name</td>
 <td>Melisande Teng</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><i class="fa-solid fa-envelope" aria-label="envelope"></i> Contact Email</td>
 <td><a href="mailto:tengmeli@mila.quebec">mailto:tengmeli@mila.quebec</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><i class="fa-solid fa-phone" aria-label="phone"></i> Contact Responsiveness</td>
 <td>Very responsive</td>
 </tr>
-<tr class="odd">
-<td><i class="fa-solid fa-hugging" aria-label="hugging"></i> HuggingFace URL</td>
+<tr class="even">
+<td><i class="fa-solid fa-hug" aria-label="hug"></i> HuggingFace URL</td>
 <td><a href="nan">nan</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><i class="fa-solid fa-cog" aria-label="cog"></i> Reproducibility Method</td>
 <td>nan</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><i class="fa-solid fa-image" aria-label="image"></i> Image</td>
 <td><img src="../../media/models/SatBird.png" class="img-fluid" alt="SatBird"></td>
 </tr>

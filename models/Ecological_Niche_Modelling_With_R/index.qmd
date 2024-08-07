@@ -2,6 +2,8 @@
 ---
 title: "Ecological Niche Modelling With R"
 description: "A workflow to simplify the process of estimating spatial probability distributions (species presence/absence) given a set of environmental parameters."
+title-block-banner: ../../media/models/Ecological_Niche_Modelling_With_R.png
+categories: ["Species distribution model", "Ecological Niche Modeling", "Research Compendium"]
 image: ../../media/models/Ecological_Niche_Modelling_With_R.png
 ---
 
@@ -10,6 +12,7 @@ image: ../../media/models/Ecological_Niche_Modelling_With_R.png
 | {{< fa cube >}} Tool Type | [Research Compendium]{.tool_type .tool_type_pkglib} |
 | {{< fa tasks >}} Broad Task | Species distribution model |
 | {{< fa filter >}} Specific Task | Ecological Niche Modeling |
+| {{< fa brain >}} Model type | MaxEnt, Neural Network |
 | {{< fa book >}} Description | A workflow to simplify the process of estimating spatial probability distributions (species presence/absence) given a set of environmental parameters. |
 | {{< fa check-circle >}} Task Specific | Yes |
 | {{< fa globe >}} Ecology Specific | Yes |
@@ -23,6 +26,6 @@ image: ../../media/models/Ecological_Niche_Modelling_With_R.png
 | {{< fa user >}} Contact Name | Gianpaolo Coro |
 | {{< fa envelope >}} Contact Email | [mailto:gianpaolo.coro@isti.cnr.it ](mailto:gianpaolo.coro@isti.cnr.it ) |
 | {{< fa phone >}} Contact Responsiveness | nan |
-| {{< fa hugging >}} HuggingFace URL | [nan](nan) |
+| {{< fa hug >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | nan |
 | {{< fa image >}} Image | ![Ecological Niche Modelling With R](../../media/models/Ecological_Niche_Modelling_With_R.png) |

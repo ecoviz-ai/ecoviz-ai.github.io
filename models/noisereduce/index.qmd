@@ -2,6 +2,8 @@
 ---
 title: "noisereduce"
 description: "noisereduce is a domain-general noise reduction tool for bioacoustics and other time domain signals. "
+title-block-banner: ../../media/models/noisereduce.png
+categories: ["Acoustics processing", "Signal Processing", "Package or Library"]
 image: ../../media/models/noisereduce.png
 ---
 
@@ -10,6 +12,7 @@ image: ../../media/models/noisereduce.png
 | {{< fa cube >}} Tool Type | [Package or Library]{.tool_type .tool_type_pkglib} |
 | {{< fa tasks >}} Broad Task | Acoustics processing |
 | {{< fa filter >}} Specific Task | Signal Processing |
+| {{< fa brain >}} Model type | Neural Network, Preprocessing, Spectral Gating |
 | {{< fa book >}} Description | noisereduce is a domain-general noise reduction tool for bioacoustics and other time domain signals.  |
 | {{< fa check-circle >}} Task Specific | Yes |
 | {{< fa globe >}} Ecology Specific | No |
@@ -23,6 +26,6 @@ image: ../../media/models/noisereduce.png
 | {{< fa user >}} Contact Name | Tim Sainburg |
 | {{< fa envelope >}} Contact Email | [timsainb@gmail.com](timsainb@gmail.com) |
 | {{< fa phone >}} Contact Responsiveness | Very responsive |
-| {{< fa hugging >}} HuggingFace URL | [nan](nan) |
+| {{< fa hug >}} HuggingFace URL | [nan](nan) |
 | {{< fa cog >}} Reproducibility Method | nan |
 | {{< fa image >}} Image | ![noisereduce](../../media/models/noisereduce.png) |
