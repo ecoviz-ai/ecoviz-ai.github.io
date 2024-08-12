@@ -1,0 +1,8 @@
+---
+title: "Communities of Practice"
+listing: 
+  contents: communities
+  type: grid
+  sort: "title asc"
+  categories: true
+---

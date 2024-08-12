@@ -4,16 +4,9 @@ title: "HappyWhale"
 description: "AI-assisted individual ID of humpback whale flukes and multi-species dorsal fin ID"
 categories: ["Image classification", "Marine mammal photo identification", "Web GUI"]
 image: ../../media/models/HappyWhale.png
-title-block-banner: ../../media/models/HappyWhale.png
-include-in-header:
-  - text: |
-      <style>
-      .quarto-title-block .quarto-title-banner {
-        background-position-y: bottom-right;
-        height: 500px;
-      }
-      </style>
 ---
+
+![](../../media/models/HappyWhale.png){.custom_image}
 
 | Model metadata             | Value                               |
 |----------------------------|------------------------------------|

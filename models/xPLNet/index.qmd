@@ -4,16 +4,9 @@ title: "xPLNet"
 description: "AI classification of leaf pictures into different environmental stresses/diseases. Explainable model. Developped with soybean leaves, works with other species. "
 categories: ["Image classification", "Plant stress phenotyping", "Research Compendium"]
 image: ../../media/models/xPLNet.png
-title-block-banner: ../../media/models/xPLNet.png
-include-in-header:
-  - text: |
-      <style>
-      .quarto-title-block .quarto-title-banner {
-        background-position-y: bottom-right;
-        height: 500px;
-      }
-      </style>
 ---
+
+![](../../media/models/xPLNet.png){.custom_image}
 
 | Model metadata             | Value                               |
 |----------------------------|------------------------------------|

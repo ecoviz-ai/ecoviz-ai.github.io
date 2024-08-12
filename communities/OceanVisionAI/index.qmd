@@ -1,0 +1,20 @@
+
+---
+title: "OceanVisionAI"
+description: "An initiative for annotating video and imagery data from deep sea expeditions with citizen science - associated initiatives: https://fathomnet.org/ (database), https://www.fathomverse.game/ (game)"
+categories: ["AI", "citizen science", "deep sea", "visualization"]
+image: ../../media/communities/OceanVisionAI.png
+---
+
+![](../../media/communities/OceanVisionAI.png){.custom_image}
+
+| Community Details             | Information                                                                                                     |
+|-------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| {{< fa users >}} Community Name       | OceanVisionAI                                                                                       |
+| {{< fa book >}} Description           | An initiative for annotating video and imagery data from deep sea expeditions with citizen science - associated initiatives: https://fathomnet.org/ (database), https://www.fathomverse.game/ (game)                                                                                          |
+| {{< fa tags >}} Tags                  | AI, citizen science, deep sea, visualization                                                                                                 |
+| {{< fa link >}} Website               | [https://www.oceanvisionai.org/](https://https://www.oceanvisionai.org/)                                                                    |
+| {{< fa linkedin >}} LinkedIn          | [https://www.linkedin.com/company/ocean-vision-ai/](https://https://www.linkedin.com/company/ocean-vision-ai/)                                                                  |                                                                             |
+| {{< fa building >}} Organizations     | MBARI                                                                                        |
+| {{< fa hand-holding-usd >}} Funding   | Dalio Foundation, NOAA, NSF, Nat Geo, Packard Foundation                                                                                |
+

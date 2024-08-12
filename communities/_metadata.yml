@@ -1,0 +1,5 @@
+freeze: auto
+format:
+  html:
+    css: styles.css
+tbl-colwidths: [30,70]

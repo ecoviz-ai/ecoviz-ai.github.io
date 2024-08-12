@@ -4,16 +4,9 @@ title: "yasa"
 description: "YASA (Yet Another Spindle Algorithm) is a command-line sleep analysis toolbox in Python with automatic sleep staging and signal processing functions."
 categories: ["Timeseries segmentation", "Sleep Scoring", "Package or Library"]
 image: ../../media/models/yasa.png
-title-block-banner: ../../media/models/yasa.png
-include-in-header:
-  - text: |
-      <style>
-      .quarto-title-block .quarto-title-banner {
-        background-position-y: bottom-right;
-        height: 500px;
-      }
-      </style>
 ---
+
+![](../../media/models/yasa.png){.custom_image}
 
 | Model metadata             | Value                               |
 |----------------------------|------------------------------------|

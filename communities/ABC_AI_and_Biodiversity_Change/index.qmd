@@ -1,0 +1,20 @@
+
+---
+title: "ABC AI and Biodiversity Change"
+description: "A global center to develop and implement a variety of AI-based methods and tools for integration and analysis of biodiversity data from remote sensing imagery from satellites and low-flying aircrafts, ground-based visual and audio sensors, DNA sequences, and citizen science efforts, enabling the global monitoring, analysis, and assessment of biodiversity changes."
+categories: ["AI", "biodiversity", "climate"]
+image: ../../media/communities/ABCAIandBiodiversityChange.png
+---
+
+![](../../media/communities/ABCAIandBiodiversityChange.png){.custom_image}
+
+| Community Details             | Information                                                                                                     |
+|-------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| {{< fa users >}} Community Name       | ABC AI and Biodiversity Change                                                                                       |
+| {{< fa book >}} Description           | A global center to develop and implement a variety of AI-based methods and tools for integration and analysis of biodiversity data from remote sensing imagery from satellites and low-flying aircrafts, ground-based visual and audio sensors, DNA sequences, and citizen science efforts, enabling the global monitoring, analysis, and assessment of biodiversity changes.                                                                                          |
+| {{< fa tags >}} Tags                  | AI, biodiversity, climate                                                                                                 |
+| {{< fa link >}} Website               | [abcclimate.org](https://abcclimate.org)                                                                    |
+| {{< fa linkedin >}} LinkedIn          | [https://www.linkedin.com/company/abc-global-center/](https://https://www.linkedin.com/company/abc-global-center/)                                                                  |                                                                             |
+| {{< fa building >}} Organizations     | MIT, McGill University, Ohio State University, University of British Columbia, University of Guelph, University of Pittsburgh                                                                                        |
+| {{< fa hand-holding-usd >}} Funding   | NSF, NSF NSERC, NSF OISE                                                                                |
+

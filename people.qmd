@@ -6,7 +6,7 @@ type: html
 ```{r setup, include=FALSE}
 library(tidyverse)
 library(knitr)
-people <- read_csv("media/People.csv")
+people <- read_csv("media/people/People.csv")
 
 ```
 

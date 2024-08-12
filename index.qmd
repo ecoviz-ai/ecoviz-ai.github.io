@@ -4,7 +4,7 @@ format:
   html:
     #theme: cosmo
     css: styles.css
-image: media/EcoVizAI_Logo3.png
+image: media/logos/EcoVizAI_Logo3.png
 description: A community of practice to discuss and democratize AI and Visualization for use cases in Ecology. 
 toc: false 
 about: 

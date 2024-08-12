@@ -1,0 +1,20 @@
+
+---
+title: "EcoViz"
+description: "A collaborative initiative to co-design climate data visualizations that leverage computational advances to display model outputs, communicate science, and inform policy and practice."
+categories: ["AI", "climate", "climate change", "cyberinfrastructure", "visualization"]
+image: ../../media/communities/EcoViz.png
+---
+
+![](../../media/communities/EcoViz.png){.custom_image}
+
+| Community Details             | Information                                                                                                     |
+|-------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| {{< fa users >}} Community Name       | EcoViz                                                                                       |
+| {{< fa book >}} Description           | A collaborative initiative to co-design climate data visualizations that leverage computational advances to display model outputs, communicate science, and inform policy and practice.                                                                                          |
+| {{< fa tags >}} Tags                  | AI, climate, climate change, cyberinfrastructure, visualization                                                                                                 |
+| {{< fa link >}} Website               | [ecoviz.org](https://ecoviz.org)                                                                    |
+| {{< fa linkedin >}} LinkedIn          | [https://www.linkedin.com/company/ecoviz-collaborative-initiative-for-climate-visualization/](https://https://www.linkedin.com/company/ecoviz-collaborative-initiative-for-climate-visualization/)                                                                  |                                                                             |
+| {{< fa building >}} Organizations     | Center for Coastal Climate Resilience, San Diego Supercomputer Center, Scripps Institution of Oceanography, UC San Diego, UC Santa Cruz                                                                                        |
+| {{< fa hand-holding-usd >}} Funding   | AXA Research Fund, Army Corps of Engineers, CalOES, Department of Homeland Security, Intervalien, NSF, SDG&E, Schmidt Sciences, State of California, The Nature Conservancy, The World Bank                                                                                |
+

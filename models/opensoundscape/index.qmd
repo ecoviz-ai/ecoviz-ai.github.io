@@ -2,23 +2,16 @@
 ---
 title: "opensoundscape"
 description: "Python package for analyzing bioacoustic data"
-categories: ["Acoustic classification, Acoustics processing", "Call Identification, Signal Processing", "Package or Library"]
+categories: ["Acoustic classification", "Call Identification, Signal Processing", "Package or Library"]
 image: ../../media/models/opensoundscape.png
-title-block-banner: ../../media/models/opensoundscape.png
-include-in-header:
-  - text: |
-      <style>
-      .quarto-title-block .quarto-title-banner {
-        background-position-y: bottom-right;
-        height: 500px;
-      }
-      </style>
 ---
+
+![](../../media/models/opensoundscape.png){.custom_image}
 
 | Model metadata             | Value                               |
 |----------------------------|------------------------------------|
 | {{< fa cube >}} Tool Type | [Package or Library]{.tool_type .tool_type_pkglib} |
-| {{< fa tasks >}} Broad Task | Acoustic classification, Acoustics processing |
+| {{< fa tasks >}} Broad Task | Acoustic classification |
 | {{< fa filter >}} Specific Task | Call Identification, Signal Processing |
 | {{< fa brain >}} Model type | Convolutional Neural Network |
 | {{< fa book >}} Description | Python package for analyzing bioacoustic data |

@@ -1,0 +1,20 @@
+
+---
+title: "Imageomics Institute"
+description: "The Imageomics Institute GitHub organization hosts the development and distribution of a collection of open-source ML tools used to study the biological information encoded in images and videos integrated with structured biological knowledge."
+categories: ["AI", "ecology"]
+image: ../../media/communities/ImageomicsInstitute.png
+---
+
+![](../../media/communities/ImageomicsInstitute.png){.custom_image}
+
+| Community Details             | Information                                                                                                     |
+|-------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| {{< fa users >}} Community Name       | Imageomics Institute                                                                                       |
+| {{< fa book >}} Description           | The Imageomics Institute GitHub organization hosts the development and distribution of a collection of open-source ML tools used to study the biological information encoded in images and videos integrated with structured biological knowledge.                                                                                          |
+| {{< fa tags >}} Tags                  | AI, ecology                                                                                                 |
+| {{< fa link >}} Website               | [https://github.com/Imageomics/](https://https://github.com/Imageomics/)                                                                    |
+| {{< fa linkedin >}} LinkedIn          | [https://www.linkedin.com/company/imageomics-institute](https://https://www.linkedin.com/company/imageomics-institute)                                                                  |                                                                             |
+| {{< fa building >}} Organizations     | Ohio State University                                                                                        |
+| {{< fa hand-holding-usd >}} Funding   | NSF                                                                                |
+

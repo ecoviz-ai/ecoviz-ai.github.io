@@ -1,9 +1,8 @@
 import pandas as pd
 import os
-# import shutil
 
 # Path to the CSV file
-csv_path = 'models/ModelZoo.csv'
+csv_path = 'media/models/ModelZoo.csv'
 
 # Read the CSV into a DataFrame
 df = pd.read_csv(csv_path)
@@ -23,9 +22,6 @@ for index, row in df.iterrows():
     original_image_path = row['Files & media']
     image_filename = os.path.join(media_dir, f"{row['Model Name'].replace(' ', '_')}.png")
     
-    # Copy the image file to the new location
-    # shutil.copy(original_image_path, image_filename) # Uncomment and use the actual path if you handle image files
-
     # Create Quarto document content
     document = f"""
 ---
@@ -33,16 +29,9 @@ title: "{row['Model Name']}"
 description: "{row['Description']}"
 categories: ["{row['Broad task']}", "{row['Specific task']}", "{row['Tool Type']}"]
 image: ../../media/models/{row['Model Name'].replace(' ', '_')}.png
-title-block-banner: ../../media/models/{row['Model Name'].replace(' ', '_')}.png
-include-in-header:
-  - text: |
-      <style>
-      .quarto-title-block .quarto-title-banner {{
-        background-position-y: bottom-right;
-        height: 500px;
-      }}
-      </style>
 ---
+
+![](../../media/models/{row['Model Name'].replace(' ', '_')}.png){{.custom_image}}
 
 | Model metadata             | Value                               |
 |----------------------------|------------------------------------|

@@ -7,102 +7,18 @@
     "text": "Use Case Gallery\n\n\nModel Zoo\n\n\nCommunities of Practice"
   },
   {
-    "objectID": "models/xPLNet/index.html",
-    "href": "models/xPLNet/index.html",
-    "title": "xPLNet",
+    "objectID": "communities.html",
+    "href": "communities.html",
+    "title": "Communities of Practice",
     "section": "",
-    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nResearch Compendium\n\n\n Broad Task\nImage classification\n\n\n Specific Task\nPlant stress phenotyping\n\n\n Model type\nConvolutional Neural Network\n\n\n Description\nAI classification of leaf pictures into different environmental stresses/diseases. Explainable model. Developped with soybean leaves, works with other species.\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n6/23/24 15:05\n\n\n Related Publication(s)\nhttps://www.pnas.org/doi/10.1073/pnas.1716999115\n\n\n Dependencies\nkeras, numpy, theano\n\n\n Tool URL (Github etc.)\nhttps://github.com/SCSLabISU/xPLNet\n\n\n Last Update (time ago)\nLast updated more than a year ago\n\n\n License\nBSD-3-Clause\n\n\n Contact Name\nSoumik Sarkar; Arti Singh\n\n\n Contact Email\nmailto:soumiks@iastate.edu; mailto:arti@iastate.edu\n\n\n Contact Responsiveness\nnan\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
+    "text": "ABC AI and Biodiversity Change\n\n\n\nAI\n\n\nbiodiversity\n\n\nclimate\n\n\n\nA global center to develop and implement a variety of AI-based methods and tools for integration and analysis of biodiversity data from remote sensing imagery from…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI4Life\n\n\n\nAI\n\n\ncyberinfrastructure\n\n\necology\n\n\n\nResearch services and infrastructure to support life scientists in the adoption of machine learning solutions that improve the utility and interpretability of image data –…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDSE Data Science & Environment\n\n\n\nAI\n\n\nbiodiversity\n\n\nclimate\n\n\necology\n\n\n\nThe Eric and Wendy Schmidt Center for Data Science & Environment (DSE) combines the power of computing and environmental science with open science principles and a…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEcoViz\n\n\n\nAI\n\n\nclimate\n\n\nclimate change\n\n\ncyberinfrastructure\n\n\nvisualization\n\n\n\nA collaborative initiative to co-design climate data visualizations that leverage computational advances to display model outputs, communicate science, and inform policy and…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEcoViz+AI Working Group\n\n\n\nAI\n\n\nbiodiversity\n\n\nclimate change\n\n\nconservation\n\n\ncyberinfrastructure\n\n\necology\n\n\neducation\n\n\nvisualization\n\n\n\nAn international community of practice to discuss and democratize AI and visualization for use cases in ecology.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImageomics Institute\n\n\n\nAI\n\n\necology\n\n\n\nThe Imageomics Institute GitHub organization hosts the development and distribution of a collection of open-source ML tools used to study the biological information encoded…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOceanVisionAI\n\n\n\nAI\n\n\ncitizen science\n\n\ndeep sea\n\n\nvisualization\n\n\n\nAn initiative for annotating video and imagery data from deep sea expeditions with citizen science - associated initiatives: https://fathomnet.org/ (database)…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\neLife Community\n\n\n\necology\n\n\n\neLife works with researchers across the globe to promote a research culture that values openness, integrity, equity, diversity and inclusion.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "models/Ecological_Niche_Modelling_With_R/index.html",
-    "href": "models/Ecological_Niche_Modelling_With_R/index.html",
-    "title": "Ecological Niche Modelling With R",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EcoViz+AI: Visualization and AI for Ecology",
     "section": "",
-    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nResearch Compendium\n\n\n Broad Task\nSpecies distribution model\n\n\n Specific Task\nEcological Niche Modeling\n\n\n Model type\nMaxEnt, Neural Network\n\n\n Description\nA workflow to simplify the process of estimating spatial probability distributions (species presence/absence) given a set of environmental parameters.\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nR\n\n\n Last Edited Time\n6/21/24 11:12\n\n\n Related Publication(s)\nhttps://doi.org/10.1007/s41060-024-00517-w\n\n\n Dependencies\nnan\n\n\n Tool URL (Github etc.)\nhttps://github.com/cybprojects65/EcologicalNicheModellingWithR\n\n\n Last Update (time ago)\nLast updated within 6 months\n\n\n License\nnan\n\n\n Contact Name\nGianpaolo Coro\n\n\n Contact Email\nmailto:gianpaolo.coro@isti.cnr.it\n\n\n Contact Responsiveness\nnan\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
-  },
-  {
-    "objectID": "models/Voxaboxen/index.html",
-    "href": "models/Voxaboxen/index.html",
-    "title": "Voxaboxen",
-    "section": "",
-    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nPackage or Library\n\n\n Broad Task\nAcoustic classification\n\n\n Specific Task\nCall Identification\n\n\n Model type\nAVES, Transformer\n\n\n Description\nVoxaboxen is a deep learning framework designed to find the start and stop times of (possibly overlapping) sound events in a recording.\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n6/21/24 10:24\n\n\n Related Publication(s)\nhttps://doi.org/10.5281/zenodo.8381019\n\n\n Dependencies\nPyYAML, einops, intervaltree, librosa, matplotlib, mir_eval, numpy, pandas, plumbum, pytorch, scipy, seaborn, soundfile, torchaudio, tqdm\n\n\n Tool URL (Github etc.)\nhttps://github.com/earthspecies/voxaboxen\n\n\n Last Update (time ago)\nLast updated within 6 months\n\n\n License\nAGPL-3.0\n\n\n Contact Name\nBenjamin Hoffman\n\n\n Contact Email\nmailto:benjamin@earthspecies.org\n\n\n Contact Responsiveness\nVery responsive\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
-  },
-  {
-    "objectID": "models/BioCLIP/index.html",
-    "href": "models/BioCLIP/index.html",
-    "title": "BioCLIP",
-    "section": "",
-    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nPackage or Library\n\n\n Broad Task\nImage classification\n\n\n Specific Task\nSpecies Identification\n\n\n Model type\nConvolutional Neural Network, Transformer\n\n\n Description\nBioCLIP is a computer vision model, fine tuned for species identification.\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n6/21/24 10:12\n\n\n Related Publication(s)\nhttps://arxiv.org/abs/2311.18803\n\n\n Dependencies\nopen_clip\n\n\n Tool URL (Github etc.)\nhttps://github.com/Imageomics/bioclip\n\n\n Last Update (time ago)\nLast updated within the month\n\n\n License\nCustom License\n\n\n Contact Name\nSamuel Stevens\n\n\n Contact Email\nmailto:stevens.994@buckeyemail.osu.edu\n\n\n Contact Responsiveness\nnan\n\n\n HuggingFace URL\nhttps://huggingface.co/imageomics/bioclip\n\n\n Reproducibility Method\nmakefile"
-  },
-  {
-    "objectID": "models/somnotate/index.html",
-    "href": "models/somnotate/index.html",
-    "title": "somnotate",
-    "section": "",
-    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nPackage or Library\n\n\n Broad Task\nTimeseries segmentation\n\n\n Specific Task\nSleep Scoring\n\n\n Model type\nHidden Markov Model\n\n\n Description\nProbabilistic sleep scoring software to combine linear discriminant analysis (LDA) and hidden Markov models (HMM).\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nNo\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n6/21/24 10:10\n\n\n Related Publication(s)\nhttps://doi.org/10.1371/journal.pcbi.1011793\n\n\n Dependencies\nmatplotlib, numpy, pomegranate, scikit-learn\n\n\n Tool URL (Github etc.)\nhttps://github.com/paulbrodersen/somnotate/tree/master\n\n\n Last Update (time ago)\nLast updated within 6 months\n\n\n License\nGNU General Public License\n\n\n Contact Name\nPaul Brodersen\n\n\n Contact Email\nmailto:paulbrodersen+github@gmail.com\n\n\n Contact Responsiveness\nVery responsive\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
-  },
-  {
-    "objectID": "models/Merlin_Sound_ID_Bird_App/index.html",
-    "href": "models/Merlin_Sound_ID_Bird_App/index.html",
-    "title": "Merlin Sound ID Bird App",
-    "section": "",
-    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nMobile App\n\n\n Broad Task\nAcoustic classification\n\n\n Specific Task\nSpecies Identification\n\n\n Model type\nConvolutional Neural Network, MobileNet\n\n\n Description\nAn app for identifying birds to species level worldwide\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n5/22/24 10:55\n\n\n Related Publication(s)\nhttps://doi.org/10.1371/journal.pbio.1001220\n\n\n Dependencies\nnan\n\n\n Tool URL (Github etc.)\nhttps://merlin.allaboutbirds.org/\n\n\n Last Update (time ago)\nnan\n\n\n License\nnan\n\n\n Contact Name\nnan\n\n\n Contact Email\nnan\n\n\n Contact Responsiveness\nnan\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
-  },
-  {
-    "objectID": "models/HappyWhale/index.html",
-    "href": "models/HappyWhale/index.html",
-    "title": "HappyWhale",
-    "section": "",
-    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nWeb GUI\n\n\n Broad Task\nImage classification\n\n\n Specific Task\nMarine mammal photo identification\n\n\n Model type\nComputer vision\n\n\n Description\nAI-assisted individual ID of humpback whale flukes and multi-species dorsal fin ID\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nJava, Python, Typescript\n\n\n Last Edited Time\n6/21/24 11:01\n\n\n Related Publication(s)\nhttps://rdcu.be/cCOtw\n\n\n Dependencies\nnan\n\n\n Tool URL (Github etc.)\nhttps://happywhale.com/home\n\n\n Last Update (time ago)\nLast updated within the month\n\n\n License\nnan\n\n\n Contact Name\nTed Cheeseman\n\n\n Contact Email\nmailto:ted@happywhale.com\n\n\n Contact Responsiveness\nVery responsive\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
-  },
-  {
-    "objectID": "modelzoo.html",
-    "href": "modelzoo.html",
-    "title": "Model Zoo",
-    "section": "",
-    "text": "BioCLIP\n\n\n\nImage classification\n\n\nSpecies Identification\n\n\nPackage or Library\n\n\n\nBioCLIP is a computer vision model, fine tuned for species identification.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBioLingual\n\n\n\nAcoustics processing\n\n\nCall Identification\n\n\nModel API\n\n\n\nText prompt to search through audio by species, call type, or verbal description. Also receives audio input.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEcological Niche Modelling With R\n\n\n\nSpecies distribution model\n\n\nEcological Niche Modeling\n\n\nResearch Compendium\n\n\n\nA workflow to simplify the process of estimating spatial probability distributions (species presence/absence) given a set of environmental parameters.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrogID App\n\n\n\nAcoustic classification\n\n\nSpecies Identification\n\n\nMobile App\n\n\n\nAn app for identifying frogs to species level worldwide\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHappyWhale\n\n\n\nImage classification\n\n\nMarine mammal photo identification\n\n\nWeb GUI\n\n\n\nAI-assisted individual ID of humpback whale flukes and multi-species dorsal fin ID\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMerlin Sound ID Bird App\n\n\n\nAcoustic classification\n\n\nSpecies Identification\n\n\nMobile App\n\n\n\nAn app for identifying birds to species level worldwide\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSatBird\n\n\n\nSpecies distribution model\n\n\nHabitat suitability\n\n\nBenchmarked Dataset\n\n\n\nSatBird is a dataset and benchmark models for the task of predicting bird species encounter rates jointly at a specific location using remote sensing data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVoxaboxen\n\n\n\nAcoustic classification\n\n\nCall Identification\n\n\nPackage or Library\n\n\n\nVoxaboxen is a deep learning framework designed to find the start and stop times of (possibly overlapping) sound events in a recording.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnoisereduce\n\n\n\nAcoustics processing\n\n\nSignal Processing\n\n\nPackage or Library\n\n\n\nnoisereduce is a domain-general noise reduction tool for bioacoustics and other time domain signals.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nopensoundscape\n\n\n\nAcoustic classification, Acoustics processing\n\n\nCall Identification, Signal Processing\n\n\nPackage or Library\n\n\n\nPython package for analyzing bioacoustic data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsilbido profundo\n\n\n\nAcoustics processing\n\n\nTonal Call Detection\n\n\nPackage or Library\n\n\n\nAn open source package for the use of deep learning to detect odontocete whistles\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsomnotate\n\n\n\nTimeseries segmentation\n\n\nSleep Scoring\n\n\nPackage or Library\n\n\n\nProbabilistic sleep scoring software to combine linear discriminant analysis (LDA) and hidden Markov models (HMM).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nxPLNet\n\n\n\nImage classification\n\n\nPlant stress phenotyping\n\n\nResearch Compendium\n\n\n\nAI classification of leaf pictures into different environmental stresses/diseases. Explainable model. Developped with soybean leaves, works with other species.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nyasa\n\n\n\nTimeseries segmentation\n\n\nSleep Scoring\n\n\nPackage or Library\n\n\n\nYASA (Yet Another Spindle Algorithm) is a command-line sleep analysis toolbox in Python with automatic sleep staging and signal processing functions.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "models/silbido_profundo/index.html",
-    "href": "models/silbido_profundo/index.html",
-    "title": "silbido profundo",
-    "section": "",
-    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nPackage or Library\n\n\n Broad Task\nAcoustics processing\n\n\n Specific Task\nTonal Call Detection\n\n\n Model type\nConvolutional Neural Network, Graph Search Algorithms\n\n\n Description\nAn open source package for the use of deep learning to detect odontocete whistles\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nC, C++, Java, MATLAB\n\n\n Last Edited Time\n5/23/24 7:19\n\n\n Related Publication(s)\nhttps://doi.org/10.1121/10.0016631\n\n\n Dependencies\nnan\n\n\n Tool URL (Github etc.)\nhttps://github.com/MarineBioAcousticsRC/silbido\n\n\n Last Update (time ago)\nLast updated within 6 months\n\n\n License\nnan\n\n\n Contact Name\nMarie Roch\n\n\n Contact Email\nmarie.roch@sdsu.edu\n\n\n Contact Responsiveness\nnan\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nmakefile"
-  },
-  {
-    "objectID": "models/opensoundscape/index.html",
-    "href": "models/opensoundscape/index.html",
-    "title": "opensoundscape",
-    "section": "",
-    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nPackage or Library\n\n\n Broad Task\nAcoustic classification, Acoustics processing\n\n\n Specific Task\nCall Identification, Signal Processing\n\n\n Model type\nConvolutional Neural Network\n\n\n Description\nPython package for analyzing bioacoustic data\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n6/21/24 10:48\n\n\n Related Publication(s)\nhttps://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14196\n\n\n Dependencies\ndocopt, ipykernel, librosa, pandas, pytorch, torchvision\n\n\n Tool URL (Github etc.)\nhttps://github.com/kitzeslab/opensoundscape\n\n\n Last Update (time ago)\nLast updated within the month\n\n\n License\nMIT\n\n\n Contact Name\nSam Lapp\n\n\n Contact Email\nmailto:sam.lapp@pitt.edu\n\n\n Contact Responsiveness\nVery responsive\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
-  },
-  {
-    "objectID": "models/BioLingual/index.html",
-    "href": "models/BioLingual/index.html",
-    "title": "BioLingual",
-    "section": "",
-    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nModel API\n\n\n Broad Task\nAcoustics processing\n\n\n Specific Task\nCall Identification\n\n\n Model type\nTransformer\n\n\n Description\nText prompt to search through audio by species, call type, or verbal description. Also receives audio input.\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n6/21/24 10:15\n\n\n Related Publication(s)\nhttps://doi.org/10.48550/arXiv.2308.04978\n\n\n Dependencies\npytorch, torchvision, transformers, etc.\n\n\n Tool URL (Github etc.)\nhttps://github.com/david-rx/BioLingual\n\n\n Last Update (time ago)\nLast updated within a year\n\n\n License\nApache-2.0\n\n\n Contact Name\nDavid Robinson\n\n\n Contact Email\nnan\n\n\n Contact Responsiveness\nnan\n\n\n HuggingFace URL\nhttps://huggingface.co/davidrrobinson/BioLingual\n\n\n Reproducibility Method\nnan"
-  },
-  {
-    "objectID": "models/yasa/index.html",
-    "href": "models/yasa/index.html",
-    "title": "yasa",
-    "section": "",
-    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nPackage or Library\n\n\n Broad Task\nTimeseries segmentation\n\n\n Specific Task\nSleep Scoring\n\n\n Model type\nGradient Boosted Decision Tree\n\n\n Description\nYASA (Yet Another Spindle Algorithm) is a command-line sleep analysis toolbox in Python with automatic sleep staging and signal processing functions.\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nNo\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n6/21/24 10:11\n\n\n Related Publication(s)\nhttps://doi.org/10.7554/eLife.70092\n\n\n Dependencies\nantropy, ipywidgets, joblib, lightgbm, lspopt, matplotlib, mne, numba, pandas, pyRiemann, scikit-learn, scipy, seaborn, sleepecg, tensorpac\n\n\n Tool URL (Github etc.)\nhttps://github.com/raphaelvallat/yasa\n\n\n Last Update (time ago)\nLast updated within the month\n\n\n License\nBSD-3-Clause\n\n\n Contact Name\nRaphael Vallat\n\n\n Contact Email\nmailto:raphaelvallat9@gmail.com\n\n\n Contact Responsiveness\nVery responsive\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
-  },
-  {
-    "objectID": "models/noisereduce/index.html",
-    "href": "models/noisereduce/index.html",
-    "title": "noisereduce",
-    "section": "",
-    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nPackage or Library\n\n\n Broad Task\nAcoustics processing\n\n\n Specific Task\nSignal Processing\n\n\n Model type\nNeural Network, Preprocessing, Spectral Gating\n\n\n Description\nnoisereduce is a domain-general noise reduction tool for bioacoustics and other time domain signals.\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nNo\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n6/21/24 10:20\n\n\n Related Publication(s)\nhttps://doi.org/10.1371/journal.pcbi.1008228\n\n\n Dependencies\nnumpy, pytorch, scipy\n\n\n Tool URL (Github etc.)\nhttps://github.com/timsainb/noisereduce\n\n\n Last Update (time ago)\nLast updated within 6 months\n\n\n License\nMIT\n\n\n Contact Name\nTim Sainburg\n\n\n Contact Email\ntimsainb@gmail.com\n\n\n Contact Responsiveness\nVery responsive\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
-  },
-  {
-    "objectID": "models/SatBird/index.html",
-    "href": "models/SatBird/index.html",
-    "title": "SatBird",
-    "section": "",
-    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nBenchmarked Dataset\n\n\n Broad Task\nSpecies distribution model\n\n\n Specific Task\nHabitat suitability\n\n\n Model type\nConvolutional Neural Network, ResNet, SATLAS, SatMAE\n\n\n Description\nSatBird is a dataset and benchmark models for the task of predicting bird species encounter rates jointly at a specific location using remote sensing data.\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n5/23/24 7:16\n\n\n Related Publication(s)\nhttps://doi.org/10.48550/arXiv.2311.00936\n\n\n Dependencies\npytorch, torchaudio, torchvision, etc.\n\n\n Tool URL (Github etc.)\nhttps://github.com/RolnickLab/SatBird/\n\n\n Last Update (time ago)\nLast updated within 6 months\n\n\n License\nGPL-3.0\n\n\n Contact Name\nMelisande Teng\n\n\n Contact Email\nmailto:tengmeli@mila.quebec\n\n\n Contact Responsiveness\nVery responsive\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
+    "text": "EcoViz+AI Community of Practice\nInaugurated March 25-29, 2024 at UC San Diego.\nOrganized by Jessica Kendall-Bar\n\n\nWebsite Resources\n\nWhat: an in-person workshop to develop 5 use-cases for AI in Science within Ecology.\nWho: invited experts in visualization, AI, and Ecology\n\nRead more about your Roles & Expectations\n\nWhy:\n\nDemocratize access to AI, visualization, and computation in Ecology, empowering scientists to leverage new tools & create clear, explainable, FAIR examples of AI-integration in Ecology.\n\nWhere:\n\nUC San Diego: Scripps Institution of Oceanography and San Diego Supercomputer Center (SDSC)"
   },
   {
     "objectID": "models/FrogID_App/index.html",
@@ -112,11 +28,158 @@
     "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nMobile App\n\n\n Broad Task\nAcoustic classification\n\n\n Specific Task\nSpecies Identification\n\n\n Model type\nConvolutional Neural Netowrk\n\n\n Description\nAn app for identifying frogs to species level worldwide\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nnan\n\n\n Last Edited Time\n6/27/24 2:26\n\n\n Related Publication(s)\nhttps://doi.org/10.1093/biosci/biad012\n\n\n Dependencies\nnan\n\n\n Tool URL (Github etc.)\nhttps://www.frogid.net.au/\n\n\n Last Update (time ago)\nnan\n\n\n License\nnan\n\n\n Contact Name\nJodi Rowley\n\n\n Contact Email\njodi.rowley@unsw.edu.au\n\n\n Contact Responsiveness\nVery responsive\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "EcoViz+AI: Visualization and AI for Ecology",
+    "objectID": "models/SatBird/index.html",
+    "href": "models/SatBird/index.html",
+    "title": "SatBird",
     "section": "",
-    "text": "EcoViz+AI Community of Practice\nInaugurated March 25-29, 2024 at UC San Diego.\nOrganized by Jessica Kendall-Bar\n\n\nWebsite Resources\n\nWhat: an in-person workshop to develop 5 use-cases for AI in Science within Ecology.\nWho: invited experts in visualization, AI, and Ecology\n\nRead more about your Roles & Expectations\n\nWhy:\n\nDemocratize access to AI, visualization, and computation in Ecology, empowering scientists to leverage new tools & create clear, explainable, FAIR examples of AI-integration in Ecology.\n\nWhere:\n\nUC San Diego: Scripps Institution of Oceanography and San Diego Supercomputer Center (SDSC)"
+    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nBenchmarked Dataset\n\n\n Broad Task\nSpecies distribution model\n\n\n Specific Task\nHabitat suitability\n\n\n Model type\nConvolutional Neural Network, ResNet, SATLAS, SatMAE\n\n\n Description\nSatBird is a dataset and benchmark models for the task of predicting bird species encounter rates jointly at a specific location using remote sensing data.\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n5/23/24 7:16\n\n\n Related Publication(s)\nhttps://doi.org/10.48550/arXiv.2311.00936\n\n\n Dependencies\npytorch, torchaudio, torchvision, etc.\n\n\n Tool URL (Github etc.)\nhttps://github.com/RolnickLab/SatBird/\n\n\n Last Update (time ago)\nLast updated within 6 months\n\n\n License\nGPL-3.0\n\n\n Contact Name\nMelisande Teng\n\n\n Contact Email\nmailto:tengmeli@mila.quebec\n\n\n Contact Responsiveness\nVery responsive\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
+  },
+  {
+    "objectID": "models/noisereduce/index.html",
+    "href": "models/noisereduce/index.html",
+    "title": "noisereduce",
+    "section": "",
+    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nPackage or Library\n\n\n Broad Task\nAcoustics processing\n\n\n Specific Task\nSignal Processing\n\n\n Model type\nNeural Network, Preprocessing, Spectral Gating\n\n\n Description\nnoisereduce is a domain-general noise reduction tool for bioacoustics and other time domain signals.\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nNo\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n6/21/24 10:20\n\n\n Related Publication(s)\nhttps://doi.org/10.1371/journal.pcbi.1008228\n\n\n Dependencies\nnumpy, pytorch, scipy\n\n\n Tool URL (Github etc.)\nhttps://github.com/timsainb/noisereduce\n\n\n Last Update (time ago)\nLast updated within 6 months\n\n\n License\nMIT\n\n\n Contact Name\nTim Sainburg\n\n\n Contact Email\ntimsainb@gmail.com\n\n\n Contact Responsiveness\nVery responsive\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
+  },
+  {
+    "objectID": "models/yasa/index.html",
+    "href": "models/yasa/index.html",
+    "title": "yasa",
+    "section": "",
+    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nPackage or Library\n\n\n Broad Task\nTimeseries segmentation\n\n\n Specific Task\nSleep Scoring\n\n\n Model type\nGradient Boosted Decision Tree\n\n\n Description\nYASA (Yet Another Spindle Algorithm) is a command-line sleep analysis toolbox in Python with automatic sleep staging and signal processing functions.\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nNo\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n6/21/24 10:11\n\n\n Related Publication(s)\nhttps://doi.org/10.7554/eLife.70092\n\n\n Dependencies\nantropy, ipywidgets, joblib, lightgbm, lspopt, matplotlib, mne, numba, pandas, pyRiemann, scikit-learn, scipy, seaborn, sleepecg, tensorpac\n\n\n Tool URL (Github etc.)\nhttps://github.com/raphaelvallat/yasa\n\n\n Last Update (time ago)\nLast updated within the month\n\n\n License\nBSD-3-Clause\n\n\n Contact Name\nRaphael Vallat\n\n\n Contact Email\nmailto:raphaelvallat9@gmail.com\n\n\n Contact Responsiveness\nVery responsive\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
+  },
+  {
+    "objectID": "models/BioLingual/index.html",
+    "href": "models/BioLingual/index.html",
+    "title": "BioLingual",
+    "section": "",
+    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nModel API\n\n\n Broad Task\nAcoustics processing\n\n\n Specific Task\nCall Identification\n\n\n Model type\nTransformer\n\n\n Description\nText prompt to search through audio by species, call type, or verbal description. Also receives audio input.\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n6/21/24 10:15\n\n\n Related Publication(s)\nhttps://doi.org/10.48550/arXiv.2308.04978\n\n\n Dependencies\npytorch, torchvision, transformers, etc.\n\n\n Tool URL (Github etc.)\nhttps://github.com/david-rx/BioLingual\n\n\n Last Update (time ago)\nLast updated within a year\n\n\n License\nApache-2.0\n\n\n Contact Name\nDavid Robinson\n\n\n Contact Email\nnan\n\n\n Contact Responsiveness\nnan\n\n\n HuggingFace URL\nhttps://huggingface.co/davidrrobinson/BioLingual\n\n\n Reproducibility Method\nnan"
+  },
+  {
+    "objectID": "models/opensoundscape/index.html",
+    "href": "models/opensoundscape/index.html",
+    "title": "opensoundscape",
+    "section": "",
+    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nPackage or Library\n\n\n Broad Task\nAcoustic classification\n\n\n Specific Task\nCall Identification, Signal Processing\n\n\n Model type\nConvolutional Neural Network\n\n\n Description\nPython package for analyzing bioacoustic data\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n6/21/24 10:48\n\n\n Related Publication(s)\nhttps://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14196\n\n\n Dependencies\ndocopt, ipykernel, librosa, pandas, pytorch, torchvision\n\n\n Tool URL (Github etc.)\nhttps://github.com/kitzeslab/opensoundscape\n\n\n Last Update (time ago)\nLast updated within the month\n\n\n License\nMIT\n\n\n Contact Name\nSam Lapp\n\n\n Contact Email\nmailto:sam.lapp@pitt.edu\n\n\n Contact Responsiveness\nVery responsive\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
+  },
+  {
+    "objectID": "models/silbido_profundo/index.html",
+    "href": "models/silbido_profundo/index.html",
+    "title": "silbido profundo",
+    "section": "",
+    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nPackage or Library\n\n\n Broad Task\nAcoustics processing\n\n\n Specific Task\nTonal Call Detection\n\n\n Model type\nConvolutional Neural Network, Graph Search Algorithms\n\n\n Description\nAn open source package for the use of deep learning to detect odontocete whistles\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nC, C++, Java, MATLAB\n\n\n Last Edited Time\n5/23/24 7:19\n\n\n Related Publication(s)\nhttps://doi.org/10.1121/10.0016631\n\n\n Dependencies\nnan\n\n\n Tool URL (Github etc.)\nhttps://github.com/MarineBioAcousticsRC/silbido\n\n\n Last Update (time ago)\nLast updated within 6 months\n\n\n License\nnan\n\n\n Contact Name\nMarie Roch\n\n\n Contact Email\nmarie.roch@sdsu.edu\n\n\n Contact Responsiveness\nnan\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nmakefile"
+  },
+  {
+    "objectID": "communities/EcoViz+AI_Working_Group/index.html",
+    "href": "communities/EcoViz+AI_Working_Group/index.html",
+    "title": "EcoViz+AI Working Group",
+    "section": "",
+    "text": "Community Details\nInformation\n\n\n\n\n Community Name\nEcoViz+AI Working Group\n\n\n Description\nAn international community of practice to discuss and democratize AI and visualization for use cases in ecology.\n\n\n Tags\nAI, biodiversity, climate change, conservation, cyberinfrastructure, ecology, education, visualization\n\n\n Website\necoviz-ai.github.io\n\n\n LinkedIn\nnan\n\n\n Organizations\nCornell University, Ohio State University, Oxford University, San Diego Supercomputer Center, Scripps Institution of Oceanography, UC San Diego, UC Santa Cruz, University of Michigan, University of Moncton, University of Toronto\n\n\n Funding\nSchmidt Sciences"
+  },
+  {
+    "objectID": "communities/eLife_Community/index.html",
+    "href": "communities/eLife_Community/index.html",
+    "title": "eLife Community",
+    "section": "",
+    "text": "Community Details\nInformation\n\n\n\n\n Community Name\neLife Community\n\n\n Description\neLife works with researchers across the globe to promote a research culture that values openness, integrity, equity, diversity and inclusion.\n\n\n Tags\necology\n\n\n Website\nhttps://elifesciences.org/community/\n\n\n LinkedIn\nhttps://www.linkedin.com/company/elife-sciences-publications-ltd\n\n\n Organizations\nnan\n\n\n Funding\nHHMI, Knut and Alice Wallenberg Foundation, Max Planck Institute, Wellcome"
+  },
+  {
+    "objectID": "communities/AI4Life/index.html",
+    "href": "communities/AI4Life/index.html",
+    "title": "AI4Life",
+    "section": "",
+    "text": "Community Details\nInformation\n\n\n\n\n Community Name\nAI4Life\n\n\n Description\nResearch services and infrastructure to support life scientists in the adoption of machine learning solutions that improve the utility and interpretability of image data – the key to future biological and biomedical research.\n\n\n Tags\nAI, cyberinfrastructure, ecology\n\n\n Website\nhttps://ai4life.eurobioimaging.eu/\n\n\n LinkedIn\nhttps://www.linkedin.com/company/ai4life-eu-project\n\n\n Organizations\nBioImage, European Marine Biological Resource Centre, KTH, Universidad Carlos III de Madrid\n\n\n Funding\nEuropean Union"
+  },
+  {
+    "objectID": "communities/ABC_AI_and_Biodiversity_Change/index.html",
+    "href": "communities/ABC_AI_and_Biodiversity_Change/index.html",
+    "title": "ABC AI and Biodiversity Change",
+    "section": "",
+    "text": "Community Details\nInformation\n\n\n\n\n Community Name\nABC AI and Biodiversity Change\n\n\n Description\nA global center to develop and implement a variety of AI-based methods and tools for integration and analysis of biodiversity data from remote sensing imagery from satellites and low-flying aircrafts, ground-based visual and audio sensors, DNA sequences, and citizen science efforts, enabling the global monitoring, analysis, and assessment of biodiversity changes.\n\n\n Tags\nAI, biodiversity, climate\n\n\n Website\nabcclimate.org\n\n\n LinkedIn\nhttps://www.linkedin.com/company/abc-global-center/\n\n\n Organizations\nMIT, McGill University, Ohio State University, University of British Columbia, University of Guelph, University of Pittsburgh\n\n\n Funding\nNSF, NSF NSERC, NSF OISE"
+  },
+  {
+    "objectID": "modelzoo.html",
+    "href": "modelzoo.html",
+    "title": "Model Zoo",
+    "section": "",
+    "text": "BioCLIP\n\n\n\nImage classification\n\n\nSpecies Identification\n\n\nPackage or Library\n\n\n\nBioCLIP is a computer vision model, fine tuned for species identification.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBioLingual\n\n\n\nAcoustics processing\n\n\nCall Identification\n\n\nModel API\n\n\n\nText prompt to search through audio by species, call type, or verbal description. Also receives audio input.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEcological Niche Modelling With R\n\n\n\nSpecies distribution model\n\n\nEcological Niche Modeling\n\n\nResearch Compendium\n\n\n\nA workflow to simplify the process of estimating spatial probability distributions (species presence/absence) given a set of environmental parameters.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrogID App\n\n\n\nAcoustic classification\n\n\nSpecies Identification\n\n\nMobile App\n\n\n\nAn app for identifying frogs to species level worldwide\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHappyWhale\n\n\n\nImage classification\n\n\nMarine mammal photo identification\n\n\nWeb GUI\n\n\n\nAI-assisted individual ID of humpback whale flukes and multi-species dorsal fin ID\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMerlin Sound ID Bird App\n\n\n\nAcoustic classification\n\n\nSpecies Identification\n\n\nMobile App\n\n\n\nAn app for identifying birds to species level worldwide\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSatBird\n\n\n\nSpecies distribution model\n\n\nHabitat suitability\n\n\nBenchmarked Dataset\n\n\n\nSatBird is a dataset and benchmark models for the task of predicting bird species encounter rates jointly at a specific location using remote sensing data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVoxaboxen\n\n\n\nAcoustic classification\n\n\nCall Identification\n\n\nPackage or Library\n\n\n\nVoxaboxen is a deep learning framework designed to find the start and stop times of (possibly overlapping) sound events in a recording.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnoisereduce\n\n\n\nAcoustics processing\n\n\nSignal Processing\n\n\nPackage or Library\n\n\n\nnoisereduce is a domain-general noise reduction tool for bioacoustics and other time domain signals.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nopensoundscape\n\n\n\nAcoustic classification\n\n\nCall Identification, Signal Processing\n\n\nPackage or Library\n\n\n\nPython package for analyzing bioacoustic data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsilbido profundo\n\n\n\nAcoustics processing\n\n\nTonal Call Detection\n\n\nPackage or Library\n\n\n\nAn open source package for the use of deep learning to detect odontocete whistles\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsomnotate\n\n\n\nTimeseries segmentation\n\n\nSleep Scoring\n\n\nPackage or Library\n\n\n\nProbabilistic sleep scoring software to combine linear discriminant analysis (LDA) and hidden Markov models (HMM).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nxPLNet\n\n\n\nImage classification\n\n\nPlant stress phenotyping\n\n\nResearch Compendium\n\n\n\nAI classification of leaf pictures into different environmental stresses/diseases. Explainable model. Developped with soybean leaves, works with other species.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nyasa\n\n\n\nTimeseries segmentation\n\n\nSleep Scoring\n\n\nPackage or Library\n\n\n\nYASA (Yet Another Spindle Algorithm) is a command-line sleep analysis toolbox in Python with automatic sleep staging and signal processing functions.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "communities/EcoViz/index.html",
+    "href": "communities/EcoViz/index.html",
+    "title": "EcoViz",
+    "section": "",
+    "text": "Community Details\nInformation\n\n\n\n\n Community Name\nEcoViz\n\n\n Description\nA collaborative initiative to co-design climate data visualizations that leverage computational advances to display model outputs, communicate science, and inform policy and practice.\n\n\n Tags\nAI, climate, climate change, cyberinfrastructure, visualization\n\n\n Website\necoviz.org\n\n\n LinkedIn\nhttps://www.linkedin.com/company/ecoviz-collaborative-initiative-for-climate-visualization/\n\n\n Organizations\nCenter for Coastal Climate Resilience, San Diego Supercomputer Center, Scripps Institution of Oceanography, UC San Diego, UC Santa Cruz\n\n\n Funding\nAXA Research Fund, Army Corps of Engineers, CalOES, Department of Homeland Security, Intervalien, NSF, SDG&E, Schmidt Sciences, State of California, The Nature Conservancy, The World Bank"
+  },
+  {
+    "objectID": "communities/DSE_Data_Science_&_Environment/index.html",
+    "href": "communities/DSE_Data_Science_&_Environment/index.html",
+    "title": "DSE Data Science & Environment",
+    "section": "",
+    "text": "Community Details\nInformation\n\n\n\n\n Community Name\nDSE Data Science & Environment\n\n\n Description\nThe Eric and Wendy Schmidt Center for Data Science & Environment (DSE) combines the power of computing and environmental science with open science principles and a commitment to inclusivity—all towards the purpose of building tangible, replicable, and accessible solutions to problems compromising the health of our environment. We aim to co-create these solutions in direct partnership with those who hold the knowledge and expertise of their local needs and environmental context.\n\n\n Tags\nAI, biodiversity, climate, ecology\n\n\n Website\nhttps://dse.berkeley.edu/\n\n\n LinkedIn\nhttps://www.linkedin.com/company/schmidtdse/\n\n\n Organizations\nSchmidt Sciences, UC Berkeley\n\n\n Funding\nSchmidt Sciences, UC Berkeley"
+  },
+  {
+    "objectID": "communities/Imageomics_Institute/index.html",
+    "href": "communities/Imageomics_Institute/index.html",
+    "title": "Imageomics Institute",
+    "section": "",
+    "text": "Community Details\nInformation\n\n\n\n\n Community Name\nImageomics Institute\n\n\n Description\nThe Imageomics Institute GitHub organization hosts the development and distribution of a collection of open-source ML tools used to study the biological information encoded in images and videos integrated with structured biological knowledge.\n\n\n Tags\nAI, ecology\n\n\n Website\nhttps://github.com/Imageomics/\n\n\n LinkedIn\nhttps://www.linkedin.com/company/imageomics-institute\n\n\n Organizations\nOhio State University\n\n\n Funding\nNSF"
+  },
+  {
+    "objectID": "communities/OceanVisionAI/index.html",
+    "href": "communities/OceanVisionAI/index.html",
+    "title": "OceanVisionAI",
+    "section": "",
+    "text": "Community Details\nInformation\n\n\n\n\n Community Name\nOceanVisionAI\n\n\n Description\nAn initiative for annotating video and imagery data from deep sea expeditions with citizen science - associated initiatives: https://fathomnet.org/ (database), https://www.fathomverse.game/ (game)\n\n\n Tags\nAI, citizen science, deep sea, visualization\n\n\n Website\nhttps://www.oceanvisionai.org/\n\n\n LinkedIn\nhttps://www.linkedin.com/company/ocean-vision-ai/\n\n\n Organizations\nMBARI\n\n\n Funding\nDalio Foundation, NOAA, NSF, Nat Geo, Packard Foundation"
+  },
+  {
+    "objectID": "models/HappyWhale/index.html",
+    "href": "models/HappyWhale/index.html",
+    "title": "HappyWhale",
+    "section": "",
+    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nWeb GUI\n\n\n Broad Task\nImage classification\n\n\n Specific Task\nMarine mammal photo identification\n\n\n Model type\nComputer vision\n\n\n Description\nAI-assisted individual ID of humpback whale flukes and multi-species dorsal fin ID\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nJava, Python, Typescript\n\n\n Last Edited Time\n6/21/24 11:01\n\n\n Related Publication(s)\nhttps://rdcu.be/cCOtw\n\n\n Dependencies\nnan\n\n\n Tool URL (Github etc.)\nhttps://happywhale.com/home\n\n\n Last Update (time ago)\nLast updated within the month\n\n\n License\nnan\n\n\n Contact Name\nTed Cheeseman\n\n\n Contact Email\nmailto:ted@happywhale.com\n\n\n Contact Responsiveness\nVery responsive\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
+  },
+  {
+    "objectID": "models/Merlin_Sound_ID_Bird_App/index.html",
+    "href": "models/Merlin_Sound_ID_Bird_App/index.html",
+    "title": "Merlin Sound ID Bird App",
+    "section": "",
+    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nMobile App\n\n\n Broad Task\nAcoustic classification\n\n\n Specific Task\nSpecies Identification\n\n\n Model type\nConvolutional Neural Network, MobileNet\n\n\n Description\nAn app for identifying birds to species level worldwide\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n5/22/24 10:55\n\n\n Related Publication(s)\nhttps://doi.org/10.1371/journal.pbio.1001220\n\n\n Dependencies\nnan\n\n\n Tool URL (Github etc.)\nhttps://merlin.allaboutbirds.org/\n\n\n Last Update (time ago)\nnan\n\n\n License\nnan\n\n\n Contact Name\nnan\n\n\n Contact Email\nnan\n\n\n Contact Responsiveness\nnan\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
+  },
+  {
+    "objectID": "models/somnotate/index.html",
+    "href": "models/somnotate/index.html",
+    "title": "somnotate",
+    "section": "",
+    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nPackage or Library\n\n\n Broad Task\nTimeseries segmentation\n\n\n Specific Task\nSleep Scoring\n\n\n Model type\nHidden Markov Model\n\n\n Description\nProbabilistic sleep scoring software to combine linear discriminant analysis (LDA) and hidden Markov models (HMM).\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nNo\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n6/21/24 10:10\n\n\n Related Publication(s)\nhttps://doi.org/10.1371/journal.pcbi.1011793\n\n\n Dependencies\nmatplotlib, numpy, pomegranate, scikit-learn\n\n\n Tool URL (Github etc.)\nhttps://github.com/paulbrodersen/somnotate/tree/master\n\n\n Last Update (time ago)\nLast updated within 6 months\n\n\n License\nGNU General Public License\n\n\n Contact Name\nPaul Brodersen\n\n\n Contact Email\nmailto:paulbrodersen+github@gmail.com\n\n\n Contact Responsiveness\nVery responsive\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
+  },
+  {
+    "objectID": "models/BioCLIP/index.html",
+    "href": "models/BioCLIP/index.html",
+    "title": "BioCLIP",
+    "section": "",
+    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nPackage or Library\n\n\n Broad Task\nImage classification\n\n\n Specific Task\nSpecies Identification\n\n\n Model type\nConvolutional Neural Network, Transformer\n\n\n Description\nBioCLIP is a computer vision model, fine tuned for species identification.\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n6/21/24 10:12\n\n\n Related Publication(s)\nhttps://arxiv.org/abs/2311.18803\n\n\n Dependencies\nopen_clip\n\n\n Tool URL (Github etc.)\nhttps://github.com/Imageomics/bioclip\n\n\n Last Update (time ago)\nLast updated within the month\n\n\n License\nCustom License\n\n\n Contact Name\nSamuel Stevens\n\n\n Contact Email\nmailto:stevens.994@buckeyemail.osu.edu\n\n\n Contact Responsiveness\nnan\n\n\n HuggingFace URL\nhttps://huggingface.co/imageomics/bioclip\n\n\n Reproducibility Method\nmakefile"
+  },
+  {
+    "objectID": "models/Voxaboxen/index.html",
+    "href": "models/Voxaboxen/index.html",
+    "title": "Voxaboxen",
+    "section": "",
+    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nPackage or Library\n\n\n Broad Task\nAcoustic classification\n\n\n Specific Task\nCall Identification\n\n\n Model type\nAVES, Transformer\n\n\n Description\nVoxaboxen is a deep learning framework designed to find the start and stop times of (possibly overlapping) sound events in a recording.\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n6/21/24 10:24\n\n\n Related Publication(s)\nhttps://doi.org/10.5281/zenodo.8381019\n\n\n Dependencies\nPyYAML, einops, intervaltree, librosa, matplotlib, mir_eval, numpy, pandas, plumbum, pytorch, scipy, seaborn, soundfile, torchaudio, tqdm\n\n\n Tool URL (Github etc.)\nhttps://github.com/earthspecies/voxaboxen\n\n\n Last Update (time ago)\nLast updated within 6 months\n\n\n License\nAGPL-3.0\n\n\n Contact Name\nBenjamin Hoffman\n\n\n Contact Email\nmailto:benjamin@earthspecies.org\n\n\n Contact Responsiveness\nVery responsive\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
+  },
+  {
+    "objectID": "models/Ecological_Niche_Modelling_With_R/index.html",
+    "href": "models/Ecological_Niche_Modelling_With_R/index.html",
+    "title": "Ecological Niche Modelling With R",
+    "section": "",
+    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nResearch Compendium\n\n\n Broad Task\nSpecies distribution model\n\n\n Specific Task\nEcological Niche Modeling\n\n\n Model type\nMaxEnt, Neural Network\n\n\n Description\nA workflow to simplify the process of estimating spatial probability distributions (species presence/absence) given a set of environmental parameters.\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nR\n\n\n Last Edited Time\n6/21/24 11:12\n\n\n Related Publication(s)\nhttps://doi.org/10.1007/s41060-024-00517-w\n\n\n Dependencies\nnan\n\n\n Tool URL (Github etc.)\nhttps://github.com/cybprojects65/EcologicalNicheModellingWithR\n\n\n Last Update (time ago)\nLast updated within 6 months\n\n\n License\nnan\n\n\n Contact Name\nGianpaolo Coro\n\n\n Contact Email\nmailto:gianpaolo.coro@isti.cnr.it\n\n\n Contact Responsiveness\nnan\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
+  },
+  {
+    "objectID": "models/xPLNet/index.html",
+    "href": "models/xPLNet/index.html",
+    "title": "xPLNet",
+    "section": "",
+    "text": "Model metadata\nValue\n\n\n\n\n Tool Type\nResearch Compendium\n\n\n Broad Task\nImage classification\n\n\n Specific Task\nPlant stress phenotyping\n\n\n Model type\nConvolutional Neural Network\n\n\n Description\nAI classification of leaf pictures into different environmental stresses/diseases. Explainable model. Developped with soybean leaves, works with other species.\n\n\n Task Specific\nYes\n\n\n Ecology Specific\nYes\n\n\n Language(s)\nPython\n\n\n Last Edited Time\n6/23/24 15:05\n\n\n Related Publication(s)\nhttps://www.pnas.org/doi/10.1073/pnas.1716999115\n\n\n Dependencies\nkeras, numpy, theano\n\n\n Tool URL (Github etc.)\nhttps://github.com/SCSLabISU/xPLNet\n\n\n Last Update (time ago)\nLast updated more than a year ago\n\n\n License\nBSD-3-Clause\n\n\n Contact Name\nSoumik Sarkar; Arti Singh\n\n\n Contact Email\nmailto:soumiks@iastate.edu; mailto:arti@iastate.edu\n\n\n Contact Responsiveness\nnan\n\n\n HuggingFace URL\nnan\n\n\n Reproducibility Method\nnan"
   },
   {
     "objectID": "people.html",

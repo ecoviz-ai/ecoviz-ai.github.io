@@ -4,16 +4,9 @@ title: "BioLingual"
 description: "Text prompt to search through audio by species, call type, or verbal description. Also receives audio input."
 categories: ["Acoustics processing", "Call Identification", "Model API"]
 image: ../../media/models/BioLingual.png
-title-block-banner: ../../media/models/BioLingual.png
-include-in-header:
-  - text: |
-      <style>
-      .quarto-title-block .quarto-title-banner {
-        background-position-y: bottom-right;
-        height: 500px;
-      }
-      </style>
 ---
+
+![](../../media/models/BioLingual.png){.custom_image}
 
 | Model metadata             | Value                               |
 |----------------------------|------------------------------------|

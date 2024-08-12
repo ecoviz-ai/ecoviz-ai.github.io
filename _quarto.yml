@@ -10,9 +10,10 @@ website:
       - resources.qmd
       - people.qmd
       - modelzoo.qmd
+      - communities.qmd
       #- pubs.qmd
       #- research.qmd
-  favicon: media/EcoVizAI_Logo3_small.png
+  favicon: media/logos/EcoVizAI_Logo3_small.png
 
 format:
   html:

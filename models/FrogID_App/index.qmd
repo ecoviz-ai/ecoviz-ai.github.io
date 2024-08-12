@@ -4,16 +4,9 @@ title: "FrogID App"
 description: "An app for identifying frogs to species level worldwide"
 categories: ["Acoustic classification", "Species Identification", "Mobile App"]
 image: ../../media/models/FrogID_App.png
-title-block-banner: ../../media/models/FrogID_App.png
-include-in-header:
-  - text: |
-      <style>
-      .quarto-title-block .quarto-title-banner {
-        background-position-y: bottom-right;
-        height: 500px;
-      }
-      </style>
 ---
+
+![](../../media/models/FrogID_App.png){.custom_image}
 
 | Model metadata             | Value                               |
 |----------------------------|------------------------------------|

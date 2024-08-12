@@ -1,0 +1,20 @@
+
+---
+title: "AI4Life"
+description: "Research services and infrastructure to support life scientists in the adoption of machine learning solutions that improve the utility and interpretability of image data – the key to future biological and biomedical research."
+categories: ["AI", "cyberinfrastructure", "ecology"]
+image: ../../media/communities/AI4Life.png
+---
+
+![](../../media/communities/AI4Life.png){.custom_image}
+
+| Community Details             | Information                                                                                                     |
+|-------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| {{< fa users >}} Community Name       | AI4Life                                                                                       |
+| {{< fa book >}} Description           | Research services and infrastructure to support life scientists in the adoption of machine learning solutions that improve the utility and interpretability of image data – the key to future biological and biomedical research.                                                                                          |
+| {{< fa tags >}} Tags                  | AI, cyberinfrastructure, ecology                                                                                                 |
+| {{< fa link >}} Website               | [https://ai4life.eurobioimaging.eu/](https://https://ai4life.eurobioimaging.eu/)                                                                    |
+| {{< fa linkedin >}} LinkedIn          | [https://www.linkedin.com/company/ai4life-eu-project](https://https://www.linkedin.com/company/ai4life-eu-project)                                                                  |                                                                             |
+| {{< fa building >}} Organizations     | BioImage, European Marine Biological Resource Centre, KTH, Universidad Carlos III de Madrid                                                                                        |
+| {{< fa hand-holding-usd >}} Funding   | European Union                                                                                |
+

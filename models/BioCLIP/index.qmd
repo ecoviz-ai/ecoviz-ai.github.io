@@ -4,16 +4,9 @@ title: "BioCLIP"
 description: "BioCLIP is a computer vision model, fine tuned for species identification. "
 categories: ["Image classification", "Species Identification", "Package or Library"]
 image: ../../media/models/BioCLIP.png
-title-block-banner: ../../media/models/BioCLIP.png
-include-in-header:
-  - text: |
-      <style>
-      .quarto-title-block .quarto-title-banner {
-        background-position-y: bottom-right;
-        height: 500px;
-      }
-      </style>
 ---
+
+![](../../media/models/BioCLIP.png){.custom_image}
 
 | Model metadata             | Value                               |
 |----------------------------|------------------------------------|

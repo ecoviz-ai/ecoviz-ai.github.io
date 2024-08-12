@@ -4,16 +4,9 @@ title: "Voxaboxen"
 description: "Voxaboxen is a deep learning framework designed to find the start and stop times of (possibly overlapping) sound events in a recording. "
 categories: ["Acoustic classification", "Call Identification", "Package or Library"]
 image: ../../media/models/Voxaboxen.png
-title-block-banner: ../../media/models/Voxaboxen.png
-include-in-header:
-  - text: |
-      <style>
-      .quarto-title-block .quarto-title-banner {
-        background-position-y: bottom-right;
-        height: 500px;
-      }
-      </style>
 ---
+
+![](../../media/models/Voxaboxen.png){.custom_image}
 
 | Model metadata             | Value                               |
 |----------------------------|------------------------------------|

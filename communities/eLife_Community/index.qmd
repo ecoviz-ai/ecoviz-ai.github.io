@@ -1,0 +1,20 @@
+
+---
+title: "eLife Community"
+description: "eLife works with researchers across the globe to promote a research culture that values openness, integrity, equity, diversity and inclusion."
+categories: ["ecology"]
+image: ../../media/communities/eLifeCommunity.png
+---
+
+![](../../media/communities/eLifeCommunity.png){.custom_image}
+
+| Community Details             | Information                                                                                                     |
+|-------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| {{< fa users >}} Community Name       | eLife Community                                                                                       |
+| {{< fa book >}} Description           | eLife works with researchers across the globe to promote a research culture that values openness, integrity, equity, diversity and inclusion.                                                                                          |
+| {{< fa tags >}} Tags                  | ecology                                                                                                 |
+| {{< fa link >}} Website               | [https://elifesciences.org/community/](https://https://elifesciences.org/community/)                                                                    |
+| {{< fa linkedin >}} LinkedIn          | [https://www.linkedin.com/company/elife-sciences-publications-ltd](https://https://www.linkedin.com/company/elife-sciences-publications-ltd)                                                                  |                                                                             |
+| {{< fa building >}} Organizations     | nan                                                                                        |
+| {{< fa hand-holding-usd >}} Funding   | HHMI, Knut and Alice Wallenberg Foundation, Max Planck Institute, Wellcome                                                                                |
+

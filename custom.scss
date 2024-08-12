@@ -32,11 +32,17 @@ $link-color: $orchid;
   margin: 10px;
   display: flex;
   align-items: center;
+  object-position: center;
 }
 
 .person img {
   margin-right: 10px;
   border-radius: 50%;
+}
+
+.custom-image {
+  width: 20%;
+  height: 200px;
 }
 
 .custom-subtitle {

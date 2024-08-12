@@ -1,5 +1,18 @@
 [
   {
+    "listing": "/communities.html",
+    "items": [
+      "/communities/ABC_AI_and_Biodiversity_Change/index.html",
+      "/communities/AI4Life/index.html",
+      "/communities/DSE_Data_Science_&_Environment/index.html",
+      "/communities/EcoViz/index.html",
+      "/communities/EcoViz+AI_Working_Group/index.html",
+      "/communities/Imageomics_Institute/index.html",
+      "/communities/OceanVisionAI/index.html",
+      "/communities/eLife_Community/index.html"
+    ]
+  },
+  {
     "listing": "/modelzoo.html",
     "items": [
       "/models/BioCLIP/index.html",

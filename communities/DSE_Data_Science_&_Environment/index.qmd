@@ -1,0 +1,20 @@
+
+---
+title: "DSE Data Science & Environment"
+description: "The Eric and Wendy Schmidt Center for Data Science & Environment (DSE) combines the power of computing and environmental science with open science principles and a commitment to inclusivity—all towards the purpose of building tangible, replicable, and accessible solutions to problems compromising the health of our environment. We aim to co-create these solutions in direct partnership with those who hold the knowledge and expertise of their local needs and environmental context."
+categories: ["AI", "biodiversity", "climate", "ecology"]
+image: ../../media/communities/DSEDataScience&Environment.png
+---
+
+![](../../media/communities/DSEDataScience&Environment.png){.custom_image}
+
+| Community Details             | Information                                                                                                     |
+|-------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| {{< fa users >}} Community Name       | DSE Data Science & Environment                                                                                       |
+| {{< fa book >}} Description           | The Eric and Wendy Schmidt Center for Data Science & Environment (DSE) combines the power of computing and environmental science with open science principles and a commitment to inclusivity—all towards the purpose of building tangible, replicable, and accessible solutions to problems compromising the health of our environment. We aim to co-create these solutions in direct partnership with those who hold the knowledge and expertise of their local needs and environmental context.                                                                                          |
+| {{< fa tags >}} Tags                  | AI, biodiversity, climate, ecology                                                                                                 |
+| {{< fa link >}} Website               | [https://dse.berkeley.edu/](https://https://dse.berkeley.edu/)                                                                    |
+| {{< fa linkedin >}} LinkedIn          | [https://www.linkedin.com/company/schmidtdse/](https://https://www.linkedin.com/company/schmidtdse/)                                                                  |                                                                             |
+| {{< fa building >}} Organizations     | Schmidt Sciences, UC Berkeley                                                                                        |
+| {{< fa hand-holding-usd >}} Funding   | Schmidt Sciences, UC Berkeley                                                                                |
+

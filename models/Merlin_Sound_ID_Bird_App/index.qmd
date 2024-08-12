@@ -4,16 +4,9 @@ title: "Merlin Sound ID Bird App"
 description: "An app for identifying birds to species level worldwide"
 categories: ["Acoustic classification", "Species Identification", "Mobile App"]
 image: ../../media/models/Merlin_Sound_ID_Bird_App.png
-title-block-banner: ../../media/models/Merlin_Sound_ID_Bird_App.png
-include-in-header:
-  - text: |
-      <style>
-      .quarto-title-block .quarto-title-banner {
-        background-position-y: bottom-right;
-        height: 500px;
-      }
-      </style>
 ---
+
+![](../../media/models/Merlin_Sound_ID_Bird_App.png){.custom_image}
 
 | Model metadata             | Value                               |
 |----------------------------|------------------------------------|

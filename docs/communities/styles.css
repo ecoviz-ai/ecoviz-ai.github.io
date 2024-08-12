@@ -1,0 +1,15 @@
+/* Base Classes */
+.tool_type, .broad_task, .specific_task, .description, .ai_model_types, .task_specific, .ecology_specific, .files_media, .languages, .last_edited_time, .related_publications, .dependencies, .tool_url, .last_update, .license, .contact_name, .contact_email, .contact_responsibility, .huggingface_url, .reproducibility_method {
+  display: inline-block;
+  background-color: #54476f; /* Coral */
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #ffffff; /* Default text color set to white for visibility against colored backgrounds */
+}
+
+/* Specific Value Styles */
+.tool_type_pkglib, .tool_type_package_or_library, .tool_type_model_api, .tool_type_standalone_software, .tool_type_research_compendium, .tool_type_mobile_app, .tool_type_benchmarked_dataset {
+  background-color: #7499b7; /* Coral */
+  color: #ffffff; /* Default text color set to white for visibility against colored backgrounds */
+}
+

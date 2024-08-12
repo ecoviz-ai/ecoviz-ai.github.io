@@ -4,16 +4,9 @@ title: "noisereduce"
 description: "noisereduce is a domain-general noise reduction tool for bioacoustics and other time domain signals. "
 categories: ["Acoustics processing", "Signal Processing", "Package or Library"]
 image: ../../media/models/noisereduce.png
-title-block-banner: ../../media/models/noisereduce.png
-include-in-header:
-  - text: |
-      <style>
-      .quarto-title-block .quarto-title-banner {
-        background-position-y: bottom-right;
-        height: 500px;
-      }
-      </style>
 ---
+
+![](../../media/models/noisereduce.png){.custom_image}
 
 | Model metadata             | Value                               |
 |----------------------------|------------------------------------|

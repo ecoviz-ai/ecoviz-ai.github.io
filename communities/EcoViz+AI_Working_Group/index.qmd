@@ -1,0 +1,20 @@
+
+---
+title: "EcoViz+AI Working Group"
+description: "An international community of practice to discuss and democratize AI and visualization for use cases in ecology."
+categories: ["AI", "biodiversity", "climate change", "conservation", "cyberinfrastructure", "ecology", "education", "visualization"]
+image: ../../media/communities/EcoViz+AIWorkingGroup.png
+---
+
+![](../../media/communities/EcoViz+AIWorkingGroup.png){.custom_image}
+
+| Community Details             | Information                                                                                                     |
+|-------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| {{< fa users >}} Community Name       | EcoViz+AI Working Group                                                                                       |
+| {{< fa book >}} Description           | An international community of practice to discuss and democratize AI and visualization for use cases in ecology.                                                                                          |
+| {{< fa tags >}} Tags                  | AI, biodiversity, climate change, conservation, cyberinfrastructure, ecology, education, visualization                                                                                                 |
+| {{< fa link >}} Website               | [ecoviz-ai.github.io](https://ecoviz-ai.github.io)                                                                    |
+| {{< fa linkedin >}} LinkedIn          | [nan](https://nan)                                                                  |                                                                             |
+| {{< fa building >}} Organizations     | Cornell University, Ohio State University, Oxford University, San Diego Supercomputer Center, Scripps Institution of Oceanography, UC San Diego, UC Santa Cruz, University of Michigan, University of Moncton, University of Toronto                                                                                        |
+| {{< fa hand-holding-usd >}} Funding   | Schmidt Sciences                                                                                |
+

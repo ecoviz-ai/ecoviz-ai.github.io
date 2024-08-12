@@ -4,16 +4,9 @@ title: "somnotate"
 description: "Probabilistic sleep scoring software to combine linear discriminant analysis (LDA) and hidden Markov models (HMM)."
 categories: ["Timeseries segmentation", "Sleep Scoring", "Package or Library"]
 image: ../../media/models/somnotate.png
-title-block-banner: ../../media/models/somnotate.png
-include-in-header:
-  - text: |
-      <style>
-      .quarto-title-block .quarto-title-banner {
-        background-position-y: bottom-right;
-        height: 500px;
-      }
-      </style>
 ---
+
+![](../../media/models/somnotate.png){.custom_image}
 
 | Model metadata             | Value                               |
 |----------------------------|------------------------------------|
