@@ -7,7 +7,7 @@ website:
   navbar:
     right:
       - about.qmd
-      - resources.qmd
+      # - resources.qmd
       - people.qmd
       - modelzoo.qmd
       - communities.qmd
