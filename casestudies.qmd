@@ -1,0 +1,92 @@
+---
+title: "Case Studies"
+format: html
+---
+
+## Case Studies of AI in Ecology
+
+Our week-long EcoViz+AI: Visualization and AI for Ecology workshop focused on five examples of AI’s use cases in Ecology in active areas of research by workshop attendees. Each example involved data processing, highlighting that this is an area where ecologists are particularly interested in leveraging AI, due to the high potential to speed up tedious manual labor and leverage large datasets with relatively little consequence for model errors, especially when human review is involved. The five use cases were: **(1)** **EcoViz_BioCLIP** adapting the BioCLIP (Stevens et al., 2023) model for annotating citizen science photos on Flickr, **(2) EcoViz_EcoPhys** refining OpenSoundscape (Lapp et al., 2023) to classify Southern California blue whale vocalizations, **(3) EcoViz_Resilience** applying TagLab (Pavoni et al., 2021) image segmentation software to annotate coral reef imagery, **(4) EcoViz_SoundClassifier** adapting Scikit-learn (Pedregosa et al., 2011) and LightGBM (Microsoft, 2024) classifiers to label sleep states in wild animals, and **(5) EcoViz_FishClassifier** applying TensorFlow (TensorFlow Developers, 2024) to classify Great Lakes fish using sound.
+
+We have collated these examples below, along with science communication videos explaining each. We invite others to contribute additional models or communities of practice via Github ([github.com/ecoviz-ai/ecoviz-ai.github.io](https://github.com/ecoviz-ai/ecoviz-ai.github.io)).
+
+## Model Details
+
+### EcoViz_BioCLIP
+
+-   **Description**: Applying BioCLIP to scrape citizen science images from Flickr.
+-   **Broad task**: Image classification
+-   **Specific task**: Photo identification
+-   **Language(s)**: Python
+-   **General Use Tool Name**: BioCLIP by Imageomics
+    -   **General Use Tool URL**: <https://github.com/Imageomics/bioclip>
+-   **Specialized Use Tool URL**: <https://github.com/Dr-Nathan-Fox/EcoViz_CLIP>
+-   **Model type**: Multimodal Neural Network
+-   **Contact email**: [foxnat\@umich.edu](mailto:foxnat@umich.edu)
+-   **Contact name**: Nathan Fox
+-   **Video URL**: <https://youtu.be/3qJ5KFaEDRo>
+
+{{< video https://youtu.be/3qJ5KFaEDRo width="500" height="300" >}}
+
+### EcoViz_EcoPhys
+
+-   **Description**: Applying LightGBM to classify sleep states in elephant seals.
+-   **Broad task**: Timeseries segmentation
+-   **Specific task**: Sleep scoring for northern elephant seals
+-   **Language(s)**: Python
+-   **General Use Tool Name**: LightGBM by Microsoft
+    -   **General Use Tool URL**: <https://github.com/microsoft/LightGBM>
+-   **Specialized Use Tool URL**: <https://github.com/jmkendallbar/ecophys-ecoviz/>
+-   **Model type**: Gradient Boosted Decision Tree
+-   **Contact email**: [jessica.kendallbar\@gmail.com](mailto:jessica.kendallbar@gmail.com)
+-   **Contact name**: Jessica Kendall-Bar
+-   **Video URL**: <https://youtu.be/XKT0hMGumL8>
+
+{{< video https://youtu.be/XKT0hMGumL8 width="500" height="300" >}}
+
+### EcoViz_Resilience
+
+-   **Description**: Applying TagLab to segment coral reef imagery.
+-   **Broad task**: Image segmentation
+-   **Specific task**: Coral reef image segmentation
+-   **Language(s)**: Python, C++
+-   **General Use Tool Name**: TagLab by Visual Computing Lab
+    -   **General Use Tool URL**: <https://github.com/cnr-isti-vclab/TagLab>
+-   **Specialized Use Tool URL**: <https://github.com/cnr-isti-vclab/TagLab>
+-   **Model type**: Convolutional Neural Network
+-   **Contact email**: [bfrench\@ucsd.edu](mailto:bfrench@ucsd.edu)
+-   **Contact name**: Beverly French
+-   **Video URL**: <https://youtu.be/v9a-dHw3S70>
+
+{{< video https://youtu.be/v9a-dHw3S70 width="500" height="300" >}}
+
+### EcoViz_SoundClassifier
+
+-   **Description**: Applying OpenSoundscape to distinguish between whale calls.
+-   **Broad task**: Acoustic classification
+-   **Specific task**: Blue whale call classification
+-   **Language(s)**: Python
+-   **General Use Tool Name**: OpenSoundscape by Kitzes Lab
+    -   **General Use Tool URL**: <https://github.com/kitzeslab/opensoundscape>
+-   **Specialized Use Tool URL**: <https://github.com/m1alksne/WhaleSongNet>
+-   **Model type**: Convolutional Neural Network
+-   **Contact email**: [m1alksne\@ucsd.edu](mailto:m1alksne@ucsd.edu)
+-   **Contact name**: Michaela Alksne
+-   **Video URL**: <https://youtu.be/B2QxtE3uRZY>
+
+{{< video https://youtu.be/B2QxtE3uRZY width="500" height="300" >}}
+
+### EcoViz_FishClassifier
+
+-   **Description**: Applying TensorFlow to classify Great Lakes fish with sound.
+-   **Broad task**: Acoustic classification
+-   **Specific task**: Great lakes fish classification
+-   **Language(s)**: R
+-   **General Use Tool Name**: TensorFlow by Rstudio
+    -   **General Use Tool URL**: <https://github.com/rstudio/tensorflow>
+-   **Specialized Use Tool URL**: <https://github.com/JessLeivesley/fish-classification>
+-   **Model type**: Residual Neural Network
+-   **Contact email**: [jessica.leivesley\@utoronto.ca](mailto:jessica.leivesley@utoronto.ca)
+-   **Contact name**: Jessica Leivesley
+-   **Video URL**: <https://youtu.be/t0PG9DghmPs>
+
+{{< video https://youtu.be/t0PG9DghmPs width="500" height="300" >}}

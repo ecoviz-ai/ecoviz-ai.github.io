@@ -11,6 +11,7 @@ website:
       - people.qmd
       - modelzoo.qmd
       - communities.qmd
+      - casestudies.qmd
       #- pubs.qmd
       #- research.qmd
   favicon: media/logos/EcoVizAI_Logo3_small.png
