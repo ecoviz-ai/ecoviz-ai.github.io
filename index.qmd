@@ -18,9 +18,6 @@ about:
     - href: people.html
       icon: people
       text: Meet the Team
-    - href: resources.html
-      icon: info-circle-fill
-      text: Explore Resources
     - href: https://join.slack.com/t/ecovizainetwork/shared_invite/zt-2evjz39p1-Bhigc2M1mH7NNrNRrbK3mg
       icon: slack
       text: Join our Slack
@@ -29,20 +26,40 @@ about:
       text: Explore Collaborative FigJam
 ---
 
-# EcoViz+AI Community of Practice
+# Welcome to EcoViz+AI
 
-Inaugurated March 25-29, 2024 at UC San Diego.
+### Bridging visualization and AI for Ecology
 
-Organized by [Jessica Kendall-Bar](https://jessiekb.com)
+EcoViz+AI is a community of practice born out of a shared vision to empower ecologists to responsibly leverage advances in artificial intelligence through community, education, cyberinfrastructure, and visualization for science communication. We connect researchers, practitioners, and AI experts working at the intersection of technology and ecology to understand, develop, and refine AI tools for ecological applications.
+
+EcoViz+AI 2024 (March 24-29) was organized by [Jessica Kendall-Bar](https://jessiekb.com) and facilitated by [Allison Payne](https://allisonpayne.github.io/) and [Max Czapanskiy](https://flukeandfeather.com/).
 
 {{< video https://www.youtube.com/embed/3aoCEhHG488?si=iMWcX1ESK_bWhAHk >}}
 
-### Website Resources
+### **Our Workshop and Community Origins**
 
--   **What:** an in-person workshop to develop 5 use-cases for AI in Science within Ecology.
--   **Who:** invited experts in visualization, AI, and Ecology
-    -   Read more about your [Roles & Expectations](https://www.notion.so/Roles-Expectations-a0cf47ee900844a48ed00dbc237145f1?pvs=21)
--   **Why:**
-    -   Democratize access to AI, visualization, and computation in Ecology, empowering scientists to leverage new tools & create clear, explainable, [FAIR](https://www.go-fair.org/fair-principles/) examples of AI-integration in Ecology.
--   **Where:**
-    -   UC San Diego: Scripps Institution of Oceanography and San Diego Supercomputer Center (SDSC)
+EcoViz+AI started as an intensive, week-long workshop, where participants engaged hands-on with AI models tailored to ecological needs, ranging from annotating citizen science images to classifying whale vocalizations and sleep states in wild animals. This experience highlighted the significant potential of AI in ecology—speeding up data processing, facilitating large-scale analyses, and creating accessible computational ecosystems.
+
+**What We Offer**
+
+-   **Collaborative Learning:** Join future workshops, interactive coding sessions, and [discussion forums](https://join.slack.com/t/ecovizainetwork/shared_invite/zt-2evjz39p1-Bhigc2M1mH7NNrNRrbK3mg) to learn from peers and experts in the field.
+
+-   [**Case Studies**](../casestudies.html)**:** Dive into detailed examples of AI applied to ecological problems, complete with data, code, and instructional videos.
+
+-   [**Model Zoo**](../modelzoo.html)**:** Explore a comprehensive repository of models for various ecological applications. Contribute your models or build on existing ones.
+
+-   [**Communities of Practice**](../communities.html)**:** Explore other communities of practice for ideas of how to engage with ecologists who seek to responsibly leverage AI.
+
+-   **Resources:** Access a curated set of tools, datasets, and computational resources tailored for ecological AI applications.
+
+![](media/casestudies/Workshop.png)
+
+**Get Involved**
+
+EcoViz+AI is committed to cultivating an inclusive, supportive environment for learning and collaboration. Whether you're new to AI or an experienced data scientist, there’s a place for you in our community. We invite you to contribute to our model repository, join our discussions, or share your experiences and challenges with AI in ecology.
+
+Together, we can learn to responsibly leverage AI to better understand and protect our environment.
+
+**Contact us at [jkendallbar\@ucsd.edu](mailto:jkendallbar@ucsd.edu), join us [on Slack](https://join.slack.com/t/ecovizainetwork/shared_invite/zt-2evjz39p1-Bhigc2M1mH7NNrNRrbK3mg), or contribute on [GitHub](#0) to this growing community!**
+
+![](images/paste-1.png)

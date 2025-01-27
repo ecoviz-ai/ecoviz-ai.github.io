@@ -20,7 +20,7 @@ format:
   html:
     theme:
       - custom.scss
-    mainfont: Nunito
+    mainfont: Inter
     css: styles.css
     toc: true
     page-layout: full

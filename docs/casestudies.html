@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -128,11 +131,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#case-studies-of-ai-in-ecology" id="toc-case-studies-of-ai-in-ecology" class="nav-link active" data-scroll-target="#case-studies-of-ai-in-ecology">Case Studies of AI in Ecology</a></li>
   <li><a href="#model-details" id="toc-model-details" class="nav-link" data-scroll-target="#model-details">Model Details</a>
   <ul class="collapse">
-  <li><a href="#ecoviz_bioclip" id="toc-ecoviz_bioclip" class="nav-link" data-scroll-target="#ecoviz_bioclip">EcoViz_BioCLIP</a></li>
-  <li><a href="#ecoviz_ecophys" id="toc-ecoviz_ecophys" class="nav-link" data-scroll-target="#ecoviz_ecophys">EcoViz_EcoPhys</a></li>
-  <li><a href="#ecoviz_resilience" id="toc-ecoviz_resilience" class="nav-link" data-scroll-target="#ecoviz_resilience">EcoViz_Resilience</a></li>
-  <li><a href="#ecoviz_soundclassifier" id="toc-ecoviz_soundclassifier" class="nav-link" data-scroll-target="#ecoviz_soundclassifier">EcoViz_SoundClassifier</a></li>
-  <li><a href="#ecoviz_fishclassifier" id="toc-ecoviz_fishclassifier" class="nav-link" data-scroll-target="#ecoviz_fishclassifier">EcoViz_FishClassifier</a></li>
+  <li><a href="#ecovizbioclip" id="toc-ecovizbioclip" class="nav-link" data-scroll-target="#ecovizbioclip">EcoViz+BioCLIP</a></li>
+  <li><a href="#ecovizecophys" id="toc-ecovizecophys" class="nav-link" data-scroll-target="#ecovizecophys">EcoViz+EcoPhys</a></li>
+  <li><a href="#ecovizresilience" id="toc-ecovizresilience" class="nav-link" data-scroll-target="#ecovizresilience">EcoViz+Resilience</a></li>
+  <li><a href="#ecovizsoundclassifier" id="toc-ecovizsoundclassifier" class="nav-link" data-scroll-target="#ecovizsoundclassifier">EcoViz+SoundClassifier</a></li>
+  <li><a href="#ecovizfishclassifier" id="toc-ecovizfishclassifier" class="nav-link" data-scroll-target="#ecovizfishclassifier">EcoViz+FishClassifier</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -159,24 +162,24 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p><a href="media/casestudies/BioCLIP.png" class="lightbox" data-gallery="my-gallery"><img src="media/casestudies/BioCLIP.png" class="img-fluid" width="200"></a> <a href="media/casestudies/Corals.png" class="lightbox" data-gallery="my-gallery"><img src="media/casestudies/Corals.png" class="img-fluid" width="200"></a> <a href="media/casestudies/Sleep-at-sea.png" class="lightbox" data-gallery="my-gallery"><img src="media/casestudies/Sleep-at-sea.png" class="img-fluid" width="200"></a> <a href="media/casestudies/BlueWhale.png" class="lightbox" data-gallery="my-gallery"><img src="media/casestudies/BlueWhale.png" class="img-fluid" width="200"></a></p>
 <section id="case-studies-of-ai-in-ecology" class="level2">
 <h2 class="anchored" data-anchor-id="case-studies-of-ai-in-ecology">Case Studies of AI in Ecology</h2>
-<p>Our week-long EcoViz+AI: Visualization and AI for Ecology workshop focused on five examples of AI’s use cases in Ecology in active areas of research by workshop attendees. Each example involved data processing, highlighting that this is an area where ecologists are particularly interested in leveraging AI, due to the high potential to speed up tedious manual labor and leverage large datasets with relatively little consequence for model errors, especially when human review is involved. The five use cases were: <strong>(1)</strong> <strong>EcoViz_BioCLIP</strong> adapting the BioCLIP (Stevens et al., 2023) model for annotating citizen science photos on Flickr, <strong>(2) EcoViz_EcoPhys</strong> refining OpenSoundscape (Lapp et al., 2023) to classify Southern California blue whale vocalizations, <strong>(3) EcoViz_Resilience</strong> applying TagLab (Pavoni et al., 2021) image segmentation software to annotate coral reef imagery, <strong>(4) EcoViz_SoundClassifier</strong> adapting Scikit-learn (Pedregosa et al., 2011) and LightGBM (Microsoft, 2024) classifiers to label sleep states in wild animals, and <strong>(5) EcoViz_FishClassifier</strong> applying TensorFlow (TensorFlow Developers, 2024) to classify Great Lakes fish using sound.</p>
+<p>Our week-long EcoViz+AI: Visualization and AI for Ecology workshop focused on five examples of AI’s use cases in Ecology in active areas of research by workshop attendees. Each example involved data processing, highlighting that this is an area where ecologists are particularly interested in leveraging AI, due to the high potential to speed up tedious manual labor and leverage large datasets with relatively little consequence for model errors, especially when human review is involved. The five use cases were: <strong>(1)</strong> <a href="#ecovizbioclip">EcoViz+BioCLIP</a> adapting the BioCLIP (Stevens et al., 2023) model for annotating citizen science photos on Flickr, <strong>(2)</strong> <a href="#ecovizecophys">EcoViz+EcoPhys</a> refining OpenSoundscape (Lapp et al., 2023) to classify Southern California blue whale vocalizations, <strong>(3)</strong> <a href="#ecovizresilience">EcoViz+Resilience</a> applying TagLab (Pavoni et al., 2021) image segmentation software to annotate coral reef imagery, <strong>(4)</strong> <a href="#ecovizsoundclassifier">EcoViz+SoundClassifier</a> adapting Scikit-learn (Pedregosa et al., 2011) and LightGBM (Microsoft, 2024) classifiers to label sleep states in wild animals, and <strong>(5)</strong> <a href="#ecovizfishclassifier">EcoViz+FishClassifier</a> applying TensorFlow (TensorFlow Developers, 2024) to classify Great Lakes fish using sound.</p>
 <p>We have collated these examples below, along with science communication videos explaining each. We invite others to contribute additional models or communities of practice via Github (<a href="https://github.com/ecoviz-ai/ecoviz-ai.github.io">github.com/ecoviz-ai/ecoviz-ai.github.io</a>).</p>
+<p><a href="media/casestudies/Nathan-Fox.png" class="lightbox" data-gallery="use-cases"><img src="media/casestudies/Nathan-Fox.png" class="img-fluid" width="150"></a> <a href="media/casestudies/Ritika-Mukherji.png" class="lightbox" data-gallery="use-cases"><img src="media/casestudies/Ritika-Mukherji.png" class="img-fluid" width="150"></a> <a href="media/casestudies/Beverly-French.png" class="lightbox" data-gallery="use-cases"><img src="media/casestudies/Beverly-French.png" class="img-fluid" width="150"></a> <a href="media/casestudies/Michaela-Alksne.png" class="lightbox" data-gallery="use-cases"><img src="media/casestudies/Michaela-Alksne.png" class="img-fluid" width="150"></a> <a href="media/casestudies/Jess-Leivesley.png" class="lightbox" data-gallery="use-cases"><img src="media/casestudies/Jess-Leivesley.png" class="img-fluid" width="150"></a></p>
 </section>
 <section id="model-details" class="level2">
 <h2 class="anchored" data-anchor-id="model-details">Model Details</h2>
-<section id="ecoviz_bioclip" class="level3">
-<h3 class="anchored" data-anchor-id="ecoviz_bioclip">EcoViz_BioCLIP</h3>
+<section id="ecovizbioclip" class="level3">
+<h3 class="anchored" data-anchor-id="ecovizbioclip">EcoViz+BioCLIP</h3>
 <ul>
 <li><strong>Description</strong>: Applying BioCLIP to scrape citizen science images from Flickr.</li>
 <li><strong>Broad task</strong>: Image classification</li>
 <li><strong>Specific task</strong>: Photo identification</li>
 <li><strong>Language(s)</strong>: Python</li>
-<li><strong>General Use Tool Name</strong>: BioCLIP by Imageomics
-<ul>
+<li><strong>General Use Tool Name</strong>: BioCLIP by Imageomics</li>
 <li><strong>General Use Tool URL</strong>: <a href="https://github.com/Imageomics/bioclip" class="uri">https://github.com/Imageomics/bioclip</a></li>
-</ul></li>
 <li><strong>Specialized Use Tool URL</strong>: <a href="https://github.com/Dr-Nathan-Fox/EcoViz_CLIP" class="uri">https://github.com/Dr-Nathan-Fox/EcoViz_CLIP</a></li>
 <li><strong>Model type</strong>: Multimodal Neural Network</li>
 <li><strong>Contact email</strong>: <a href="mailto:foxnat@umich.edu">foxnat@umich.edu</a></li>
@@ -185,8 +188,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/3qJ5KFaEDRo" width="500" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
-<section id="ecoviz_ecophys" class="level3">
-<h3 class="anchored" data-anchor-id="ecoviz_ecophys">EcoViz_EcoPhys</h3>
+<section id="ecovizecophys" class="level3">
+<h3 class="anchored" data-anchor-id="ecovizecophys">EcoViz+EcoPhys</h3>
 <ul>
 <li><strong>Description</strong>: Applying LightGBM to classify sleep states in elephant seals.</li>
 <li><strong>Broad task</strong>: Timeseries segmentation</li>
@@ -204,8 +207,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/XKT0hMGumL8" width="500" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
-<section id="ecoviz_resilience" class="level3">
-<h3 class="anchored" data-anchor-id="ecoviz_resilience">EcoViz_Resilience</h3>
+<section id="ecovizresilience" class="level3">
+<h3 class="anchored" data-anchor-id="ecovizresilience">EcoViz+Resilience</h3>
 <ul>
 <li><strong>Description</strong>: Applying TagLab to segment coral reef imagery.</li>
 <li><strong>Broad task</strong>: Image segmentation</li>
@@ -215,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>General Use Tool URL</strong>: <a href="https://github.com/cnr-isti-vclab/TagLab" class="uri">https://github.com/cnr-isti-vclab/TagLab</a></li>
 </ul></li>
-<li><strong>Specialized Use Tool URL</strong>: <a href="https://github.com/cnr-isti-vclab/TagLab" class="uri">https://github.com/cnr-isti-vclab/TagLab</a></li>
+<li><strong>Specialized Use Tool URL</strong>: <a href="https://taglab.isti.cnr.it/" class="uri">https://taglab.isti.cnr.it/</a></li>
 <li><strong>Model type</strong>: Convolutional Neural Network</li>
 <li><strong>Contact email</strong>: <a href="mailto:bfrench@ucsd.edu">bfrench@ucsd.edu</a></li>
 <li><strong>Contact name</strong>: Beverly French</li>
@@ -223,8 +226,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/v9a-dHw3S70" width="500" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
-<section id="ecoviz_soundclassifier" class="level3">
-<h3 class="anchored" data-anchor-id="ecoviz_soundclassifier">EcoViz_SoundClassifier</h3>
+<section id="ecovizsoundclassifier" class="level3">
+<h3 class="anchored" data-anchor-id="ecovizsoundclassifier">EcoViz+SoundClassifier</h3>
 <ul>
 <li><strong>Description</strong>: Applying OpenSoundscape to distinguish between whale calls.</li>
 <li><strong>Broad task</strong>: Acoustic classification</li>
@@ -242,8 +245,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/B2QxtE3uRZY" width="500" height="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
-<section id="ecoviz_fishclassifier" class="level3">
-<h3 class="anchored" data-anchor-id="ecoviz_fishclassifier">EcoViz_FishClassifier</h3>
+<section id="ecovizfishclassifier" class="level3">
+<h3 class="anchored" data-anchor-id="ecovizfishclassifier">EcoViz+FishClassifier</h3>
 <ul>
 <li><strong>Description</strong>: Applying TensorFlow to classify Great Lakes fish with sound.</li>
 <li><strong>Broad task</strong>: Acoustic classification</li>
@@ -687,6 +690,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
